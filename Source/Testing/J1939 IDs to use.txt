@@ -1,0 +1,49 @@
+GTFI - 1CFEB8FE - BAM - Event (not periodic) - Made Periodic .5 Hz
+AT1TI - 18FD79FE - BAM - Event (not periodic)
+ETH - 18FE90FE - BAM - Event (not periodic)
+LF - 1CFEB7FE - BAM - Event (not periodic) - Made Periodic .33 Hz
+BAM_FA - 1CFEFEFA - BAM - Event (not periodic) owned by FA (250)
+
+CM_FAtoF9 - 1C02F9FA - RTS/CTS - CM F9 (249) to FA (250) - Event
+CM_FAtoF9_P - 1C12F9FA - RTS/CTS - CM F9 (249) to FA (250) - Periodic
+CM_Spoof - 1C02FDFE - RTS/CTS - Event
+
+AT1AC1 - 18FD9FFE - PDU2 - Periodic 2 Hz
+ACC1 - 10FE6FFE - PDU2 - Periodic 10 Hz
+AT1IG1 - 18F00EFE - PDU2 - Periodic 20 Hz
+
+AC - 1CFEA8FE - PDU2 - Event (not periodic)
+EH - 1CFEB1FE - PDU2 - Event (not periodic)
+StandardFA - 18FEFDFA - PDU - Event (not periodic) owned by FA (250)
+
+CTL - 18CFFEFE - PDU1 - Periodic .2 Hz
+CM1 - 18E0FEFE - PDU1 - Periodic 1 Hz
+EBS11 - C02FEFE - PDU1 - Periodic 100 Hz
+
+CL - 18D0FEFE - PDU1 - Event (not periodic)
+ATR - 1CDDFEFE - PDU1 - Event (not periodic)
+
+
+
+Diagnostic Cmds
+1 - Refresh Addresses
+2 - Check for DTC
+3 - Clear DTC
+4 - Clear Status Bit
+5 - Clear Error Bit
+
+Requested DTC Status
+0 - Not Found
+1 - Active
+2 - Previous Active
+
+DTC Clear Type
+0 - All
+1 - Active
+2 - Previous Active
+
+
+Request PGN: FE90
+
+Generate Raw Frame ID: 18FEFD00
+Leave all zeros.  Watch for Glitch.  You are overwriting a periodic frame.
