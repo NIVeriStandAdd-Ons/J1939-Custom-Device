@@ -19,12 +19,20 @@
   <CustomDeviceVI>
 		<SourceDistribution>
 			<Source>
-				<SupportedTarget>PharlapWindows</SupportedTarget>
+				<SupportedTarget>Windows</SupportedTarget>
 				<Source>
 					<Type>To Common Doc Dir</Type>
 					<Path>Custom Devices\J1939 Addon\J1939 Addon Engine.llb\RT Driver VI.vi</Path>
 				</Source>
 				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\J1939 Addon\J1939 Addon Engine.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+    	<Source>
+				<SupportedTarget>Pharlap</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\J1939 Addon\c\J1939 Addon Engine Pharlap.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\J1939 Addon\J1939 Addon Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
 		</SourceDistribution>
 	</CustomDeviceVI>

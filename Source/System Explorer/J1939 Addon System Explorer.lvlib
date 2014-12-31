@@ -50,12 +50,6 @@
 			<Item Name="Set Tree Symbols.vi" Type="VI" URL="../SubVIs/Set Tree Symbols.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
-			<Item Name="SysDef Command Settings.ctl" Type="VI" URL="../../Shared/Types/SysDef Command Settings.ctl"/>
-			<Item Name="SysDef FPGA Settings.ctl" Type="VI" URL="../../Shared/Types/SysDef FPGA Settings.ctl"/>
-			<Item Name="SysDef Incoming Frame Configuration.ctl" Type="VI" URL="../../Shared/Types/SysDef Incoming Frame Configuration.ctl"/>
-			<Item Name="SysDef Incoming Single Point Configurations.ctl" Type="VI" URL="../../Shared/Types/SysDef Incoming Single Point Configurations.ctl"/>
-			<Item Name="SysDef Outgoing Cyclic Configurations.ctl" Type="VI" URL="../../Shared/Types/SysDef Outgoing Cyclic Configurations.ctl"/>
-			<Item Name="SysDef Outgoing Frame Configuration.ctl" Type="VI" URL="../../Shared/Types/SysDef Outgoing Frame Configuration.ctl"/>
 			<Item Name="XNET Port.ctl" Type="VI" URL="../Types/XNET Port.ctl"/>
 		</Item>
 	</Item>

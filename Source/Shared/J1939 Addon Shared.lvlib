@@ -81,8 +81,17 @@
 			<Item Name="Private Data.ctl" Type="VI" URL="../Types/Private Data.ctl"/>
 			<Item Name="Request Message.ctl" Type="VI" URL="../Types/Request Message.ctl"/>
 			<Item Name="SPN Properties.ctl" Type="VI" URL="../Types/SPN Properties.ctl"/>
+			<Item Name="SysDef Command Settings.ctl" Type="VI" URL="../Types/SysDef Command Settings.ctl"/>
+			<Item Name="SysDef FPGA Settings.ctl" Type="VI" URL="../Types/SysDef FPGA Settings.ctl"/>
+			<Item Name="SysDef Incoming Frame Configuration.ctl" Type="VI" URL="../Types/SysDef Incoming Frame Configuration.ctl"/>
+			<Item Name="SysDef Incoming Single Point Configurations.ctl" Type="VI" URL="../Types/SysDef Incoming Single Point Configurations.ctl"/>
+			<Item Name="SysDef Outgoing Cyclic Configurations.ctl" Type="VI" URL="../Types/SysDef Outgoing Cyclic Configurations.ctl"/>
+			<Item Name="SysDef Outgoing Frame Configuration.ctl" Type="VI" URL="../Types/SysDef Outgoing Frame Configuration.ctl"/>
 			<Item Name="XNET Frame Event Properties.ctl" Type="VI" URL="../Types/XNET Frame Event Properties.ctl"/>
 			<Item Name="XNET Settings.ctl" Type="VI" URL="../Types/XNET Settings.ctl"/>
+		</Item>
+		<Item Name="Userlib" Type="Folder">
+			<Item Name="J1939 Utilities.lvlib" Type="Library" URL="../J1939 Utilities/J1939 Utilities.lvlib"/>
 		</Item>
 	</Item>
 </Library>
