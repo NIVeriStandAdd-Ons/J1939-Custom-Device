@@ -1,25 +1,27 @@
 J1939-Custom-Device
 ===================
 
-**IP Name** is a insert description of IP
+This addon implements the J1939-21 specification (namely the transport protocols). The user can import j1939 messages from a .DBC file and then read or write those messages. In addition, this addon supports requesting and clearing active and previously active diagnostic trouble code. It support address claiming for addon's configured address. A custom workspace object and tool are provided for viewing network topology and DTCs among other things.
 
 ### LabVIEW Version ###
 
-Describe the LabVIEW version used to develop this source
+LV 2013
 
 ### Built Availability ###
 
-Describe the availability, or lack of availability of built versions of this IP and provide any links needed to go get builds
+Users are allowed to build anything under Build Specifications in the source's LabVIEW project(s).  Pre-built versions are available upon request through NI Field Sales.
 
 ### Quality, Limitations ###
 
-Describe the maturity of the IP. Is this in use worldwide? Is this terrible code that needs lots of updates? Is this a work in progress?
+IP has been tested by developer. It meets VeriStand addon coding best practices. It is currently used by various customers.
 
-Describe any limitations of the IP.
+Addon does not support editing of J1939 messages, just import.
+
+Addon does not support claiming addresses for simulated ECUs but can send data from simulated ECUs.
 
 ### Dependencies ###
 
-Describe any dependencies of the IP
+NI XNET 14.0
 
 ### License ###
 
