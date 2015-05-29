@@ -28,6 +28,8 @@
 <p class="Body">Set the J1939 network address for the custom device in the <strong>J1939 Network Address</strong> field.  This is the address the custom device will claim on the network.  Select an address value that is not claimed on the network as this custom device does not neogiate if another device exists at the requested address.</p>
 <h3>Set J1939 Name</h3>
 <p class="Body">Set the J1939 network name for the custom device in the <strong>Name</strong> field.</p>
+<h3>Set Decimation Period</h3>
+<p class="Body">By default, this device evaluates frames for parameter changes at the same rate as the primary control loop (PCL) rate.  To decrease this check rate (bus traffic), set the <strong>Write Decimation</strong> field to the desired value.  Units are iterations of the PCL rate (ie. Settings of 1000 Hz and 10 for the PCL and Write Decimation respectively would result in checking for changes at 100 Hz).  Note: Value changes between decimation iterations are lost.  This setting does not affect software cyclic frame rates.</p>
 <h3>Set Incoming Process Rate</h3>
 <p class="Body">Incoming process rate sets the rate at which data is read from the CAN port.  Set the rate in the <strong>Incoming Process Rate</strong> field.</p>
 <h3>Set Outgoing Process Rate</h3>

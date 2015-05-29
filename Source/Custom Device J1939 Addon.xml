@@ -606,6 +606,340 @@
         <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Diagnostic Channel.vi</Path>
       </Item2Launch>
     </Page>
+    <Page>
+      <Name>
+        <eng>Simulation</eng>
+        <loc>Simulation</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+      <GUID>5d542ba3-f934-47c8-8526-922e6671f75c</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\network.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Simulation Page.vi</Path>
+      </Item2Launch>
+    	  <RunTimeMenu>
+	  		<MenuItem>
+				<GUID>854d45ef-4901-4699-9643-90efb721c059</GUID>
+				<Type>Action</Type>
+				<Name>
+					<eng>Add Address</eng>
+					<loc>Add Address</loc>
+				</Name>
+				<Item2Launch>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Add Address.vi</Path>
+				</Item2Launch>
+			</MenuItem>
+      <MenuItem>
+        <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+        <Type>Separator</Type>
+        <Name>
+          <eng>.</eng>
+          <loc>.</loc>
+        </Name>
+        <Item2Launch>
+          <Type>Absolute</Type>
+          <Path>.</Path>
+        </Item2Launch>
+      </MenuItem>
+      <MenuItem>
+        <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+        <Type>VI</Type>
+        <MinNrOfChilds>1</MinNrOfChilds>
+        <Name>
+          <eng>Delete Multiple Frames</eng>
+          <loc>Delete Multiple Frames</loc>
+        </Name>
+        <Item2Launch>
+          <Type>Absolute</Type>
+          <Path>Dialogs\Delete Multiple Items.vi</Path>
+        </Item2Launch>
+      </MenuItem>
+		</RunTimeMenu>
+      <ButtonList>
+        <Button>
+          <ID>Add_Address</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\Add Procedures.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>854d45ef-4901-4699-9643-90efb721c059</ReferencedGUID>
+          <ButtonText>
+            <eng>Add Address</eng>
+            <loc>Add Address</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Add Address</eng>
+            <loc>Add Address</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Add Address</eng>
+            <loc>Add Address</loc>
+          </TipStrip>
+          <Documentation>
+            <eng></eng>
+            <loc></loc>
+          </Documentation>
+        </Button>
+      </ButtonList>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Address</eng>
+        <loc>Address</loc>
+      </Name>
+      <ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+      <GUID>a71bef71-deb0-46ee-be35-fd124c3f2929</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\daq.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Address Page.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>77550670-1485-13A6-568B9AB41979630D</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Delete</eng>
+            <loc>Delete</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Actions\Delete.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Simulated Diagnostics</eng>
+        <loc>Simulated Diagnostics</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+      <GUID>ab47f5e2-17b5-4786-91a9-aa1b83ce3202</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\RM Late Channel.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Simulated Diagnostics Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Monitor Tool</eng>
+        <loc>Monitor Tool</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+      <GUID>ff8806fd-5187-43dd-8ad2-27d2e390b985</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\Search2.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Monitor Tool Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>DM1</eng>
+        <loc>DM1</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+      <GUID>c2782be08-a048-47b9-a94e-6f4691487fca</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\RM Late Channel.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\DM1 Active DTCs Page.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+	  		<MenuItem>
+				<GUID>e7678f98-49d9-4f20-a57c-7c451a15dd99</GUID>
+				<Type>Action</Type>
+				<Name>
+					<eng>Add DTC</eng>
+					<loc>Add DTC</loc>
+				</Name>
+				<Item2Launch>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Add DTC.vi</Path>
+				</Item2Launch>
+			</MenuItem>
+      <MenuItem>
+        <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+        <Type>Separator</Type>
+        <Name>
+          <eng>.</eng>
+          <loc>.</loc>
+        </Name>
+        <Item2Launch>
+          <Type>Absolute</Type>
+          <Path>.</Path>
+        </Item2Launch>
+      </MenuItem>
+      <MenuItem>
+        <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+        <Type>VI</Type>
+        <MinNrOfChilds>1</MinNrOfChilds>
+        <Name>
+          <eng>Delete Multiple Frames</eng>
+          <loc>Delete Multiple Frames</loc>
+        </Name>
+        <Item2Launch>
+          <Type>Absolute</Type>
+          <Path>Dialogs\Delete Multiple Items.vi</Path>
+        </Item2Launch>
+      </MenuItem>
+		</RunTimeMenu>
+      <ButtonList>
+        <Button>
+          <ID>Add_DTC</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\Add Procedures.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>e7678f98-49d9-4f20-a57c-7c451a15dd99</ReferencedGUID>
+          <ButtonText>
+            <eng>Add DTC</eng>
+            <loc>Add DTC</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Add DTC</eng>
+            <loc>Add DTC</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Add DTC</eng>
+            <loc>Add DTC</loc>
+          </TipStrip>
+          <Documentation>
+            <eng></eng>
+            <loc></loc>
+          </Documentation>
+        </Button>
+      </ButtonList>
+    </Page>
+    <Page>
+      <Name>
+        <eng>DTC</eng>
+        <loc>DTC</loc>
+      </Name>
+      <ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+      <GUID>3533116e-8365-4b51-8f4f-44b0c5dae14b</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\NI-XNET SignalFrame.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\DTC Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>DM2</eng>
+        <loc>DM2</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+      <GUID>a6e56184-1e6e-4172-a68a-86fd02f8cb1d</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\Warning.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\DM2 Previously Active DTCs Page.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>e7678f98-49d9-4f20-a57c-7c451a15dd99</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Add DTC</eng>
+            <loc>Add DTC</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Add DTC.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+          <Type>Separator</Type>
+          <Name>
+            <eng>.</eng>
+            <loc>.</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>.</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple Frames</eng>
+            <loc>Delete Multiple Frames</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+      <ButtonList>
+        <Button>
+          <ID>Add_DTC</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\Add Procedures.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>e7678f98-49d9-4f20-a57c-7c451a15dd99</ReferencedGUID>
+          <ButtonText>
+            <eng>Add DTC</eng>
+            <loc>Add DTC</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Add DTC</eng>
+            <loc>Add DTC</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Add DTC</eng>
+            <loc>Add DTC</loc>
+          </TipStrip>
+          <Documentation>
+            <eng></eng>
+            <loc></loc>
+          </Documentation>
+        </Button>
+      </ButtonList>
+    </Page>
   </Pages>
   <CustomXML>
     <Dummy></Dummy>

@@ -75,9 +75,11 @@
 			<Item Name="Address Lookup Table Data.ctl" Type="VI" URL="../Types/Address Lookup Table Data.ctl"/>
 			<Item Name="Address Parse Tree Cluster.ctl" Type="VI" URL="../Types/Address Parse Tree Cluster.ctl"/>
 			<Item Name="Compile Addon Settings.ctl" Type="VI" URL="../Types/Compile Addon Settings.ctl"/>
+			<Item Name="Compiled Simulated Settings.ctl" Type="VI" URL="../Types/Compiled Simulated Settings.ctl"/>
 			<Item Name="Convert DTCs Cluster.ctl" Type="VI" URL="../Types/Convert DTCs Cluster.ctl"/>
 			<Item Name="Error Cluster.ctl" Type="VI" URL="../Types/Error Cluster.ctl"/>
 			<Item Name="Error Types.ctl" Type="VI" URL="../Types/Error Types.ctl"/>
+			<Item Name="Monitor Settings.ctl" Type="VI" URL="../Types/Monitor Settings.ctl"/>
 			<Item Name="Private Data.ctl" Type="VI" URL="../Types/Private Data.ctl"/>
 			<Item Name="Request Message.ctl" Type="VI" URL="../Types/Request Message.ctl"/>
 			<Item Name="SPN Properties.ctl" Type="VI" URL="../Types/SPN Properties.ctl"/>

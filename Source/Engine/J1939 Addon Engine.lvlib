@@ -98,6 +98,7 @@
 		<Item Name="Conversion Lookup Table Get Conversion Parameter.vi" Type="VI" URL="../SubVIs/Conversion Lookup Table Get Conversion Parameter.vi"/>
 		<Item Name="Conversion Lookup Table Initialize.vi" Type="VI" URL="../SubVIs/Conversion Lookup Table Initialize.vi"/>
 		<Item Name="Conversion Lookup Table.vi" Type="VI" URL="../SubVIs/Conversion Lookup Table.vi"/>
+		<Item Name="Convert Data to DTC Frame.vi" Type="VI" URL="../SubVIs/Convert Data to DTC Frame.vi"/>
 		<Item Name="Convert Internal Command.vi" Type="VI" URL="../SubVIs/Convert Internal Command.vi"/>
 		<Item Name="Convert Rate to ms Wait.vi" Type="VI" URL="../SubVIs/Convert Rate to ms Wait.vi"/>
 		<Item Name="Convert Signals to Frame by ID.vi" Type="VI" URL="../SubVIs/Convert Signals to Frame by ID.vi"/>
@@ -111,9 +112,12 @@
 		<Item Name="Diagnostic Data Lookup Table.vi" Type="VI" URL="../SubVIs/Diagnostic Data Lookup Table.vi"/>
 		<Item Name="Download Bitfile.vi" Type="VI" URL="../SubVIs/Download Bitfile.vi"/>
 		<Item Name="Get Internal Command FIFO References.vi" Type="VI" URL="../SubVIs/Get Internal Command FIFO References.vi"/>
+		<Item Name="Get Simulated Active DTCs.vi" Type="VI" URL="../SubVIs/Get Simulated Active DTCs.vi"/>
+		<Item Name="Get Simulated Previously Active DTCs.vi" Type="VI" URL="../SubVIs/Get Simulated Previously Active DTCs.vi"/>
 		<Item Name="Init Incoming Single Point Signals.vi" Type="VI" URL="../SubVIs/Init Incoming Single Point Signals.vi"/>
 		<Item Name="Init Outgoing Cyclic Signals.vi" Type="VI" URL="../SubVIs/Init Outgoing Cyclic Signals.vi"/>
 		<Item Name="Initialize Addon.vi" Type="VI" URL="../SubVIs/Initialize Addon.vi"/>
+		<Item Name="Initialize DTC FIFOs.vi" Type="VI" URL="../SubVIs/Initialize DTC FIFOs.vi"/>
 		<Item Name="Load 986x Bitfile.vi" Type="VI" URL="../SubVIs/Load 986x Bitfile.vi"/>
 		<Item Name="Main Cleanup.vi" Type="VI" URL="../SubVIs/Main Cleanup.vi"/>
 		<Item Name="Main Initialize.vi" Type="VI" URL="../SubVIs/Main Initialize.vi"/>
@@ -126,11 +130,15 @@
 		<Item Name="Main Read Processed Incoming Messages.vi" Type="VI" URL="../SubVIs/Main Read Processed Incoming Messages.vi"/>
 		<Item Name="Network Address Lookup Table.vi" Type="VI" URL="../SubVIs/Network Address Lookup Table.vi"/>
 		<Item Name="Package Parameters for Asynch VIs.vi" Type="VI" URL="../SubVIs/Package Parameters for Asynch VIs.vi"/>
+		<Item Name="Send Reset Active DTC to Main.vi" Type="VI" URL="../SubVIs/Send Reset Active DTC to Main.vi"/>
+		<Item Name="Send Reset Previously Active DTC to Main.vi" Type="VI" URL="../SubVIs/Send Reset Previously Active DTC to Main.vi"/>
 		<Item Name="Simulated Active DTCs.vi" Type="VI" URL="../SubVIs/Simulated Active DTCs.vi"/>
 		<Item Name="Simulated Inactive DTCs.vi" Type="VI" URL="../SubVIs/Simulated Inactive DTCs.vi"/>
 		<Item Name="Stop and Clear Processes.vi" Type="VI" URL="../SubVIs/Stop and Clear Processes.vi"/>
 		<Item Name="TCP Check Connection.vi" Type="VI" URL="../SubVIs/TCP Check Connection.vi"/>
 		<Item Name="Unload bitfile.vi" Type="VI" URL="../SubVIs/Unload bitfile.vi"/>
+		<Item Name="Update DTC Active Values.vi" Type="VI" URL="../SubVIs/Update DTC Active Values.vi"/>
+		<Item Name="Update DTC Values.vi" Type="VI" URL="../SubVIs/Update DTC Values.vi"/>
 		<Item Name="XNET Set Invalid Property.vi" Type="VI" URL="../SubVIs/XNET Set Invalid Property.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
@@ -141,6 +149,7 @@
 		<Item Name="Data Lookup Table Reference.ctl" Type="VI" URL="../Types/Data Lookup Table Reference.ctl"/>
 		<Item Name="Diagnostic Data Lookup Table Action.ctl" Type="VI" URL="../Types/Diagnostic Data Lookup Table Action.ctl"/>
 		<Item Name="Diagnostic Data Lookup Table Reference.ctl" Type="VI" URL="../Types/Diagnostic Data Lookup Table Reference.ctl"/>
+		<Item Name="DTC FIFOs.ctl" Type="VI" URL="../Types/DTC FIFOs.ctl"/>
 		<Item Name="Incoming Single Point Channel Pairs.ctl" Type="VI" URL="../Types/Incoming Single Point Channel Pairs.ctl"/>
 		<Item Name="Incoming Single Point Configuration.ctl" Type="VI" URL="../Types/Incoming Single Point Configuration.ctl"/>
 		<Item Name="Incoming Single Point Frame Pairs.ctl" Type="VI" URL="../Types/Incoming Single Point Frame Pairs.ctl"/>
@@ -151,6 +160,7 @@
 		<Item Name="Outgoing Cyclic Configuration.ctl" Type="VI" URL="../Types/Outgoing Cyclic Configuration.ctl"/>
 		<Item Name="Outgoing Cyclic Frame Pairs.ctl" Type="VI" URL="../Types/Outgoing Cyclic Frame Pairs.ctl"/>
 		<Item Name="Process Parameters.ctl" Type="VI" URL="../Types/Process Parameters.ctl"/>
+		<Item Name="Simulated Settings.ctl" Type="VI" URL="../Types/Simulated Settings.ctl"/>
 	</Item>
 	<Item Name="Userlib" Type="Folder">
 		<Item Name="Error Handling API.lvlib" Type="Library" URL="../SubVIs/Error Handling API/Error Handling API.lvlib"/>

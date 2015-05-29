@@ -11,19 +11,28 @@
 				<Item Name="ActionVIOnLoad.vi" Type="VI" URL="../Actions/ActionVIOnLoad.vi"/>
 			</Item>
 			<Item Name="Extra Pages" Type="Folder">
+				<Item Name="Address Page.vi" Type="VI" URL="../Pages/Address Page.vi"/>
 				<Item Name="Clear DTCs Page.vi" Type="VI" URL="../Pages/Clear DTCs Page.vi"/>
 				<Item Name="Diagnostic Channel.vi" Type="VI" URL="../Pages/Diagnostic Channel.vi"/>
 				<Item Name="Diagnostics Page.vi" Type="VI" URL="../Pages/Diagnostics Page.vi"/>
+				<Item Name="DM1 Active DTCs Page.vi" Type="VI" URL="../Pages/DM1 Active DTCs Page.vi"/>
+				<Item Name="DM2 Previously Active DTCs Page.vi" Type="VI" URL="../Pages/DM2 Previously Active DTCs Page.vi"/>
+				<Item Name="DTC Page.vi" Type="VI" URL="../Pages/DTC Page.vi"/>
 				<Item Name="Event Frame Page.vi" Type="VI" URL="../Pages/Event Frame Page.vi"/>
 				<Item Name="Frame Page.vi" Type="VI" URL="../Pages/Frame Page.vi"/>
 				<Item Name="Incoming Page.vi" Type="VI" URL="../Pages/Incoming Page.vi"/>
 				<Item Name="Incoming Single Point Page.vi" Type="VI" URL="../Pages/Incoming Single Point Page.vi"/>
+				<Item Name="Monitor Tool Page.vi" Type="VI" URL="../Pages/Monitor Tool Page.vi"/>
 				<Item Name="Outgoing Event Page.vi" Type="VI" URL="../Pages/Outgoing Event Page.vi"/>
 				<Item Name="Outgoing Page.vi" Type="VI" URL="../Pages/Outgoing Page.vi"/>
 				<Item Name="Signal Page.vi" Type="VI" URL="../Pages/Signal Page.vi"/>
+				<Item Name="Simulated Diagnostics Page.vi" Type="VI" URL="../Pages/Simulated Diagnostics Page.vi"/>
+				<Item Name="Simulation Page.vi" Type="VI" URL="../Pages/Simulation Page.vi"/>
 				<Item Name="Verify DTC Page.vi" Type="VI" URL="../Pages/Verify DTC Page.vi"/>
 			</Item>
 			<Item Name="RTMs" Type="Folder">
+				<Item Name="Add Address.vi" Type="VI" URL="../RTMs/Add Address.vi"/>
+				<Item Name="Add DTC.vi" Type="VI" URL="../RTMs/Add DTC.vi"/>
 				<Item Name="EnableDisable Main Page.vi" Type="VI" URL="../RTMs/EnableDisable Main Page.vi"/>
 				<Item Name="Select XNET Signals.vi" Type="VI" URL="../RTMs/Select XNET Signals.vi"/>
 			</Item>
@@ -35,6 +44,8 @@
 			<Item Name="Browse for XNET Database.vi" Type="VI" URL="../SubVIs/Browse for XNET Database.vi"/>
 			<Item Name="Disable Selected Opposing Channels.vi" Type="VI" URL="../SubVIs/Disable Selected Opposing Channels.vi"/>
 			<Item Name="Find and Disable Selected Opposing Channels.vi" Type="VI" URL="../SubVIs/Find and Disable Selected Opposing Channels.vi"/>
+			<Item Name="Get All Simulated Addresses.vi" Type="VI" URL="../SubVIs/Get All Simulated Addresses.vi"/>
+			<Item Name="Get DTC References.vi" Type="VI" URL="../SubVIs/Get DTC References.vi"/>
 			<Item Name="Get FPGA Settings.vi" Type="VI" URL="../SubVIs/Get FPGA Settings.vi"/>
 			<Item Name="Get Frame Signals.vi" Type="VI" URL="../SubVIs/Get Frame Signals.vi"/>
 			<Item Name="Get Incoming Single Point Settings.vi" Type="VI" URL="../SubVIs/Get Incoming Single Point Settings.vi"/>
@@ -42,9 +53,11 @@
 			<Item Name="Get Outgoing Cyclic Signals.vi" Type="VI" URL="../SubVIs/Get Outgoing Cyclic Signals.vi"/>
 			<Item Name="Get Selected XNET Channels.vi" Type="VI" URL="../SubVIs/Get Selected XNET Channels.vi"/>
 			<Item Name="Get Target IP and Name.vi" Type="VI" URL="../SubVIs/Get Target IP and Name.vi"/>
+			<Item Name="Get Used J1939 Addresses.vi" Type="VI" URL="../SubVIs/Get Used J1939 Addresses.vi"/>
 			<Item Name="Get XNET Signal Names.vi" Type="VI" URL="../SubVIs/Get XNET Signal Names.vi"/>
 			<Item Name="Initialize XNET Tree.vi" Type="VI" URL="../SubVIs/Initialize XNET Tree.vi"/>
 			<Item Name="Load Existing Selected XNET Signals.vi" Type="VI" URL="../SubVIs/Load Existing Selected XNET Signals.vi"/>
+			<Item Name="Request Address and Name.vi" Type="VI" URL="../SubVIs/Request Address and Name.vi"/>
 			<Item Name="Select XNET Signals UI.vi" Type="VI" URL="../SubVIs/Select XNET Signals UI.vi"/>
 			<Item Name="Set Help Document Display.vi" Type="VI" URL="../SubVIs/Set Help Document Display.vi"/>
 			<Item Name="Set Tree Symbols.vi" Type="VI" URL="../SubVIs/Set Tree Symbols.vi"/>
