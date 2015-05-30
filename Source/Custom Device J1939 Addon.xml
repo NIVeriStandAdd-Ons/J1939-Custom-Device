@@ -628,39 +628,14 @@
 				<GUID>854d45ef-4901-4699-9643-90efb721c059</GUID>
 				<Type>Action</Type>
 				<Name>
-					<eng>Add Address</eng>
-					<loc>Add Address</loc>
+					<eng>Add Device</eng>
+					<loc>Add Device</loc>
 				</Name>
 				<Item2Launch>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Add Address.vi</Path>
+					<Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Add Device.vi</Path>
 				</Item2Launch>
 			</MenuItem>
-      <MenuItem>
-        <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
-        <Type>Separator</Type>
-        <Name>
-          <eng>.</eng>
-          <loc>.</loc>
-        </Name>
-        <Item2Launch>
-          <Type>Absolute</Type>
-          <Path>.</Path>
-        </Item2Launch>
-      </MenuItem>
-      <MenuItem>
-        <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
-        <Type>VI</Type>
-        <MinNrOfChilds>1</MinNrOfChilds>
-        <Name>
-          <eng>Delete Multiple Frames</eng>
-          <loc>Delete Multiple Frames</loc>
-        </Name>
-        <Item2Launch>
-          <Type>Absolute</Type>
-          <Path>Dialogs\Delete Multiple Items.vi</Path>
-        </Item2Launch>
-      </MenuItem>
 		</RunTimeMenu>
       <ButtonList>
         <Button>
@@ -672,16 +647,16 @@
           <Type>Action</Type>
           <ReferencedGUID>854d45ef-4901-4699-9643-90efb721c059</ReferencedGUID>
           <ButtonText>
-            <eng>Add Address</eng>
-            <loc>Add Address</loc>
+            <eng>Add Device</eng>
+            <loc>Add Device</loc>
           </ButtonText>
           <Caption>
-            <eng>Add Address</eng>
-            <loc>Add Address</loc>
+            <eng>Add Device</eng>
+            <loc>Add Device</loc>
           </Caption>
           <TipStrip>
-            <eng>Add Address</eng>
-            <loc>Add Address</loc>
+            <eng>Add Device</eng>
+            <loc>Add Device</loc>
           </TipStrip>
           <Documentation>
             <eng></eng>
@@ -692,8 +667,8 @@
     </Page>
     <Page>
       <Name>
-        <eng>Address</eng>
-        <loc>Address</loc>
+        <eng>Device</eng>
+        <loc>Device</loc>
       </Name>
       <ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
       <GUID>a71bef71-deb0-46ee-be35-fd124c3f2929</GUID>
@@ -703,7 +678,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Address Page.vi</Path>
+        <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Simulated Device Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -716,6 +691,19 @@
           <Item2Launch>
             <Type>Absolute</Type>
             <Path>Actions\Delete.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple</eng>
+            <loc>Delete Multiple</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
           </Item2Launch>
         </MenuItem>
       </RunTimeMenu>
@@ -731,12 +719,27 @@
       <GUID>ab47f5e2-17b5-4786-91a9-aa1b83ce3202</GUID>
       <Glyph>
         <Type>To Application Data Dir</Type>
-        <Path>System Explorer\Glyphs\RM Late Channel.png</Path>
+        <Path>System Explorer\Glyphs\NI-XNET Status.png</Path>
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Simulated Diagnostics Page.vi</Path>
       </Item2Launch>
+    <RunTimeMenu>
+        <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple DTCs</eng>
+            <loc>Delete Multiple DTCs</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+    </RunTimeMenu>
     </Page>
     <Page>
       <Name>
@@ -755,6 +758,21 @@
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Monitor Tool Page.vi</Path>
       </Item2Launch>
+      <RunTimeMenu>
+         <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple Frames</eng>
+            <loc>Delete Multiple Frames</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
     </Page>
     <Page>
       <Name>
@@ -803,8 +821,8 @@
         <Type>VI</Type>
         <MinNrOfChilds>1</MinNrOfChilds>
         <Name>
-          <eng>Delete Multiple Frames</eng>
-          <loc>Delete Multiple Frames</loc>
+          <eng>Delete Multiple DTCs</eng>
+          <loc>Delete Multiple DTCs</loc>
         </Name>
         <Item2Launch>
           <Type>Absolute</Type>
@@ -855,6 +873,20 @@
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\DTC Page.vi</Path>
       </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>77550670-1485-13A6-568B9AB41979630D</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Delete</eng>
+            <loc>Delete</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Actions\Delete.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
     </Page>
     <Page>
       <Name>
@@ -903,8 +935,8 @@
           <Type>VI</Type>
           <MinNrOfChilds>1</MinNrOfChilds>
           <Name>
-            <eng>Delete Multiple Frames</eng>
-            <loc>Delete Multiple Frames</loc>
+            <eng>Delete Multiple DTCs</eng>
+            <loc>Delete Multiple DTCs</loc>
           </Name>
           <Item2Launch>
             <Type>Absolute</Type>

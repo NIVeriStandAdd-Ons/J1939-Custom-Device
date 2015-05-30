@@ -11,7 +11,6 @@
 				<Item Name="ActionVIOnLoad.vi" Type="VI" URL="../Actions/ActionVIOnLoad.vi"/>
 			</Item>
 			<Item Name="Extra Pages" Type="Folder">
-				<Item Name="Address Page.vi" Type="VI" URL="../Pages/Address Page.vi"/>
 				<Item Name="Clear DTCs Page.vi" Type="VI" URL="../Pages/Clear DTCs Page.vi"/>
 				<Item Name="Diagnostic Channel.vi" Type="VI" URL="../Pages/Diagnostic Channel.vi"/>
 				<Item Name="Diagnostics Page.vi" Type="VI" URL="../Pages/Diagnostics Page.vi"/>
@@ -26,12 +25,13 @@
 				<Item Name="Outgoing Event Page.vi" Type="VI" URL="../Pages/Outgoing Event Page.vi"/>
 				<Item Name="Outgoing Page.vi" Type="VI" URL="../Pages/Outgoing Page.vi"/>
 				<Item Name="Signal Page.vi" Type="VI" URL="../Pages/Signal Page.vi"/>
+				<Item Name="Simulated Device Page.vi" Type="VI" URL="../Pages/Simulated Device Page.vi"/>
 				<Item Name="Simulated Diagnostics Page.vi" Type="VI" URL="../Pages/Simulated Diagnostics Page.vi"/>
 				<Item Name="Simulation Page.vi" Type="VI" URL="../Pages/Simulation Page.vi"/>
 				<Item Name="Verify DTC Page.vi" Type="VI" URL="../Pages/Verify DTC Page.vi"/>
 			</Item>
 			<Item Name="RTMs" Type="Folder">
-				<Item Name="Add Address.vi" Type="VI" URL="../RTMs/Add Address.vi"/>
+				<Item Name="Add Device.vi" Type="VI" URL="../RTMs/Add Device.vi"/>
 				<Item Name="Add DTC.vi" Type="VI" URL="../RTMs/Add DTC.vi"/>
 				<Item Name="EnableDisable Main Page.vi" Type="VI" URL="../RTMs/EnableDisable Main Page.vi"/>
 				<Item Name="Select XNET Signals.vi" Type="VI" URL="../RTMs/Select XNET Signals.vi"/>
