@@ -12,12 +12,10 @@
 		<Item Name="Add Frames and Signals.vi" Type="VI" URL="../SubVIs/Add Frames and Signals.vi"/>
 		<Item Name="Add Frames.vi" Type="VI" URL="../SubVIs/Add Frames.vi"/>
 		<Item Name="Get Frames.vi" Type="VI" URL="../SubVIs/Get Frames.vi"/>
-		<Item Name="Get Write Decimation.vi" Type="VI" URL="../SubVIs/Get Write Decimation.vi"/>
 		<Item Name="Get XNET Properties.vi" Type="VI" URL="../SubVIs/Get XNET Properties.vi"/>
 		<Item Name="Remove All.vi" Type="VI" URL="../SubVIs/Remove All.vi"/>
 		<Item Name="Remove Frames.vi" Type="VI" URL="../SubVIs/Remove Frames.vi"/>
 		<Item Name="Remove Signals.vi" Type="VI" URL="../SubVIs/Remove Signals.vi"/>
-		<Item Name="Set Write Decimation.vi" Type="VI" URL="../SubVIs/Set Write Decimation.vi"/>
 		<Item Name="Set XNET Properties.vi" Type="VI" URL="../SubVIs/Set XNET Properties.vi"/>
 	</Item>
 </Library>
