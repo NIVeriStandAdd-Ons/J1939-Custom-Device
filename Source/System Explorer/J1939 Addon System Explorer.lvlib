@@ -40,6 +40,8 @@
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Add Custom Device Channel - Offline.vi" Type="VI" URL="../SubVIs/Add Custom Device Channel - Offline.vi"/>
+			<Item Name="Add Custom Device Section - Offline.vi" Type="VI" URL="../SubVIs/Add Custom Device Section - Offline.vi"/>
 			<Item Name="Add Database to SysDef.vi" Type="VI" URL="../SubVIs/Add Database to SysDef.vi"/>
 			<Item Name="Browse for XNET Database.vi" Type="VI" URL="../SubVIs/Browse for XNET Database.vi"/>
 			<Item Name="Disable Selected Opposing Channels.vi" Type="VI" URL="../SubVIs/Disable Selected Opposing Channels.vi"/>
@@ -59,8 +61,9 @@
 			<Item Name="Get XNET Signal Names.vi" Type="VI" URL="../SubVIs/Get XNET Signal Names.vi"/>
 			<Item Name="Initialize XNET Tree.vi" Type="VI" URL="../SubVIs/Initialize XNET Tree.vi"/>
 			<Item Name="Load Existing Selected XNET Signals.vi" Type="VI" URL="../SubVIs/Load Existing Selected XNET Signals.vi"/>
-			<Item Name="Rebuild Addon Settings.vi" Type="VI" URL="../SubVIs/Rebuild Addon Settings.vi"/>
-			<Item Name="Rebuild Frame Settings.vi" Type="VI" URL="../SubVIs/Rebuild Frame Settings.vi"/>
+			<Item Name="Move Addon Settings.vi" Type="VI" URL="../SubVIs/Move Addon Settings.vi"/>
+			<Item Name="Move Frame Settings.vi" Type="VI" URL="../SubVIs/Move Frame Settings.vi"/>
+			<Item Name="Move Tool Diagnostics Section.vi" Type="VI" URL="../SubVIs/Move Tool Diagnostics Section.vi"/>
 			<Item Name="Request Address and Name.vi" Type="VI" URL="../SubVIs/Request Address and Name.vi"/>
 			<Item Name="Select XNET Signals UI.vi" Type="VI" URL="../SubVIs/Select XNET Signals UI.vi"/>
 			<Item Name="Set Help Document Display.vi" Type="VI" URL="../SubVIs/Set Help Document Display.vi"/>

@@ -137,7 +137,7 @@
 		<Item Name="Stop and Clear Processes.vi" Type="VI" URL="../SubVIs/Stop and Clear Processes.vi"/>
 		<Item Name="TCP Check Connection.vi" Type="VI" URL="../SubVIs/TCP Check Connection.vi"/>
 		<Item Name="Unload bitfile.vi" Type="VI" URL="../SubVIs/Unload bitfile.vi"/>
-		<Item Name="Update DTC Active Values.vi" Type="VI" URL="../SubVIs/Update DTC Active Values.vi"/>
+		<Item Name="Update DTC Enable Values.vi" Type="VI" URL="../SubVIs/Update DTC Enable Values.vi"/>
 		<Item Name="Update DTC Values.vi" Type="VI" URL="../SubVIs/Update DTC Values.vi"/>
 		<Item Name="XNET Set Invalid Property.vi" Type="VI" URL="../SubVIs/XNET Set Invalid Property.vi"/>
 	</Item>
