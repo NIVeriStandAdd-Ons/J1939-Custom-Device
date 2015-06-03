@@ -847,17 +847,17 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4AFFA340-FC05-456A-8500-77132EBF9170}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">System Definition API.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/J1939 Addon/System Definition API/System Definition API.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">J1939 System Definition API.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/J1939 Addon/System Definition API/J1939 System Definition API.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/J1939 Addon/System Definition API</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3F18D373-56A7-49EC-A24E-78BC752EDE0E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{14368D76-21DF-4B10-91FA-12B1ED3AA433}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Support Files/System Definition API/J1939 System Definition API.lvlib</Property>
@@ -879,7 +879,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2014 NI</Property>
 				<Property Name="TgtF_productName" Type="Str">System Definition API</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{AD43A48C-AF81-4AA8-A745-1E5FAB427B80}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">System Definition API.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">J1939 System Definition API.lvlibp</Property>
 			</Item>
 			<Item Name="Workspace Object" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{F54605DA-28DA-4892-A052-25CD528267CE}</Property>
@@ -1373,7 +1373,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{EBCBE6D2-9B73-4CA1-9314-AE8EF883EA33}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c/J1939 Addon Engine Pharlap.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/c/J1939 Addon Engine Pharlap.llb</Property>

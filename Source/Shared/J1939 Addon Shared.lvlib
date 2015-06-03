@@ -46,7 +46,11 @@
 			<Item Name="Convert Parse to Command Arquements.vi" Type="VI" URL="../SubVIs/Convert Parse to Command Arquements.vi"/>
 			<Item Name="Create CAN Incoming Section.vi" Type="VI" URL="../SubVIs/Create CAN Incoming Section.vi"/>
 			<Item Name="Create CAN Outgoing Section.vi" Type="VI" URL="../SubVIs/Create CAN Outgoing Section.vi"/>
+			<Item Name="Create Device Sections.vi" Type="VI" URL="../SubVIs/Create Device Sections.vi"/>
+			<Item Name="Create DTC Section.vi" Type="VI" URL="../SubVIs/Create DTC Section.vi"/>
 			<Item Name="Create Internal Diagnostic Sections and Channels.vi" Type="VI" URL="../SubVIs/Create Internal Diagnostic Sections and Channels.vi"/>
+			<Item Name="Create Monitor Section.vi" Type="VI" URL="../SubVIs/Create Monitor Section.vi"/>
+			<Item Name="Create Simulation Section.vi" Type="VI" URL="../SubVIs/Create Simulation Section.vi"/>
 			<Item Name="Defer Front Panel Updates.vi" Type="VI" URL="../SubVIs/Defer Front Panel Updates.vi"/>
 			<Item Name="Error Display.vi" Type="VI" URL="../SubVIs/Error Display.vi"/>
 			<Item Name="Generate RAW Frame.vi" Type="VI" URL="../SubVIs/Generate RAW Frame.vi"/>

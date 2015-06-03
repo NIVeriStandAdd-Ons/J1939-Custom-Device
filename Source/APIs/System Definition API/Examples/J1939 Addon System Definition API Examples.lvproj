@@ -1,6 +1,14 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="11008008">
+<Project Type="Project" LVVersion="13008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="IOScan.Faults" Type="Str"></Property>
+		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
+		<Property Name="IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
+		<Property Name="IOScan.Period" Type="UInt">10000</Property>
+		<Property Name="IOScan.PowerupMode" Type="UInt">0</Property>
+		<Property Name="IOScan.Priority" Type="UInt">9</Property>
+		<Property Name="IOScan.ReportModeConflict" Type="Bool">true</Property>
+		<Property Name="IOScan.StartEngineOnDeploy" Type="Bool">false</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -10,40 +18,27 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="J1939 System Definition API.lvlibp" Type="LVLibp" URL="../../../../../Built/System Definition API/J1939 System Definition API.lvlibp">
-			<Item Name="Add Items.vi" Type="VI" URL="../../../../../Built/System Definition API/J1939 System Definition API.lvlibp/APIs/System Definition API/API/Add Items.vi"/>
-			<Item Name="Remove Items.vi" Type="VI" URL="../../../../../Built/System Definition API/J1939 System Definition API.lvlibp/APIs/System Definition API/API/Remove Items.vi"/>
-			<Item Name="Create Custom Device.vi" Type="VI" URL="../../../../../Built/System Definition API/J1939 System Definition API.lvlibp/APIs/System Definition API/API/Create Custom Device.vi"/>
-			<Item Name="Get Custom Device Properties.vi" Type="VI" URL="../../../../../Built/System Definition API/J1939 System Definition API.lvlibp/APIs/System Definition API/API/Get Custom Device Properties.vi"/>
-			<Item Name="Set Custom Device Properties.vi" Type="VI" URL="../../../../../Built/System Definition API/J1939 System Definition API.lvlibp/APIs/System Definition API/API/Set Custom Device Properties.vi"/>
-			<Item Name="J1939 System Definition API Support.lvlib" Type="Library" URL="../../../../../Built/System Definition API/J1939 System Definition API.lvlibp/APIs/System Definition API/J1939 System Definition API Support.lvlib"/>
-			<Item Name="J1939 Custom Device.lvlib" Type="Library" URL="../../../../../Built/System Definition API/J1939 System Definition API.lvlibp/J1939 Custom Device.lvlib"/>
-			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="../../../../../Built/System Definition API/J1939 System Definition API.lvlibp/1abvi3w/vi.lib/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="../../../../../Built/System Definition API/J1939 System Definition API.lvlibp/1abvi3w/vi.lib/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
-			<Item Name="Clear Errors.vi" Type="VI" URL="../../../../../Built/System Definition API/J1939 System Definition API.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
+		<Item Name="J1939 System Definition API.lvlibp" Type="LVLibp" URL="../J1939 System Definition API.lvlibp">
+			<Item Name="Add Items.vi" Type="VI" URL="../J1939 System Definition API.lvlibp/APIs/System Definition API/API/Add Items.vi"/>
+			<Item Name="Remove Items.vi" Type="VI" URL="../J1939 System Definition API.lvlibp/APIs/System Definition API/API/Remove Items.vi"/>
+			<Item Name="Create Custom Device.vi" Type="VI" URL="../J1939 System Definition API.lvlibp/APIs/System Definition API/API/Create Custom Device.vi"/>
+			<Item Name="Get Custom Device Properties.vi" Type="VI" URL="../J1939 System Definition API.lvlibp/APIs/System Definition API/API/Get Custom Device Properties.vi"/>
+			<Item Name="Set Custom Device Properties.vi" Type="VI" URL="../J1939 System Definition API.lvlibp/APIs/System Definition API/API/Set Custom Device Properties.vi"/>
+			<Item Name="J1939 System Definition API Support.lvlib" Type="Library" URL="../J1939 System Definition API.lvlibp/APIs/System Definition API/J1939 System Definition API Support.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="../J1939 System Definition API.lvlibp/1abvi3w/vi.lib/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="J1939 Addon Shared.lvlib" Type="Library" URL="../J1939 System Definition API.lvlibp/Shared/J1939 Addon Shared.lvlib"/>
+			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="../J1939 System Definition API.lvlibp/1abvi3w/vi.lib/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
+			<Item Name="Clear Errors.vi" Type="VI" URL="../J1939 System Definition API.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
 		</Item>
 		<Item Name="J1939 System Definition API_Example_Create Sysdef and Add J1939 CD.vi" Type="VI" URL="../J1939 System Definition API_Example_Create Sysdef and Add J1939 CD.vi"/>
 		<Item Name="J1939 System Definition API_Example_Get J1939 CD Settings.vi" Type="VI" URL="../J1939 System Definition API_Example_Get J1939 CD Settings.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="Add Frames.vi" Type="VI" URL="../J1939 System Definition API.lvlibp/APIs/System Definition API/SubVIs/Add Frames.vi"/>
-			<Item Name="Add Item - Frame Cluster.ctl" Type="VI" URL="../J1939 System Definition API.lvlibp/APIs/System Definition API/Controls/Add Item - Frame Cluster.ctl"/>
-			<Item Name="Add Items.vi" Type="VI" URL="../J1939 System Definition API.lvlibp/APIs/System Definition API/API/Add Items.vi"/>
-			<Item Name="Create Custom Device.vi" Type="VI" URL="../J1939 System Definition API.lvlibp/APIs/System Definition API/API/Create Custom Device.vi"/>
-			<Item Name="Get Custom Device Properties.vi" Type="VI" URL="../J1939 System Definition API.lvlibp/APIs/System Definition API/API/Get Custom Device Properties.vi"/>
-			<Item Name="Get Frames.vi" Type="VI" URL="../J1939 System Definition API.lvlibp/APIs/System Definition API/SubVIs/Get Frames.vi"/>
-			<Item Name="Get Write Decimation.vi" Type="VI" URL="../J1939 System Definition API.lvlibp/APIs/System Definition API/SubVIs/Get Write Decimation.vi"/>
-			<Item Name="Get XNET Properties.vi" Type="VI" URL="../J1939 System Definition API.lvlibp/APIs/System Definition API/SubVIs/Get XNET Properties.vi"/>
-			<Item Name="J1939 XNET Settings.ctl" Type="VI" URL="../J1939 System Definition API.lvlibp/Shared/Controls/J1939 XNET Settings.ctl"/>
 			<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI" Type="Document" URL="NationalInstruments.VeriStand.SystemDefinitionAPI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Remove Frame Action.ctl" Type="VI" URL="../J1939 System Definition API.lvlibp/APIs/System Definition API/Controls/Remove Frame Action.ctl"/>
-			<Item Name="Remove Item - Frame Cluster.ctl" Type="VI" URL="../J1939 System Definition API.lvlibp/APIs/System Definition API/Controls/Remove Item - Frame Cluster.ctl"/>
-			<Item Name="Set Custom Device Properties.vi" Type="VI" URL="../J1939 System Definition API.lvlibp/APIs/System Definition API/API/Set Custom Device Properties.vi"/>
-			<Item Name="Set Write Decimation.vi" Type="VI" URL="../J1939 System Definition API.lvlibp/APIs/System Definition API/SubVIs/Set Write Decimation.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Move Examples" Type="Source Distribution">
@@ -61,6 +56,7 @@
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">5</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2011/Custom Devices/J1939 Custom Device/APIs/System Definition API</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{949C5F1B-EE07-478F-8074-BA3D7153760B}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2011/Custom Devices/J1939 Custom Device/APIs/System Definition API</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>

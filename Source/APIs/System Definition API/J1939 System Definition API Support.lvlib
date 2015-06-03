@@ -9,6 +9,8 @@
 		<Item Name="Remove Item - Frame Cluster.ctl" Type="VI" URL="../Types/Remove Item - Frame Cluster.ctl"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Add Device.vi" Type="VI" URL="../SubVIs/Add Device.vi"/>
+		<Item Name="Add DTC.vi" Type="VI" URL="../SubVIs/Add DTC.vi"/>
 		<Item Name="Add Frames and Signals.vi" Type="VI" URL="../SubVIs/Add Frames and Signals.vi"/>
 		<Item Name="Add Frames.vi" Type="VI" URL="../SubVIs/Add Frames.vi"/>
 		<Item Name="Get Frames.vi" Type="VI" URL="../SubVIs/Get Frames.vi"/>
