@@ -122,6 +122,7 @@
         <eng>J1939 Addon</eng>
         <loc>J1939 Addon</loc>
       </Name>
+      <ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
       <GUID>A9661AD5-DF74-BF37-4CA8-5E0EF738F6FD</GUID>
       <Glyph>
         <Type>To Application Data Dir</Type>
