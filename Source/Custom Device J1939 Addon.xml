@@ -636,6 +636,31 @@
 					<Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Add Device.vi</Path>
 				</Item2Launch>
 			</MenuItem>
+      <MenuItem>
+        <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+        <Type>Separator</Type>
+        <Name>
+          <eng>.</eng>
+          <loc>.</loc>
+        </Name>
+        <Item2Launch>
+          <Type>Absolute</Type>
+          <Path>.</Path>
+        </Item2Launch>
+      </MenuItem>    
+      <MenuItem>
+        <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+        <Type>VI</Type>
+        <MinNrOfChilds>1</MinNrOfChilds>
+        <Name>
+          <eng>Delete Multiple</eng>
+          <loc>Delete Multiple</loc>
+        </Name>
+        <Item2Launch>
+          <Type>Absolute</Type>
+          <Path>Dialogs\Delete Multiple Items.vi</Path>
+        </Item2Launch>
+      </MenuItem>
 		</RunTimeMenu>
       <ButtonList>
         <Button>
