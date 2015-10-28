@@ -18,9 +18,6 @@
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Address Claim Address.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/Address Claim Address.vi"/>
-			<Item Name="Address Lookup Table.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/Address Lookup Table.vi"/>
-			<Item Name="BAM Buffer Connections List.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/BAM Buffer Connections List.vi"/>
-			<Item Name="BAM Generation Connections List.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/BAM Generation Connections List.vi"/>
 			<Item Name="BAM Generation Connections List_Actions.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/BAM Generation Connections List_Actions.vi"/>
 			<Item Name="BAM Generation Connections List_Initialize.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/BAM Generation Connections List_Initialize.vi"/>
 			<Item Name="BAM Generation Create New TP Connection.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/BAM Generation Create New TP Connection.vi"/>
@@ -31,7 +28,6 @@
 			<Item Name="Buffer Connections List_Initialize.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/Buffer Connections List_Initialize.vi"/>
 			<Item Name="Cannont Claim Address.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/Cannont Claim Address.vi"/>
 			<Item Name="Close References.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/Close References.vi"/>
-			<Item Name="Connection Mode Generation Connections List.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/Connection Mode Generation Connections List.vi"/>
 			<Item Name="Connection Mode Generation Connections List_Actions.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/Connection Mode Generation Connections List_Actions.vi"/>
 			<Item Name="Connection Mode Generation Connections List_Initialize.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/Connection Mode Generation Connections List_Initialize.vi"/>
 			<Item Name="Connection Mode Generation Create New TP Connection.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/Connection Mode Generation Create New TP Connection.vi"/>
@@ -54,7 +50,6 @@
 			<Item Name="RQST Look for Response.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/RQST Look for Response.vi"/>
 			<Item Name="RQST Lookup Table Act.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/RQST Lookup Table Act.vi"/>
 			<Item Name="RQST Lookup Table Initialize.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/RQST Lookup Table Initialize.vi"/>
-			<Item Name="RQST Lookup Table.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/RQST Lookup Table.vi"/>
 			<Item Name="RQST Wait on Multiple Requests.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/RQST Wait on Multiple Requests.vi"/>
 			<Item Name="RQST Wait on Response.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/RQST Wait on Response.vi"/>
 			<Item Name="TP Buffer Add New Data Packet to Connection.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/TP Buffer Add New Data Packet to Connection.vi"/>
@@ -97,7 +92,6 @@
 		<Item Name="Address Lookup Table Initialize.vi" Type="VI" URL="../SubVIs/Address Lookup Table Initialize.vi"/>
 		<Item Name="Conversion Lookup Table Get Conversion Parameter.vi" Type="VI" URL="../SubVIs/Conversion Lookup Table Get Conversion Parameter.vi"/>
 		<Item Name="Conversion Lookup Table Initialize.vi" Type="VI" URL="../SubVIs/Conversion Lookup Table Initialize.vi"/>
-		<Item Name="Conversion Lookup Table.vi" Type="VI" URL="../SubVIs/Conversion Lookup Table.vi"/>
 		<Item Name="Convert Data to DTC Frame.vi" Type="VI" URL="../SubVIs/Convert Data to DTC Frame.vi"/>
 		<Item Name="Convert Internal Command.vi" Type="VI" URL="../SubVIs/Convert Internal Command.vi"/>
 		<Item Name="Convert Rate to ms Wait.vi" Type="VI" URL="../SubVIs/Convert Rate to ms Wait.vi"/>
@@ -105,11 +99,9 @@
 		<Item Name="Data Lookup Table Get Signals (Range).vi" Type="VI" URL="../SubVIs/Data Lookup Table Get Signals (Range).vi"/>
 		<Item Name="Data Lookup Table Initialize.vi" Type="VI" URL="../SubVIs/Data Lookup Table Initialize.vi"/>
 		<Item Name="Data Lookup Table Set Signals (Range).vi" Type="VI" URL="../SubVIs/Data Lookup Table Set Signals (Range).vi"/>
-		<Item Name="Data Lookup Table.vi" Type="VI" URL="../SubVIs/Data Lookup Table.vi"/>
 		<Item Name="Determine Decimation Rate.vi" Type="VI" URL="../SubVIs/Determine Decimation Rate.vi"/>
 		<Item Name="Diagnostic Data Lookup Table Action.vi" Type="VI" URL="../SubVIs/Diagnostic Data Lookup Table Action.vi"/>
 		<Item Name="Diagnostic Data Lookup Table Initialize.vi" Type="VI" URL="../SubVIs/Diagnostic Data Lookup Table Initialize.vi"/>
-		<Item Name="Diagnostic Data Lookup Table.vi" Type="VI" URL="../SubVIs/Diagnostic Data Lookup Table.vi"/>
 		<Item Name="Download Bitfile.vi" Type="VI" URL="../SubVIs/Download Bitfile.vi"/>
 		<Item Name="Get Internal Command FIFO References.vi" Type="VI" URL="../SubVIs/Get Internal Command FIFO References.vi"/>
 		<Item Name="Get Simulated Active DTCs.vi" Type="VI" URL="../SubVIs/Get Simulated Active DTCs.vi"/>
@@ -140,6 +132,16 @@
 		<Item Name="Update DTC Enable Values.vi" Type="VI" URL="../SubVIs/Update DTC Enable Values.vi"/>
 		<Item Name="Update DTC Values.vi" Type="VI" URL="../SubVIs/Update DTC Values.vi"/>
 		<Item Name="XNET Set Invalid Property.vi" Type="VI" URL="../SubVIs/XNET Set Invalid Property.vi"/>
+	</Item>
+	<Item Name="Tables" Type="Folder">
+		<Item Name="Address Lookup Table.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/Address Lookup Table.vi"/>
+		<Item Name="BAM Buffer Connections List.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/BAM Buffer Connections List.vi"/>
+		<Item Name="BAM Generation Connections List.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/BAM Generation Connections List.vi"/>
+		<Item Name="Connection Mode Generation Connections List.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/Connection Mode Generation Connections List.vi"/>
+		<Item Name="Conversion Lookup Table.vi" Type="VI" URL="../SubVIs/Conversion Lookup Table.vi"/>
+		<Item Name="Data Lookup Table.vi" Type="VI" URL="../SubVIs/Data Lookup Table.vi"/>
+		<Item Name="Diagnostic Data Lookup Table.vi" Type="VI" URL="../SubVIs/Diagnostic Data Lookup Table.vi"/>
+		<Item Name="RQST Lookup Table.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/RQST Lookup Table.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Configuration Cluster.ctl" Type="VI" URL="../Types/Configuration Cluster.ctl"/>

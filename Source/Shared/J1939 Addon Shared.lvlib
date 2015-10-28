@@ -8,7 +8,6 @@
 			<Item Name="Connection Manager" Type="Folder">
 				<Item Name="stm_TCPConnectionMethod.ctl" Type="VI" URL="../STM/Connection Manager/stm_TCPConnectionMethod.ctl"/>
 				<Item Name="stm_TCPConnectionProperties.ctl" Type="VI" URL="../STM/Connection Manager/stm_TCPConnectionProperties.ctl"/>
-				<Item Name="TCP Connection Manager.vi" Type="VI" URL="../STM/Connection Manager/TCP Connection Manager.vi"/>
 			</Item>
 			<Item Name="SubVIs" Type="Folder">
 				<Item Name="stm_GetIDfromName_.vi" Type="VI" URL="../STM/_SubVIs/stm_GetIDfromName_.vi"/>
@@ -74,6 +73,9 @@
 			<Item Name="Select Custom Device.vi" Type="VI" URL="../SubVIs/Select Custom Device.vi"/>
 			<Item Name="Send Request over STM.vi" Type="VI" URL="../SubVIs/Send Request over STM.vi"/>
 			<Item Name="STM Close Connection.vi" Type="VI" URL="../SubVIs/STM Close Connection.vi"/>
+		</Item>
+		<Item Name="Tables" Type="Folder">
+			<Item Name="TCP Connection Manager.vi" Type="VI" URL="../STM/Connection Manager/TCP Connection Manager.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Address Lookup Table Data.ctl" Type="VI" URL="../Types/Address Lookup Table Data.ctl"/>

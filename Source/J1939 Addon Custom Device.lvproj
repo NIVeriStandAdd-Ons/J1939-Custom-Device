@@ -216,6 +216,7 @@
 				<Item Name="XNET Frame Type CAN.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Frame Type CAN.ctl"/>
 				<Item Name="XNET Frame Type FlexRay.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Frame Type FlexRay.ctl"/>
 				<Item Name="XNET Frame Type LIN.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Frame Type LIN.ctl"/>
+				<Item Name="XNET J1939 Comm.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET J1939 Comm.ctl"/>
 				<Item Name="XNET LIN Comm State.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET LIN Comm State.ctl"/>
 				<Item Name="XNET LIN Comm.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET LIN Comm.ctl"/>
 				<Item Name="XNET LIN Diag Schedule Type.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET LIN Diag Schedule Type.ctl"/>
@@ -232,6 +233,7 @@
 				<Item Name="XNET Read (State FlexRay Comm).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Read (State FlexRay Comm).vi"/>
 				<Item Name="XNET Read (State FlexRay Cycle Macrotick).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Read (State FlexRay Cycle Macrotick).vi"/>
 				<Item Name="XNET Read (State FlexRay Stats).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Read (State FlexRay Stats).vi"/>
+				<Item Name="XNET Read (State J1939 Comm).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Read (State J1939 Comm).vi"/>
 				<Item Name="XNET Read (State LIN Comm).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Read (State LIN Comm).vi"/>
 				<Item Name="XNET Read (State Session Info).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Read (State Session Info).vi"/>
 				<Item Name="XNET Read (State Time Comm).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Read (State Time Comm).vi"/>
@@ -436,7 +438,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{54C51B61-FDA6-4128-931A-03326FBF868E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A9FF2EE5-5859-4056-A0A7-01171C691798}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
@@ -622,7 +624,6 @@
 				<Property Name="Source[29].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[29].type" Type="Str">VI</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/J1939 Addon Shared.lvlib/Shared</Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
@@ -757,6 +758,54 @@
 				<Property Name="Source[4].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[4].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
+				<Property Name="Source[40].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[40].itemID" Type="Ref">/My Computer/J1939 Addon Shared.lvlib/Shared/STM</Property>
+				<Property Name="Source[40].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[40].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[40].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[40].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[40].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[40].type" Type="Str">Container</Property>
+				<Property Name="Source[41].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[41].itemID" Type="Ref">/My Computer/J1939 Addon Shared.lvlib/Shared/SubVIs</Property>
+				<Property Name="Source[41].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[41].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[41].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[41].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[41].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[41].type" Type="Str">Container</Property>
+				<Property Name="Source[42].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[42].itemID" Type="Ref">/My Computer/J1939 Addon Shared.lvlib/Shared/Tables</Property>
+				<Property Name="Source[42].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[42].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[42].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[42].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[42].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[42].type" Type="Str">Container</Property>
+				<Property Name="Source[43].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[43].itemID" Type="Ref">/My Computer/J1939 Addon Shared.lvlib/Shared/Types</Property>
+				<Property Name="Source[43].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[43].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[43].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[43].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[43].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[43].type" Type="Str">Container</Property>
+				<Property Name="Source[44].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[44].itemID" Type="Ref">/My Computer/J1939 Addon Shared.lvlib/Shared/Userlib</Property>
+				<Property Name="Source[44].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[44].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[44].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[44].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[44].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[44].type" Type="Str">Container</Property>
+				<Property Name="Source[45].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[45].itemID" Type="Ref">/My Computer/J1939 Addon Engine.lvlib/Tables</Property>
+				<Property Name="Source[45].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[45].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[45].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[45].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[45].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[45].type" Type="Str">Container</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Support Files/Host Automation API/J1939 Host Automation API.lvlib/Clear DTC.vi</Property>
 				<Property Name="Source[5].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[5].properties[0].value" Type="Bool">true</Property>
@@ -792,7 +841,7 @@
 				<Property Name="Source[9].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[9].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">40</Property>
+				<Property Name="SourceCount" Type="Int">46</Property>
 			</Item>
 			<Item Name="Host API" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
@@ -1302,6 +1351,7 @@
 				<Item Name="XNET Frame Type CAN.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Frame Type CAN.ctl"/>
 				<Item Name="XNET Frame Type FlexRay.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Frame Type FlexRay.ctl"/>
 				<Item Name="XNET Frame Type LIN.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Frame Type LIN.ctl"/>
+				<Item Name="XNET J1939 Comm.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET J1939 Comm.ctl"/>
 				<Item Name="XNET LIN Comm State.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET LIN Comm State.ctl"/>
 				<Item Name="XNET LIN Comm.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET LIN Comm.ctl"/>
 				<Item Name="XNET LIN Diag Schedule Type.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET LIN Diag Schedule Type.ctl"/>
@@ -1318,6 +1368,7 @@
 				<Item Name="XNET Read (State FlexRay Comm).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Read (State FlexRay Comm).vi"/>
 				<Item Name="XNET Read (State FlexRay Cycle Macrotick).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Read (State FlexRay Cycle Macrotick).vi"/>
 				<Item Name="XNET Read (State FlexRay Stats).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Read (State FlexRay Stats).vi"/>
+				<Item Name="XNET Read (State J1939 Comm).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Read (State J1939 Comm).vi"/>
 				<Item Name="XNET Read (State LIN Comm).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Read (State LIN Comm).vi"/>
 				<Item Name="XNET Read (State Session Info).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Read (State Session Info).vi"/>
 				<Item Name="XNET Read (State Time Comm).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Read (State Time Comm).vi"/>
@@ -1385,7 +1436,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A9AF247B-3ECA-474A-A7F4-D4E5109E5CD6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1363377E-7E12-4522-A1BE-9E814382B49E}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
@@ -1477,6 +1528,46 @@
 				<Property Name="Source[14].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[14].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[14].type" Type="Str">VI</Property>
+				<Property Name="Source[15].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/RT PXI Target/J1939 Addon Shared.lvlib/Shared/STM</Property>
+				<Property Name="Source[15].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[15].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[15].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[15].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[15].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[15].type" Type="Str">Container</Property>
+				<Property Name="Source[16].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/RT PXI Target/J1939 Addon Shared.lvlib/Shared/SubVIs</Property>
+				<Property Name="Source[16].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[16].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[16].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[16].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[16].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[16].type" Type="Str">Container</Property>
+				<Property Name="Source[17].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[17].itemID" Type="Ref">/RT PXI Target/J1939 Addon Shared.lvlib/Shared/Tables</Property>
+				<Property Name="Source[17].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[17].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[17].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[17].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[17].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[17].type" Type="Str">Container</Property>
+				<Property Name="Source[18].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[18].itemID" Type="Ref">/RT PXI Target/J1939 Addon Shared.lvlib/Shared/Types</Property>
+				<Property Name="Source[18].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[18].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[18].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[18].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[18].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[18].type" Type="Str">Container</Property>
+				<Property Name="Source[19].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[19].itemID" Type="Ref">/RT PXI Target/J1939 Addon Shared.lvlib/Shared/Userlib</Property>
+				<Property Name="Source[19].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[19].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[19].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[19].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[19].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[19].type" Type="Str">Container</Property>
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
@@ -1493,6 +1584,14 @@
 				<Property Name="Source[2].properties[4].value" Type="Bool">true</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[20].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/RT PXI Target/J1939 Addon Engine.lvlib/Tables</Property>
+				<Property Name="Source[20].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[20].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[20].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[20].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[20].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[20].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/RT PXI Target/J1939 Addon Engine.lvlib/J1939 Multi Packet Frame</Property>
@@ -1569,7 +1668,6 @@
 				<Property Name="Source[7].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[7].type" Type="Str">Container</Property>
 				<Property Name="Source[8].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[8].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[8].itemID" Type="Ref">/RT PXI Target/J1939 Addon Shared.lvlib/Shared</Property>
 				<Property Name="Source[8].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[8].properties[0].value" Type="Bool">true</Property>
@@ -1598,7 +1696,7 @@
 				<Property Name="Source[9].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[9].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">15</Property>
+				<Property Name="SourceCount" Type="Int">21</Property>
 			</Item>
 		</Item>
 	</Item>
