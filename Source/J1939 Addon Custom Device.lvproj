@@ -76,6 +76,7 @@
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
 		</Item>
+		<Item Name="Datatable Lookup DVR.ctl" Type="VI" URL="../../../Diagnostics Addon/Source/Engine/SubVIs/Datatable Lookup DVR.ctl"/>
 		<Item Name="J1939 Addon Engine.lvlib" Type="Library" URL="../Engine/J1939 Addon Engine.lvlib"/>
 		<Item Name="J1939 Addon Shared.lvlib" Type="Library" URL="../Shared/J1939 Addon Shared.lvlib"/>
 		<Item Name="J1939 Addon System Explorer.lvlib" Type="Library" URL="../System Explorer/J1939 Addon System Explorer.lvlib"/>
