@@ -149,8 +149,10 @@
 		<Item Name="Conversion Lookup Table Reference.ctl" Type="VI" URL="../Types/Conversion Lookup Table Reference.ctl"/>
 		<Item Name="Data Lookup Table Action.ctl" Type="VI" URL="../Types/Data Lookup Table Action.ctl"/>
 		<Item Name="Data Lookup Table Reference.ctl" Type="VI" URL="../Types/Data Lookup Table Reference.ctl"/>
+		<Item Name="Datatable Lookup DVR.ctl" Type="VI" URL="../Types/Datatable Lookup DVR.ctl"/>
 		<Item Name="Diagnostic Data Lookup Table Action.ctl" Type="VI" URL="../Types/Diagnostic Data Lookup Table Action.ctl"/>
 		<Item Name="Diagnostic Data Lookup Table Reference.ctl" Type="VI" URL="../Types/Diagnostic Data Lookup Table Reference.ctl"/>
+		<Item Name="Diagnostic Data Lookup Table State Variables.ctl" Type="VI" URL="../Types/Diagnostic Data Lookup Table State Variables.ctl"/>
 		<Item Name="DTC FIFOs.ctl" Type="VI" URL="../Types/DTC FIFOs.ctl"/>
 		<Item Name="Incoming Single Point Channel Pairs.ctl" Type="VI" URL="../Types/Incoming Single Point Channel Pairs.ctl"/>
 		<Item Name="Incoming Single Point Configuration.ctl" Type="VI" URL="../Types/Incoming Single Point Configuration.ctl"/>

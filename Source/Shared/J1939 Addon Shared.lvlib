@@ -6,6 +6,7 @@
 	<Item Name="Shared" Type="Folder">
 		<Item Name="STM" Type="Folder">
 			<Item Name="Connection Manager" Type="Folder">
+				<Item Name="stm_ManagerStateVariables.ctl" Type="VI" URL="../STM/Connection Manager/stm_ManagerStateVariables.ctl"/>
 				<Item Name="stm_TCPConnectionMethod.ctl" Type="VI" URL="../STM/Connection Manager/stm_TCPConnectionMethod.ctl"/>
 				<Item Name="stm_TCPConnectionProperties.ctl" Type="VI" URL="../STM/Connection Manager/stm_TCPConnectionProperties.ctl"/>
 			</Item>
