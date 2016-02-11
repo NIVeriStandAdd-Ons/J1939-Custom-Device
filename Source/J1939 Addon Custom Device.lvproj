@@ -1901,7 +1901,20 @@
 				<Property Name="Destination[1].path" Type="Path">/Linux_32_ARM</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{EB4D9A56-64AB-4C49-988D-11AA45421689}</Property>
+				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7EE5A8CF-FC7E-44CD-8DA6-CA74FDBD72A6}</Property>
+				<Property Name="Source[0].properties[0].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[0].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[0].properties[2].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[0].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[0].properties[3].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[0].properties[3].value" Type="Bool">true</Property>
+				<Property Name="Source[0].properties[4].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[0].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[0].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/J1939 Addon Engine.lvlib/RT Driver VI.vi</Property>
@@ -2051,6 +2064,22 @@
 				<Property Name="Source[2].properties[4].value" Type="Bool">true</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[20].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[20].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[20].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/NI VeriStand APIs</Property>
+				<Property Name="Source[20].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[20].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[20].properties[1].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[20].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[20].properties[2].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[20].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[20].properties[3].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[20].properties[3].value" Type="Bool">true</Property>
+				<Property Name="Source[20].properties[4].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[20].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[20].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[20].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
@@ -2151,7 +2180,7 @@
 				<Property Name="Source[9].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[9].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">20</Property>
+				<Property Name="SourceCount" Type="Int">21</Property>
 			</Item>
 		</Item>
 	</Item>
@@ -2404,7 +2433,20 @@
 				<Property Name="Destination[1].path" Type="Path">/Linux_x64</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7BF5BECE-41F8-439C-A6C0-6B6AF2DDF144}</Property>
+				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B1D5904A-C3F4-4599-9C1B-F7CABF8B7738}</Property>
+				<Property Name="Source[0].properties[0].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[0].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[0].properties[2].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[0].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[0].properties[3].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[0].properties[3].value" Type="Bool">true</Property>
+				<Property Name="Source[0].properties[4].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[0].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[0].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/J1939 Addon Engine.lvlib/RT Driver VI.vi</Property>
@@ -2561,6 +2603,22 @@
 				<Property Name="Source[2].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[20].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[20].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[20].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/NI VeriStand APIs</Property>
+				<Property Name="Source[20].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[20].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[20].properties[1].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[20].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[20].properties[2].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[20].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[20].properties[3].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[20].properties[3].value" Type="Bool">true</Property>
+				<Property Name="Source[20].properties[4].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[20].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[20].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[20].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
@@ -2658,7 +2716,7 @@
 				<Property Name="Source[9].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[9].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">20</Property>
+				<Property Name="SourceCount" Type="Int">21</Property>
 			</Item>
 		</Item>
 	</Item>
