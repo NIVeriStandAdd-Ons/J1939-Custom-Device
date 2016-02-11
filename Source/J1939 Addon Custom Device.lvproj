@@ -292,37 +292,6 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Configuration Debug" Type="Source Distribution">
-				<Property Name="Bld_buildCacheID" Type="Str">{C72B7E85-C986-4628-A4AF-93FE5FFE5918}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Configuration Debug</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/J1939 Addon</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{ABE103FD-8E06-4287-92FA-28F9CAA41336}</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/J1939 Addon</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/J1939 Addon/Data</Property>
-				<Property Name="Destination[2].destName" Type="Str">J1939 Addon Configuration LLB</Property>
-				<Property Name="Destination[2].path" Type="Path">../Built/J1939 Addon/J1939 Addon Configuration.llb</Property>
-				<Property Name="Destination[2].type" Type="Str">LLB</Property>
-				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{08BECEEA-C2C4-4262-8351-7D8564FF9CB1}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Support Files/Custom Device J1939 Addon.xml</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/J1939 Addon System Explorer.lvlib/System Explorer</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
-			</Item>
 			<Item Name="Configuration Release" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{F7E936A1-C50B-4217-AC2B-A4DA3629CD4B}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Configuration Release</Property>
@@ -401,49 +370,25 @@
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">6</Property>
 			</Item>
-			<Item Name="Engine Debug" Type="Source Distribution">
-				<Property Name="Bld_buildCacheID" Type="Str">{C67C1B30-A649-4BB4-8780-C96741B30EB4}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Engine Debug</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/J1939 Addon/J1939 Addon Engine Windows.llb</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{1E93022C-2E5B-4058-865F-DEB05CE955D3}</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/J1939 Addon/J1939 Addon Engine Windows.llb</Property>
-				<Property Name="Destination[0].type" Type="Str">LLB</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/J1939 Addon/Data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{08BECEEA-C2C4-4262-8351-7D8564FF9CB1}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/J1939 Addon Engine.lvlib/RT Driver VI.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-			</Item>
 			<Item Name="Engine Release" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{BDB37E78-1B48-4DD8-B51B-9DFE56743A02}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Engine Release</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/J1939 Addon/J1939 Addon Engine.llb</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/J1939 Addon/Windows/J1939 Addon Engine.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{32214451-43E2-4D3E-92C8-CE819321FAC4}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/J1939 Addon/J1939 Addon Engine.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/J1939 Addon/Windows/J1939 Addon Engine.llb</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/J1939 Addon/Data</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/J1939 Addon/Windows/Data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A9FF2EE5-5859-4056-A0A7-01171C691798}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7FA23D05-298E-4252-B67A-4EBF526EDDB2}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
@@ -855,22 +800,22 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/J1939 Addon/Host Automation API</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/J1939 Addon/Windows/Host Automation API</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E9B14692-4A42-4687-9BF8-F10A68357D6F}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Host Automation API.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/J1939 Addon/Host Automation API/Host Automation API.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/J1939 Addon/Windows/Host Automation API/Host Automation API.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/J1939 Addon/Host Automation API</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/J1939 Addon/Windows/Host Automation API</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3F18D373-56A7-49EC-A24E-78BC752EDE0E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7FA23D05-298E-4252-B67A-4EBF526EDDB2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Support Files/Host Automation API/J1939 Host Automation API.lvlib</Property>
@@ -896,22 +841,22 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/J1939 Addon/System Definition API</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/J1939 Addon/Windows/System Definition API</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4AFFA340-FC05-456A-8500-77132EBF9170}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">J1939 System Definition API.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/J1939 Addon/System Definition API/J1939 System Definition API.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/J1939 Addon/Windows/System Definition API/J1939 System Definition API.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/J1939 Addon/System Definition API</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/J1939 Addon/Windows/System Definition API</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{14368D76-21DF-4B10-91FA-12B1ED3AA433}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7FA23D05-298E-4252-B67A-4EBF526EDDB2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Support Files/System Definition API/J1939 System Definition API.lvlib</Property>
@@ -1430,20 +1375,20 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{EBCBE6D2-9B73-4CA1-9314-AE8EF883EA33}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">/c/J1939 Addon Engine Pharlap.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">19</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/J1939 Addon Engine Pharlap.llb</Property>
+				<Property Name="Bld_version.build" Type="Int">20</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/c/J1939 Addon Engine Pharlap.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">/Pharlap/J1939 Addon Engine Pharlap.llb</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/c/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/Pharlap/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1363377E-7E12-4522-A1BE-9E814382B49E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0EFE7C41-3531-4278-927A-08329FD7ECE4}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
@@ -1945,18 +1890,18 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FD6B9BAB-C36E-4BBD-894E-A675342B6FCC}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">/J1939 Addon Engine LinuxARM.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">/Linux_32_ARM/J1939 Addon Engine LinuxARM.llb</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/J1939 Addon Engine LinuxARM.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">/Linux_32_ARM/J1939 Addon Engine LinuxARM.llb</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">/Linux_32_ARM</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5937EB3B-931B-4E60-9D9E-A7610EEA01F3}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EB4D9A56-64AB-4C49-988D-11AA45421689}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/J1939 Addon Engine.lvlib/RT Driver VI.vi</Property>
@@ -2448,18 +2393,18 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2B235A5-6130-4402-AF5E-CD935E5A2CB5}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">/J1939 Addon Engine Linux64.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">/Linux_x64/J1939 Addon Engine Linux64.llb</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/J1939 Addon Engine Linux64.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">/Linux_x64/J1939 Addon Engine Linux64.llb</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">/Linux_x64</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3DA9C5E1-5746-4DC4-8F59-D0C984742F4E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7BF5BECE-41F8-439C-A6C0-6B6AF2DDF144}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/J1939 Addon Engine.lvlib/RT Driver VI.vi</Property>
