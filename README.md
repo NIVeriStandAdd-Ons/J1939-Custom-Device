@@ -5,7 +5,7 @@ This addon implements the J1939-21 specification (namely the transport protocols
 
 ### LabVIEW Version ###
 
-LV 2013
+LV 2015
 
 ### Built Availability ###
 

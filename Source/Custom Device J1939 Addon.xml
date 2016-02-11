@@ -26,13 +26,29 @@
 				</Source>
 				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\J1939 Addon\J1939 Addon Engine.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
-    	<Source>
+			<Source>
 				<SupportedTarget>Pharlap</SupportedTarget>
 				<Source>
 					<Type>To Common Doc Dir</Type>
 					<Path>Custom Devices\J1939 Addon\c\J1939 Addon Engine Pharlap.llb\RT Driver VI.vi</Path>
 				</Source>
 				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\J1939 Addon\J1939 Addon Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+			<Source>
+				<SupportedTarget>Linux_32_ARM</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\J1939 Addon\J1939 Addon Engine LinuxARM.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\J1939 Addon\J1939 Addon Engine LinuxARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+			<Source>
+				<SupportedTarget>Linux_x64</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\J1939 Addon\J1939 Addon Engine Linux64.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\J1939 Addon\J1939 Addon Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
 		</SourceDistribution>
 	</CustomDeviceVI>
