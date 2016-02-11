@@ -634,7 +634,7 @@
       <GUID>5d542ba3-f934-47c8-8526-922e6671f75c</GUID>
       <Glyph>
         <Type>To Application Data Dir</Type>
-        <Path>System Explorer\Glyphs\network.png</Path>
+        <Path>System Explorer\Glyphs\Data Sharing Network.png</Path>
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
