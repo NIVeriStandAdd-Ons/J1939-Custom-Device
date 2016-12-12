@@ -126,7 +126,6 @@
 		<Item Name="Send Reset Previously Active DTC to Main.vi" Type="VI" URL="../SubVIs/Send Reset Previously Active DTC to Main.vi"/>
 		<Item Name="Simulated Active DTCs.vi" Type="VI" URL="../SubVIs/Simulated Active DTCs.vi"/>
 		<Item Name="Simulated Inactive DTCs.vi" Type="VI" URL="../SubVIs/Simulated Inactive DTCs.vi"/>
-		<Item Name="Stop and Clear Processes.vi" Type="VI" URL="../SubVIs/Stop and Clear Processes.vi"/>
 		<Item Name="TCP Check Connection.vi" Type="VI" URL="../SubVIs/TCP Check Connection.vi"/>
 		<Item Name="Unload bitfile.vi" Type="VI" URL="../SubVIs/Unload bitfile.vi"/>
 		<Item Name="Update DTC Enable Values.vi" Type="VI" URL="../SubVIs/Update DTC Enable Values.vi"/>
@@ -167,9 +166,7 @@
 		<Item Name="Simulated Settings.ctl" Type="VI" URL="../Types/Simulated Settings.ctl"/>
 	</Item>
 	<Item Name="Userlib" Type="Folder">
-		<Item Name="Error Handling API.lvlib" Type="Library" URL="../SubVIs/Error Handling API/Error Handling API.lvlib"/>
 		<Item Name="Inline Async API.lvlib" Type="Library" URL="../SubVIs/Inline Async API/Inline Async API.lvlib"/>
-		<Item Name="Stop FG.lvlib" Type="Library" URL="../SubVIs/Stop FG/Stop FG.lvlib"/>
 	</Item>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
 </Library>
