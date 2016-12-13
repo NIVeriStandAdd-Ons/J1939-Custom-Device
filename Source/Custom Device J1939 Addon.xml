@@ -13,7 +13,7 @@
     <Type>Action</Type>
     <Item2Launch>
       <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Initialization VI.vi</Path>
+		<Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Initialization VI.vi</Path>
     </Item2Launch>
   </InitializationVI>
   <CustomDeviceVI>
@@ -67,7 +67,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Main Page.vi</Path>
+        <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Main Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -79,7 +79,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\EnableDisable Main Page.vi</Path>
+            <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\EnableDisable Main Page.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -91,7 +91,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Export Configuration.vi</Path>
+            <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Export Configuration.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -134,15 +134,15 @@
       </RunTimeMenu>
       <ActionVIOnDelete>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\ActionVIOnDelete.vi</Path>
+        <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\ActionVIOnDelete.vi</Path>
       </ActionVIOnDelete>
       <ActionVIOnLoad>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\ActionVIOnLoad.vi</Path>
+        <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\ActionVIOnLoad.vi</Path>
       </ActionVIOnLoad>
       <ActionVIOnCompile>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\ActionVIOnCompile.vi</Path>
+        <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\ActionVIOnCompile.vi</Path>
       </ActionVIOnCompile>
     </Page>
     <Page>
@@ -158,7 +158,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Main Page.vi</Path>
+        <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Main Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -170,7 +170,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\EnableDisable Main Page.vi</Path>
+            <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\EnableDisable Main Page.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -182,7 +182,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Export Configuration.vi</Path>
+            <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Export Configuration.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -225,11 +225,11 @@
       </RunTimeMenu>
       <ActionVIOnDelete>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\ActionVIOnDelete.vi</Path>
+        <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\ActionVIOnDelete.vi</Path>
       </ActionVIOnDelete>
       <ActionVIOnLoad>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\ActionVIOnLoad.vi</Path>
+        <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\ActionVIOnLoad.vi</Path>
       </ActionVIOnLoad>
     </Page>
     <Page>
@@ -246,7 +246,7 @@
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Incoming Page.vi</Path>
+		<Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Incoming Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -278,7 +278,7 @@
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Incoming Single Point Page.vi</Path>
+		<Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Incoming Single Point Page.vi</Path>
       </Item2Launch>
 	  <RunTimeMenu>
 	  		<MenuItem>
@@ -290,7 +290,7 @@
 				</Name>
 				<Item2Launch>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Select XNET Signals.vi</Path>
+					<Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Select XNET Signals.vi</Path>
 				</Item2Launch>
 			</MenuItem>
       <MenuItem>
@@ -361,7 +361,7 @@
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Outgoing Page.vi</Path>
+		<Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Outgoing Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -393,7 +393,7 @@
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Outgoing Event Page.vi</Path>
+		<Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Outgoing Event Page.vi</Path>
       </Item2Launch>
 	  <RunTimeMenu>
 	  		<MenuItem>
@@ -405,7 +405,7 @@
 				</Name>
 				<Item2Launch>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Select XNET Signals.vi</Path>
+					<Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Select XNET Signals.vi</Path>
 				</Item2Launch>
 			</MenuItem>
       <MenuItem>
@@ -475,7 +475,7 @@
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Frame Page.vi</Path>
+		<Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Frame Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -518,7 +518,7 @@
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Signal Page.vi</Path>
+		<Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Signal Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -548,7 +548,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Event Frame Page.vi</Path>
+        <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Event Frame Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -593,7 +593,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Diagnostics Page.vi</Path>
+        <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Diagnostics Page.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -610,7 +610,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Verify DTC Page.vi</Path>
+        <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Verify DTC Page.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -627,7 +627,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Clear DTCs Page.vi</Path>
+        <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Clear DTCs Page.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -644,7 +644,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Diagnostic Channel.vi</Path>
+        <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Diagnostic Channel.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -662,7 +662,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Simulation Page.vi</Path>
+        <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Simulation Page.vi</Path>
       </Item2Launch>
     	  <RunTimeMenu>
 	  		<MenuItem>
@@ -674,7 +674,7 @@
 				</Name>
 				<Item2Launch>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Add Device.vi</Path>
+					<Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Add Device.vi</Path>
 				</Item2Launch>
 			</MenuItem>
       <MenuItem>
@@ -744,7 +744,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Simulated Device Page.vi</Path>
+        <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Simulated Device Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -789,7 +789,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Simulated Diagnostics Page.vi</Path>
+        <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Simulated Diagnostics Page.vi</Path>
       </Item2Launch>
     <RunTimeMenu>
         <MenuItem>
@@ -822,7 +822,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Monitor Tool Page.vi</Path>
+        <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Monitor Tool Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
          <MenuItem>
@@ -855,7 +855,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\DM1 Active DTCs Page.vi</Path>
+        <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\DM1 Active DTCs Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
 	  		<MenuItem>
@@ -867,7 +867,7 @@
 				</Name>
 				<Item2Launch>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Add DTC.vi</Path>
+					<Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Add DTC.vi</Path>
 				</Item2Launch>
 			</MenuItem>
       <MenuItem>
@@ -937,7 +937,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\DTC Page.vi</Path>
+        <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\DTC Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -969,7 +969,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\DM2 Previously Active DTCs Page.vi</Path>
+        <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\DM2 Previously Active DTCs Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -981,7 +981,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\J1939 Addon\J1939 Addon Configuration.llb\Add DTC.vi</Path>
+            <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Add DTC.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>

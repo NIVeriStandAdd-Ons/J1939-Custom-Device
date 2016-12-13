@@ -1,5 +1,8 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="13008000">
+<Project Type="Project" LVVersion="15008000">
+	<Property Name="CCSymbols" Type="Str">OFFLINE,TRUE;</Property>
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -19,21 +22,31 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="J1939 System Definition API.lvlibp" Type="LVLibp" URL="../J1939 System Definition API.lvlibp">
-			<Item Name="Add Items.vi" Type="VI" URL="../J1939 System Definition API.lvlibp/APIs/System Definition API/API/Add Items.vi"/>
-			<Item Name="Remove Items.vi" Type="VI" URL="../J1939 System Definition API.lvlibp/APIs/System Definition API/API/Remove Items.vi"/>
-			<Item Name="Create Custom Device.vi" Type="VI" URL="../J1939 System Definition API.lvlibp/APIs/System Definition API/API/Create Custom Device.vi"/>
-			<Item Name="Get Custom Device Properties.vi" Type="VI" URL="../J1939 System Definition API.lvlibp/APIs/System Definition API/API/Get Custom Device Properties.vi"/>
-			<Item Name="Set Custom Device Properties.vi" Type="VI" URL="../J1939 System Definition API.lvlibp/APIs/System Definition API/API/Set Custom Device Properties.vi"/>
-			<Item Name="J1939 System Definition API Support.lvlib" Type="Library" URL="../J1939 System Definition API.lvlibp/APIs/System Definition API/J1939 System Definition API Support.lvlib"/>
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="../J1939 System Definition API.lvlibp/1abvi3w/vi.lib/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Create J1939 Addon.vi" Type="VI" URL="../J1939 System Definition API.lvlibp/APIs/System Definition API/API/Create J1939 Addon.vi"/>
 			<Item Name="J1939 Addon Shared.lvlib" Type="Library" URL="../J1939 System Definition API.lvlibp/Shared/J1939 Addon Shared.lvlib"/>
-			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="../J1939 System Definition API.lvlibp/1abvi3w/vi.lib/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
+			<Item Name="J1939 System Definition API Support.lvlib" Type="Library" URL="../J1939 System Definition API.lvlibp/APIs/System Definition API/J1939 System Definition API Support.lvlib"/>
+			<Item Name="System Definition Utilities.lvlib" Type="Library" URL="../J1939 System Definition API.lvlibp/1abvi3w/vi.lib/NI/NI VeriStand SysDef Utilities/System Definition Utilities.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="../J1939 System Definition API.lvlibp/1abvi3w/vi.lib/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="VariantType.lvlib" Type="Library" URL="../J1939 System Definition API.lvlibp/1abvi3w/vi.lib/Utility/VariantDataType/VariantType.lvlib"/>
+			<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="../J1939 System Definition API.lvlibp/1abvi3w/vi.lib/express/express shared/ex_CorrectErrorChain.vi"/>
+			<Item Name="subFile Dialog.vi" Type="VI" URL="../J1939 System Definition API.lvlibp/1abvi3w/vi.lib/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 			<Item Name="Clear Errors.vi" Type="VI" URL="../J1939 System Definition API.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
+			<Item Name="MD5Checksum pad.vi" Type="VI" URL="../J1939 System Definition API.lvlibp/1abvi3w/vi.lib/Utility/MD5Checksum.llb/MD5Checksum pad.vi"/>
+			<Item Name="MD5Checksum core.vi" Type="VI" URL="../J1939 System Definition API.lvlibp/1abvi3w/vi.lib/Utility/MD5Checksum.llb/MD5Checksum core.vi"/>
+			<Item Name="MD5Checksum format message-digest.vi" Type="VI" URL="../J1939 System Definition API.lvlibp/1abvi3w/vi.lib/Utility/MD5Checksum.llb/MD5Checksum format message-digest.vi"/>
+			<Item Name="MD5Checksum File.vi" Type="VI" URL="../J1939 System Definition API.lvlibp/1abvi3w/vi.lib/Utility/MD5Checksum.llb/MD5Checksum File.vi"/>
+			<Item Name="XNET Fill In Error Info.vi" Type="VI" URL="../J1939 System Definition API.lvlibp/1abvi3w/vi.lib/xnet/xnet.llb/XNET Fill In Error Info.vi"/>
+			<Item Name="XNET Database Get List.vi" Type="VI" URL="../J1939 System Definition API.lvlibp/1abvi3w/vi.lib/xnet/xnet.llb/XNET Database Get List.vi"/>
 		</Item>
 		<Item Name="J1939 System Definition API_Example_Create Sysdef and Add J1939 CD.vi" Type="VI" URL="../J1939 System Definition API_Example_Create Sysdef and Add J1939 CD.vi"/>
-		<Item Name="J1939 System Definition API_Example_Get J1939 CD Settings.vi" Type="VI" URL="../J1939 System Definition API_Example_Get J1939 CD Settings.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="NationalInstruments.VeriStand.Internal" Type="Document" URL="NationalInstruments.VeriStand.Internal">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI" Type="Document" URL="NationalInstruments.VeriStand.SystemDefinitionAPI">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
@@ -71,7 +84,7 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/J1939 System Definition API_Example_Get J1939 CD Settings.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
