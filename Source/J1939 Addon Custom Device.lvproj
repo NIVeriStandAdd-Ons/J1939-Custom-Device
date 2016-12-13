@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="15008000">
-	<Property Name="CCSymbols" Type="Str">SIM_DTCs,FALSE;</Property>
+	<Property Name="CCSymbols" Type="Str">SIM_DTCs,FALSE;OFFLINE,FALSE;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -186,6 +186,7 @@
 				<Item Name="sub_Display Template Handler Numeric.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/Display Template Support/Display Template Support.llb/sub_Display Template Handler Numeric.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
+				<Item Name="System Definition Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand SysDef Utilities/System Definition Utilities.lvlib"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="TCP Get Raw Net Object.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Get Raw Net Object.vi"/>
@@ -357,6 +358,18 @@
 			<Item Name="Diagnostics Addon Engine.lvlib" Type="Library" URL="../../../Diagnostics/Source/Engine/Diagnostics Addon Engine.lvlib"/>
 			<Item Name="Diagnostics Addon Shared.lvlib" Type="Library" URL="../../../Diagnostics/Source/Shared/Diagnostics Addon Shared.lvlib"/>
 			<Item Name="GMLAN.lvlib" Type="Library" URL="../../../Diagnostics/Source/Engine/SubVIs/GMLAN/GMLAN.lvlib"/>
+			<Item Name="J1939 System Definition API.lvlibp" Type="LVLibp" URL="../APIs/System Definition API/Examples/J1939 System Definition API.lvlibp">
+				<Item Name="Add Items.vi" Type="VI" URL="../APIs/System Definition API/Examples/J1939 System Definition API.lvlibp/APIs/System Definition API/API/Add Items.vi"/>
+				<Item Name="Remove Items.vi" Type="VI" URL="../APIs/System Definition API/Examples/J1939 System Definition API.lvlibp/APIs/System Definition API/API/Remove Items.vi"/>
+				<Item Name="Create Custom Device.vi" Type="VI" URL="../APIs/System Definition API/Examples/J1939 System Definition API.lvlibp/APIs/System Definition API/API/Create Custom Device.vi"/>
+				<Item Name="Get Custom Device Properties.vi" Type="VI" URL="../APIs/System Definition API/Examples/J1939 System Definition API.lvlibp/APIs/System Definition API/API/Get Custom Device Properties.vi"/>
+				<Item Name="Set Custom Device Properties.vi" Type="VI" URL="../APIs/System Definition API/Examples/J1939 System Definition API.lvlibp/APIs/System Definition API/API/Set Custom Device Properties.vi"/>
+				<Item Name="J1939 System Definition API Support.lvlib" Type="Library" URL="../APIs/System Definition API/Examples/J1939 System Definition API.lvlibp/APIs/System Definition API/J1939 System Definition API Support.lvlib"/>
+				<Item Name="Custom Device API.lvlib" Type="Library" URL="../APIs/System Definition API/Examples/J1939 System Definition API.lvlibp/1abvi3w/vi.lib/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
+				<Item Name="J1939 Addon Shared.lvlib" Type="Library" URL="../APIs/System Definition API/Examples/J1939 System Definition API.lvlibp/Shared/J1939 Addon Shared.lvlib"/>
+				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="../APIs/System Definition API/Examples/J1939 System Definition API.lvlibp/1abvi3w/vi.lib/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="../APIs/System Definition API/Examples/J1939 System Definition API.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
+			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -943,7 +956,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4AFFA340-FC05-456A-8500-77132EBF9170}</Property>
-				<Property Name="Bld_version.build" Type="Int">12</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">J1939 System Definition API.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/J1939 Addon/Windows/System Definition API/J1939 System Definition API.lvlibp</Property>

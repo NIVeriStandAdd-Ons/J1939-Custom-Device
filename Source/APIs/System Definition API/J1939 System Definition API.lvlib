@@ -4,9 +4,5 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
-	<Item Name="Add Items.vi" Type="VI" URL="../API/Add Items.vi"/>
-	<Item Name="Remove Items.vi" Type="VI" URL="../API/Remove Items.vi"/>
-	<Item Name="Create Custom Device.vi" Type="VI" URL="../API/Create Custom Device.vi"/>
-	<Item Name="Get Custom Device Properties.vi" Type="VI" URL="../API/Get Custom Device Properties.vi"/>
-	<Item Name="Set Custom Device Properties.vi" Type="VI" URL="../API/Set Custom Device Properties.vi"/>
+	<Item Name="Create J1939 Addon.vi" Type="VI" URL="../API/Create J1939 Addon.vi"/>
 </Library>
