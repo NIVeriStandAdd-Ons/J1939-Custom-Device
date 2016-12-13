@@ -67,10 +67,6 @@
 			<Item Name="Host Automation API" Type="Folder">
 				<Item Name="J1939 Host Automation API.lvlib" Type="Library" URL="../APIs/Host Automation API/J1939 Host Automation API.lvlib"/>
 			</Item>
-			<Item Name="System Definition API" Type="Folder">
-				<Item Name="J1939 System Definition API Support.lvlib" Type="Library" URL="../APIs/System Definition API/J1939 System Definition API Support.lvlib"/>
-				<Item Name="J1939 System Definition API.lvlib" Type="Library" URL="../APIs/System Definition API/J1939 System Definition API.lvlib"/>
-			</Item>
 			<Item Name="Custom Device J1939 Addon.xml" Type="Document" URL="../Custom Device J1939 Addon.xml"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
@@ -358,18 +354,6 @@
 			<Item Name="Diagnostics Addon Engine.lvlib" Type="Library" URL="../../../Diagnostics/Source/Engine/Diagnostics Addon Engine.lvlib"/>
 			<Item Name="Diagnostics Addon Shared.lvlib" Type="Library" URL="../../../Diagnostics/Source/Shared/Diagnostics Addon Shared.lvlib"/>
 			<Item Name="GMLAN.lvlib" Type="Library" URL="../../../Diagnostics/Source/Engine/SubVIs/GMLAN/GMLAN.lvlib"/>
-			<Item Name="J1939 System Definition API.lvlibp" Type="LVLibp" URL="../APIs/System Definition API/Examples/J1939 System Definition API.lvlibp">
-				<Item Name="Add Items.vi" Type="VI" URL="../APIs/System Definition API/Examples/J1939 System Definition API.lvlibp/APIs/System Definition API/API/Add Items.vi"/>
-				<Item Name="Remove Items.vi" Type="VI" URL="../APIs/System Definition API/Examples/J1939 System Definition API.lvlibp/APIs/System Definition API/API/Remove Items.vi"/>
-				<Item Name="Create Custom Device.vi" Type="VI" URL="../APIs/System Definition API/Examples/J1939 System Definition API.lvlibp/APIs/System Definition API/API/Create Custom Device.vi"/>
-				<Item Name="Get Custom Device Properties.vi" Type="VI" URL="../APIs/System Definition API/Examples/J1939 System Definition API.lvlibp/APIs/System Definition API/API/Get Custom Device Properties.vi"/>
-				<Item Name="Set Custom Device Properties.vi" Type="VI" URL="../APIs/System Definition API/Examples/J1939 System Definition API.lvlibp/APIs/System Definition API/API/Set Custom Device Properties.vi"/>
-				<Item Name="J1939 System Definition API Support.lvlib" Type="Library" URL="../APIs/System Definition API/Examples/J1939 System Definition API.lvlibp/APIs/System Definition API/J1939 System Definition API Support.lvlib"/>
-				<Item Name="Custom Device API.lvlib" Type="Library" URL="../APIs/System Definition API/Examples/J1939 System Definition API.lvlibp/1abvi3w/vi.lib/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
-				<Item Name="J1939 Addon Shared.lvlib" Type="Library" URL="../APIs/System Definition API/Examples/J1939 System Definition API.lvlibp/Shared/J1939 Addon Shared.lvlib"/>
-				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="../APIs/System Definition API/Examples/J1939 System Definition API.lvlibp/1abvi3w/vi.lib/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
-				<Item Name="Clear Errors.vi" Type="VI" URL="../APIs/System Definition API/Examples/J1939 System Definition API.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
-			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -969,7 +953,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{7FA23D05-298E-4252-B67A-4EBF526EDDB2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Support Files/System Definition API/J1939 System Definition API.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
@@ -977,7 +961,7 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Support Files/System Definition API/J1939 System Definition API Support.lvlib</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
