@@ -5,83 +5,83 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="J1939 Multi Packet Frame" Type="Folder">
 		<Item Name="J1939 Multi Packet Frames" Type="Folder">
-			<Item Name="BAM Buffer.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/J1939 Multi Packet Frames/BAM Buffer.vi"/>
-			<Item Name="BAM Generation.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/J1939 Multi Packet Frames/BAM Generation.vi"/>
-			<Item Name="Connection Mode Generation.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/J1939 Multi Packet Frames/Connection Mode Generation.vi"/>
-			<Item Name="Connnection Mode Buffer.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/J1939 Multi Packet Frames/Connnection Mode Buffer.vi"/>
+			<Item Name="BAM Buffer.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/J1939 Multi Packet Frames/BAM Buffer.vi"/>
+			<Item Name="BAM Generation.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/J1939 Multi Packet Frames/BAM Generation.vi"/>
+			<Item Name="Connection Mode Generation.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/J1939 Multi Packet Frames/Connection Mode Generation.vi"/>
+			<Item Name="Connnection Mode Buffer.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/J1939 Multi Packet Frames/Connnection Mode Buffer.vi"/>
 		</Item>
 		<Item Name="J1939 Periodic Messages" Type="Folder">
 			<Item Name="_SubVIs" Type="Folder">
-				<Item Name="Periodic Message Generator Cluster.ctl" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/J1939 Periodic Messages/SubVIs/Periodic Message Generator Cluster.ctl"/>
+				<Item Name="Periodic Message Generator Cluster.ctl" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/J1939 Periodic Messages/SubVIs/Periodic Message Generator Cluster.ctl"/>
 			</Item>
-			<Item Name="Periodic Message Generator.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/J1939 Periodic Messages/Periodic Message Generator.vi"/>
+			<Item Name="Periodic Message Generator.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/J1939 Periodic Messages/Periodic Message Generator.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
-			<Item Name="Address Claim Address.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/Address Claim Address.vi"/>
-			<Item Name="BAM Generation Connections List_Actions.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/BAM Generation Connections List_Actions.vi"/>
-			<Item Name="BAM Generation Connections List_Initialize.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/BAM Generation Connections List_Initialize.vi"/>
-			<Item Name="BAM Generation Create New TP Connection.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/BAM Generation Create New TP Connection.vi"/>
-			<Item Name="BAM Generation Get Next Message.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/BAM Generation Get Next Message.vi"/>
-			<Item Name="BAM Generation Queue Messages.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/BAM Generation Queue Messages.vi"/>
-			<Item Name="BAM Generation Search for Connection (Local Message).vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/BAM Generation Search for Connection (Local Message).vi"/>
-			<Item Name="Buffer Connections List_Actions.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/Buffer Connections List_Actions.vi"/>
-			<Item Name="Buffer Connections List_Initialize.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/Buffer Connections List_Initialize.vi"/>
-			<Item Name="Cannont Claim Address.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/Cannont Claim Address.vi"/>
-			<Item Name="Close References.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/Close References.vi"/>
-			<Item Name="Connection Mode Generation Connections List_Actions.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/Connection Mode Generation Connections List_Actions.vi"/>
-			<Item Name="Connection Mode Generation Connections List_Initialize.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/Connection Mode Generation Connections List_Initialize.vi"/>
-			<Item Name="Connection Mode Generation Create New TP Connection.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/Connection Mode Generation Create New TP Connection.vi"/>
-			<Item Name="Connection Mode Generation CTS Received.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/Connection Mode Generation CTS Received.vi"/>
-			<Item Name="Connection Mode Generation Get Next Messages.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/Connection Mode Generation Get Next Messages.vi"/>
-			<Item Name="Connection Mode Generation Queue Messages.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/Connection Mode Generation Queue Messages.vi"/>
-			<Item Name="Connection Mode Generation Search for Connection (Local Message).vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/Connection Mode Generation Search for Connection (Local Message).vi"/>
-			<Item Name="Connection Mode Generation Search for Connection (Remote Message).vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/Connection Mode Generation Search for Connection (Remote Message).vi"/>
-			<Item Name="Convert CAN Frame to RAW Frame.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/Convert CAN Frame to RAW Frame.vi"/>
-			<Item Name="Convert Frame to NI-XNET CAN Frame.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/Convert Frame to NI-XNET CAN Frame.vi"/>
-			<Item Name="Listen for Claim.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/Listen for Claim.vi"/>
-			<Item Name="Process Incoming Messages by PDU F.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/Process Incoming Messages by PDU F.vi"/>
-			<Item Name="Process Outgoing Messages by Frame Type.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/Process Outgoing Messages by Frame Type.vi"/>
-			<Item Name="Read Queued Outgoing Messages.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/Read Queued Outgoing Messages.vi"/>
-			<Item Name="Read Queued Processed Incoming Messages.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/Read Queued Processed Incoming Messages.vi"/>
-			<Item Name="Read Queued Processed Outgoing Messages.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/Read Queued Processed Outgoing Messages.vi"/>
-			<Item Name="RQST Comm Lookup Table_Actions.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/RQST Comm Lookup Table_Actions.vi"/>
-			<Item Name="RQST Comm Lookup Table_Initialize.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/RQST Comm Lookup Table_Initialize.vi"/>
-			<Item Name="RQST Comm_Close All Connections.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/RQST Comm_Close All Connections.vi"/>
-			<Item Name="RQST Look for Response.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/RQST Look for Response.vi"/>
-			<Item Name="RQST Lookup Table Act.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/RQST Lookup Table Act.vi"/>
-			<Item Name="RQST Lookup Table Initialize.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/RQST Lookup Table Initialize.vi"/>
-			<Item Name="RQST Wait on Multiple Requests.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/RQST Wait on Multiple Requests.vi"/>
-			<Item Name="RQST Wait on Response.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/RQST Wait on Response.vi"/>
-			<Item Name="TP Buffer Add New Data Packet to Connection.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/TP Buffer Add New Data Packet to Connection.vi"/>
-			<Item Name="TP Buffer Check Timeout on Connections.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/TP Buffer Check Timeout on Connections.vi"/>
-			<Item Name="TP Buffer Convert Connection Info to CAN Frame.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/TP Buffer Convert Connection Info to CAN Frame.vi"/>
-			<Item Name="TP Buffer Create New TP Connection.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/TP Buffer Create New TP Connection.vi"/>
-			<Item Name="TP Buffer Search for Connection (No PGN).vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/TP Buffer Search for Connection (No PGN).vi"/>
-			<Item Name="TP Buffer Search for Connection.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/TP Buffer Search for Connection.vi"/>
+			<Item Name="Address Claim Address.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/Address Claim Address.vi"/>
+			<Item Name="BAM Generation Connections List_Actions.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/BAM Generation Connections List_Actions.vi"/>
+			<Item Name="BAM Generation Connections List_Initialize.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/BAM Generation Connections List_Initialize.vi"/>
+			<Item Name="BAM Generation Create New TP Connection.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/BAM Generation Create New TP Connection.vi"/>
+			<Item Name="BAM Generation Get Next Message.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/BAM Generation Get Next Message.vi"/>
+			<Item Name="BAM Generation Queue Messages.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/BAM Generation Queue Messages.vi"/>
+			<Item Name="BAM Generation Search for Connection (Local Message).vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/BAM Generation Search for Connection (Local Message).vi"/>
+			<Item Name="Buffer Connections List_Actions.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/Buffer Connections List_Actions.vi"/>
+			<Item Name="Buffer Connections List_Initialize.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/Buffer Connections List_Initialize.vi"/>
+			<Item Name="Cannont Claim Address.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/Cannont Claim Address.vi"/>
+			<Item Name="Close References.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/Close References.vi"/>
+			<Item Name="Connection Mode Generation Connections List_Actions.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/Connection Mode Generation Connections List_Actions.vi"/>
+			<Item Name="Connection Mode Generation Connections List_Initialize.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/Connection Mode Generation Connections List_Initialize.vi"/>
+			<Item Name="Connection Mode Generation Create New TP Connection.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/Connection Mode Generation Create New TP Connection.vi"/>
+			<Item Name="Connection Mode Generation CTS Received.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/Connection Mode Generation CTS Received.vi"/>
+			<Item Name="Connection Mode Generation Get Next Messages.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/Connection Mode Generation Get Next Messages.vi"/>
+			<Item Name="Connection Mode Generation Queue Messages.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/Connection Mode Generation Queue Messages.vi"/>
+			<Item Name="Connection Mode Generation Search for Connection (Local Message).vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/Connection Mode Generation Search for Connection (Local Message).vi"/>
+			<Item Name="Connection Mode Generation Search for Connection (Remote Message).vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/Connection Mode Generation Search for Connection (Remote Message).vi"/>
+			<Item Name="Convert CAN Frame to RAW Frame.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/Convert CAN Frame to RAW Frame.vi"/>
+			<Item Name="Convert Frame to NI-XNET CAN Frame.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/Convert Frame to NI-XNET CAN Frame.vi"/>
+			<Item Name="Listen for Claim.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/Listen for Claim.vi"/>
+			<Item Name="Process Incoming Messages by PDU F.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/Process Incoming Messages by PDU F.vi"/>
+			<Item Name="Process Outgoing Messages by Frame Type.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/Process Outgoing Messages by Frame Type.vi"/>
+			<Item Name="Read Queued Outgoing Messages.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/Read Queued Outgoing Messages.vi"/>
+			<Item Name="Read Queued Processed Incoming Messages.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/Read Queued Processed Incoming Messages.vi"/>
+			<Item Name="Read Queued Processed Outgoing Messages.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/Read Queued Processed Outgoing Messages.vi"/>
+			<Item Name="RQST Comm Lookup Table_Actions.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/RQST Comm Lookup Table_Actions.vi"/>
+			<Item Name="RQST Comm Lookup Table_Initialize.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/RQST Comm Lookup Table_Initialize.vi"/>
+			<Item Name="RQST Comm_Close All Connections.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/RQST Comm_Close All Connections.vi"/>
+			<Item Name="RQST Look for Response.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/RQST Look for Response.vi"/>
+			<Item Name="RQST Lookup Table Act.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/RQST Lookup Table Act.vi"/>
+			<Item Name="RQST Lookup Table Initialize.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/RQST Lookup Table Initialize.vi"/>
+			<Item Name="RQST Wait on Multiple Requests.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/RQST Wait on Multiple Requests.vi"/>
+			<Item Name="RQST Wait on Response.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/RQST Wait on Response.vi"/>
+			<Item Name="TP Buffer Add New Data Packet to Connection.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/TP Buffer Add New Data Packet to Connection.vi"/>
+			<Item Name="TP Buffer Check Timeout on Connections.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/TP Buffer Check Timeout on Connections.vi"/>
+			<Item Name="TP Buffer Convert Connection Info to CAN Frame.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/TP Buffer Convert Connection Info to CAN Frame.vi"/>
+			<Item Name="TP Buffer Create New TP Connection.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/TP Buffer Create New TP Connection.vi"/>
+			<Item Name="TP Buffer Search for Connection (No PGN).vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/TP Buffer Search for Connection (No PGN).vi"/>
+			<Item Name="TP Buffer Search for Connection.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/TP Buffer Search for Connection.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
-			<Item Name="Address Lookup Table Action.ctl" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/Types/Address Lookup Table Action.ctl"/>
-			<Item Name="Address Table Reference.ctl" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/Types/Address Table Reference.ctl"/>
-			<Item Name="BAM Buffer Connections List_Ref.ctl" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/Types/BAM Buffer Connections List_Ref.ctl"/>
-			<Item Name="BAM Generation Connection Cluster.ctl" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/Types/BAM Generation Connection Cluster.ctl"/>
-			<Item Name="BAM Generation Connections List_Ref.ctl" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/Types/BAM Generation Connections List_Ref.ctl"/>
-			<Item Name="Connection Mode Buffer Create New TP Connection State.ctl" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/Types/Connection Mode Buffer Create New TP Connection State.ctl"/>
-			<Item Name="Connection Mode Generation Connection Cluster.ctl" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/Types/Connection Mode Generation Connection Cluster.ctl"/>
-			<Item Name="Connection Mode Generation Connection Ref.ctl" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/Types/Connection Mode Generation Connection Ref.ctl"/>
-			<Item Name="RQST Lookup Table Action.ctl" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/Types/RQST Lookup Table Action.ctl"/>
-			<Item Name="RQST Lookup Table Cluster.ctl" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/Types/RQST Lookup Table Cluster.ctl"/>
-			<Item Name="RQST Lookup Table Reference.ctl" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/Types/RQST Lookup Table Reference.ctl"/>
-			<Item Name="Setup Information Cluster.ctl" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/Types/Setup Information Cluster.ctl"/>
-			<Item Name="TP Buffer Connection Cluster.ctl" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/Types/TP Buffer Connection Cluster.ctl"/>
-			<Item Name="TP Connections List State.ctl" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/Types/TP Connections List State.ctl"/>
-			<Item Name="TP List References.ctl" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/Types/TP List References.ctl"/>
+			<Item Name="Address Lookup Table Action.ctl" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/Types/Address Lookup Table Action.ctl"/>
+			<Item Name="Address Table Reference.ctl" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/Types/Address Table Reference.ctl"/>
+			<Item Name="BAM Buffer Connections List_Ref.ctl" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/Types/BAM Buffer Connections List_Ref.ctl"/>
+			<Item Name="BAM Generation Connection Cluster.ctl" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/Types/BAM Generation Connection Cluster.ctl"/>
+			<Item Name="BAM Generation Connections List_Ref.ctl" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/Types/BAM Generation Connections List_Ref.ctl"/>
+			<Item Name="Connection Mode Buffer Create New TP Connection State.ctl" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/Types/Connection Mode Buffer Create New TP Connection State.ctl"/>
+			<Item Name="Connection Mode Generation Connection Cluster.ctl" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/Types/Connection Mode Generation Connection Cluster.ctl"/>
+			<Item Name="Connection Mode Generation Connection Ref.ctl" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/Types/Connection Mode Generation Connection Ref.ctl"/>
+			<Item Name="RQST Lookup Table Action.ctl" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/Types/RQST Lookup Table Action.ctl"/>
+			<Item Name="RQST Lookup Table Cluster.ctl" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/Types/RQST Lookup Table Cluster.ctl"/>
+			<Item Name="RQST Lookup Table Reference.ctl" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/Types/RQST Lookup Table Reference.ctl"/>
+			<Item Name="Setup Information Cluster.ctl" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/Types/Setup Information Cluster.ctl"/>
+			<Item Name="TP Buffer Connection Cluster.ctl" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/Types/TP Buffer Connection Cluster.ctl"/>
+			<Item Name="TP Connections List State.ctl" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/Types/TP Connections List State.ctl"/>
+			<Item Name="TP List References.ctl" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/Types/TP List References.ctl"/>
 		</Item>
-		<Item Name="Address Claim.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/Address Claim.vi"/>
-		<Item Name="Check Incoming TP Timeouts.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/Check Incoming TP Timeouts.vi"/>
-		<Item Name="Check Outgoing TP Timeouts.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/Check Outgoing TP Timeouts.vi"/>
-		<Item Name="Initialize Refs.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/Initialize Refs.vi"/>
-		<Item Name="Process Incoming Messages.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/Process Incoming Messages.vi"/>
-		<Item Name="Process Outgoing Messages.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/Process Outgoing Messages.vi"/>
+		<Item Name="Address Claim.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/Address Claim.vi"/>
+		<Item Name="Check Incoming TP Timeouts.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/Check Incoming TP Timeouts.vi"/>
+		<Item Name="Check Outgoing TP Timeouts.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/Check Outgoing TP Timeouts.vi"/>
+		<Item Name="Initialize Refs.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/Initialize Refs.vi"/>
+		<Item Name="Process Incoming Messages.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/Process Incoming Messages.vi"/>
+		<Item Name="Process Outgoing Messages.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/Process Outgoing Messages.vi"/>
 	</Item>
 	<Item Name="Processes" Type="Folder">
 		<Item Name="Command Engine.vi" Type="VI" URL="../SubVIs/Command Engine.vi"/>
@@ -132,14 +132,14 @@
 		<Item Name="XNET Set Invalid Property.vi" Type="VI" URL="../SubVIs/XNET Set Invalid Property.vi"/>
 	</Item>
 	<Item Name="Tables" Type="Folder">
-		<Item Name="Address Lookup Table.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/Address Lookup Table.vi"/>
-		<Item Name="BAM Buffer Connections List.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/BAM Buffer Connections List.vi"/>
-		<Item Name="BAM Generation Connections List.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/BAM Generation Connections List.vi"/>
-		<Item Name="Connection Mode Generation Connections List.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/Connection Mode Generation Connections List.vi"/>
+		<Item Name="Address Lookup Table.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/Address Lookup Table.vi"/>
+		<Item Name="BAM Buffer Connections List.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/BAM Buffer Connections List.vi"/>
+		<Item Name="BAM Generation Connections List.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/BAM Generation Connections List.vi"/>
+		<Item Name="Connection Mode Generation Connections List.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/Connection Mode Generation Connections List.vi"/>
 		<Item Name="Conversion Lookup Table.vi" Type="VI" URL="../SubVIs/Conversion Lookup Table.vi"/>
 		<Item Name="Data Lookup Table.vi" Type="VI" URL="../SubVIs/Data Lookup Table.vi"/>
 		<Item Name="Diagnostic Data Lookup Table.vi" Type="VI" URL="../SubVIs/Diagnostic Data Lookup Table.vi"/>
-		<Item Name="RQST Lookup Table.vi" Type="VI" URL="../../Shared/J1939 Multi Packet Frame/SubVIs/RQST Lookup Table.vi"/>
+		<Item Name="RQST Lookup Table.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/RQST Lookup Table.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Configuration Cluster.ctl" Type="VI" URL="../Types/Configuration Cluster.ctl"/>

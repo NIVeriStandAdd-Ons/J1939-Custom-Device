@@ -91,7 +91,7 @@
 			<Item Name="Outgoing Cyclic Channel Pairs.ctl" Type="VI" URL="../Types/Outgoing Cyclic Channel Pairs.ctl"/>
 			<Item Name="Private Data.ctl" Type="VI" URL="../Types/Private Data.ctl"/>
 			<Item Name="Request Message.ctl" Type="VI" URL="../Types/Request Message.ctl"/>
-			<Item Name="RQST Comm Lookup Table_Ref.ctl" Type="VI" URL="../J1939 Multi Packet Frame/Types/RQST Comm Lookup Table_Ref.ctl"/>
+			<Item Name="RQST Comm Lookup Table_Ref.ctl" Type="VI" URL="../Types/RQST Comm Lookup Table_Ref.ctl"/>
 			<Item Name="SPN Properties.ctl" Type="VI" URL="../Types/SPN Properties.ctl"/>
 			<Item Name="SysDef Command Settings.ctl" Type="VI" URL="../Types/SysDef Command Settings.ctl"/>
 			<Item Name="SysDef FPGA Settings.ctl" Type="VI" URL="../Types/SysDef FPGA Settings.ctl"/>
