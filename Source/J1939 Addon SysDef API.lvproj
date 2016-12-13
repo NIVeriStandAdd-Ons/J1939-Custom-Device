@@ -1,5 +1,8 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="15008000">
+	<Property Name="CCSymbols" Type="Str">OFFLINE,TRUE;</Property>
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -284,18 +287,6 @@
 			<Item Name="J1939 Addon Engine.lvlib" Type="Library" URL="../Engine/J1939 Addon Engine.lvlib"/>
 			<Item Name="J1939 Addon Shared.lvlib" Type="Library" URL="../Shared/J1939 Addon Shared.lvlib"/>
 			<Item Name="J1939 Host Automation API.lvlib" Type="Library" URL="../APIs/Host Automation API/J1939 Host Automation API.lvlib"/>
-			<Item Name="J1939 System Definition API.lvlibp" Type="LVLibp" URL="../APIs/System Definition API/Examples/J1939 System Definition API.lvlibp">
-				<Item Name="Add Items.vi" Type="VI" URL="../APIs/System Definition API/Examples/J1939 System Definition API.lvlibp/APIs/System Definition API/API/Add Items.vi"/>
-				<Item Name="Remove Items.vi" Type="VI" URL="../APIs/System Definition API/Examples/J1939 System Definition API.lvlibp/APIs/System Definition API/API/Remove Items.vi"/>
-				<Item Name="Create Custom Device.vi" Type="VI" URL="../APIs/System Definition API/Examples/J1939 System Definition API.lvlibp/APIs/System Definition API/API/Create Custom Device.vi"/>
-				<Item Name="Get Custom Device Properties.vi" Type="VI" URL="../APIs/System Definition API/Examples/J1939 System Definition API.lvlibp/APIs/System Definition API/API/Get Custom Device Properties.vi"/>
-				<Item Name="Set Custom Device Properties.vi" Type="VI" URL="../APIs/System Definition API/Examples/J1939 System Definition API.lvlibp/APIs/System Definition API/API/Set Custom Device Properties.vi"/>
-				<Item Name="J1939 System Definition API Support.lvlib" Type="Library" URL="../APIs/System Definition API/Examples/J1939 System Definition API.lvlibp/APIs/System Definition API/J1939 System Definition API Support.lvlib"/>
-				<Item Name="Custom Device API.lvlib" Type="Library" URL="../APIs/System Definition API/Examples/J1939 System Definition API.lvlibp/1abvi3w/vi.lib/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
-				<Item Name="J1939 Addon Shared.lvlib" Type="Library" URL="../APIs/System Definition API/Examples/J1939 System Definition API.lvlibp/Shared/J1939 Addon Shared.lvlib"/>
-				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="../APIs/System Definition API/Examples/J1939 System Definition API.lvlibp/1abvi3w/vi.lib/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
-				<Item Name="Clear Errors.vi" Type="VI" URL="../APIs/System Definition API/Examples/J1939 System Definition API.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
-			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

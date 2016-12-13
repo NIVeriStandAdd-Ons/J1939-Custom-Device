@@ -34,6 +34,7 @@
 				<Item Name="Add Device.vi" Type="VI" URL="../RTMs/Add Device.vi"/>
 				<Item Name="Add DTC.vi" Type="VI" URL="../RTMs/Add DTC.vi"/>
 				<Item Name="EnableDisable Main Page.vi" Type="VI" URL="../RTMs/EnableDisable Main Page.vi"/>
+				<Item Name="Export Configuation.vi" Type="VI" URL="../RTMs/Export Configuation.vi"/>
 				<Item Name="Select XNET Signals.vi" Type="VI" URL="../RTMs/Select XNET Signals.vi"/>
 			</Item>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
