@@ -44,8 +44,6 @@
 			<Item Name="Read Queued Outgoing Messages.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/Read Queued Outgoing Messages.vi"/>
 			<Item Name="Read Queued Processed Incoming Messages.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/Read Queued Processed Incoming Messages.vi"/>
 			<Item Name="Read Queued Processed Outgoing Messages.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/Read Queued Processed Outgoing Messages.vi"/>
-			<Item Name="RQST Comm Lookup Table_Actions.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/RQST Comm Lookup Table_Actions.vi"/>
-			<Item Name="RQST Comm Lookup Table_Initialize.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/RQST Comm Lookup Table_Initialize.vi"/>
 			<Item Name="RQST Comm_Close All Connections.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/RQST Comm_Close All Connections.vi"/>
 			<Item Name="RQST Look for Response.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/RQST Look for Response.vi"/>
 			<Item Name="RQST Lookup Table Act.vi" Type="VI" URL="../SubVIs/J1939 Multi Packet Frame/SubVIs/RQST Lookup Table Act.vi"/>
@@ -125,7 +123,6 @@
 		<Item Name="Send Reset Previously Active DTC to Main.vi" Type="VI" URL="../SubVIs/Send Reset Previously Active DTC to Main.vi"/>
 		<Item Name="Simulated Active DTCs.vi" Type="VI" URL="../SubVIs/Simulated Active DTCs.vi"/>
 		<Item Name="Simulated Inactive DTCs.vi" Type="VI" URL="../SubVIs/Simulated Inactive DTCs.vi"/>
-		<Item Name="TCP Check Connection.vi" Type="VI" URL="../SubVIs/TCP Check Connection.vi"/>
 		<Item Name="Unload bitfile.vi" Type="VI" URL="../SubVIs/Unload bitfile.vi"/>
 		<Item Name="Update DTC Enable Values.vi" Type="VI" URL="../SubVIs/Update DTC Enable Values.vi"/>
 		<Item Name="Update DTC Values.vi" Type="VI" URL="../SubVIs/Update DTC Values.vi"/>

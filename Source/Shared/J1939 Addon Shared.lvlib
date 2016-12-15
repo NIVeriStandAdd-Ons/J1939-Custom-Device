@@ -4,36 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Shared" Type="Folder">
-		<Item Name="STM" Type="Folder">
-			<Item Name="Connection Manager" Type="Folder">
-				<Item Name="stm_ManagerStateVariables.ctl" Type="VI" URL="../STM/Connection Manager/stm_ManagerStateVariables.ctl"/>
-				<Item Name="stm_TCPConnectionMethod.ctl" Type="VI" URL="../STM/Connection Manager/stm_TCPConnectionMethod.ctl"/>
-				<Item Name="stm_TCPConnectionProperties.ctl" Type="VI" URL="../STM/Connection Manager/stm_TCPConnectionProperties.ctl"/>
-			</Item>
-			<Item Name="SubVIs" Type="Folder">
-				<Item Name="stm_GetIDfromName_.vi" Type="VI" URL="../STM/_SubVIs/stm_GetIDfromName_.vi"/>
-				<Item Name="stm_MetaDataElement.ctl" Type="VI" URL="../STM/_SubVIs/stm_MetaDataElement.ctl"/>
-			</Item>
-			<Item Name="TCP" Type="Folder">
-				<Item Name="STM Get Connection Reference (TCP).vi" Type="VI" URL="../STM/TCP/STM Get Connection Reference (TCP).vi"/>
-				<Item Name="STM Read Message (TCP).vi" Type="VI" URL="../STM/TCP/STM Read Message (TCP).vi"/>
-				<Item Name="STM Read Meta Data (TCP Clst).vi" Type="VI" URL="../STM/TCP/STM Read Meta Data (TCP Clst).vi"/>
-				<Item Name="STM Read Meta Data (TCP Ref).vi" Type="VI" URL="../STM/TCP/STM Read Meta Data (TCP Ref).vi"/>
-				<Item Name="STM Write Message (TCP).vi" Type="VI" URL="../STM/TCP/STM Write Message (TCP).vi"/>
-				<Item Name="STM Write Meta Data (TCP Clst).vi" Type="VI" URL="../STM/TCP/STM Write Meta Data (TCP Clst).vi"/>
-				<Item Name="STM Write Meta Data (TCP Ref).vi" Type="VI" URL="../STM/TCP/STM Write Meta Data (TCP Ref).vi"/>
-				<Item Name="stm_TCP Connection Info.ctl" Type="VI" URL="../STM/TCP/stm_TCP Connection Info.ctl"/>
-				<Item Name="stm_TCP Data Info.ctl" Type="VI" URL="../STM/TCP/stm_TCP Data Info.ctl"/>
-				<Item Name="stm_TCP Read Options.ctl" Type="VI" URL="../STM/TCP/stm_TCP Read Options.ctl"/>
-				<Item Name="stm_TCP Write Options.ctl" Type="VI" URL="../STM/TCP/stm_TCP Write Options.ctl"/>
-			</Item>
-			<Item Name="Clear Specific Error.vi" Type="VI" URL="../STM/Clear Specific Error.vi"/>
-			<Item Name="STM Get Connection Reference.vi" Type="VI" URL="../STM/STM Get Connection Reference.vi"/>
-			<Item Name="STM Read Message.vi" Type="VI" URL="../STM/STM Read Message.vi"/>
-			<Item Name="STM Read Meta Data.vi" Type="VI" URL="../STM/STM Read Meta Data.vi"/>
-			<Item Name="STM Write Message.vi" Type="VI" URL="../STM/STM Write Message.vi"/>
-			<Item Name="STM Write Meta Data.vi" Type="VI" URL="../STM/STM Write Meta Data.vi"/>
-		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Build Address Tree.vi" Type="VI" URL="../SubVIs/Build Address Tree.vi"/>
 			<Item Name="Build Error Message.vi" Type="VI" URL="../SubVIs/Build Error Message.vi"/>
@@ -91,7 +61,6 @@
 			<Item Name="Outgoing Cyclic Channel Pairs.ctl" Type="VI" URL="../Types/Outgoing Cyclic Channel Pairs.ctl"/>
 			<Item Name="Private Data.ctl" Type="VI" URL="../Types/Private Data.ctl"/>
 			<Item Name="Request Message.ctl" Type="VI" URL="../Types/Request Message.ctl"/>
-			<Item Name="RQST Comm Lookup Table_Ref.ctl" Type="VI" URL="../Types/RQST Comm Lookup Table_Ref.ctl"/>
 			<Item Name="SPN Properties.ctl" Type="VI" URL="../Types/SPN Properties.ctl"/>
 			<Item Name="SysDef Command Settings.ctl" Type="VI" URL="../Types/SysDef Command Settings.ctl"/>
 			<Item Name="SysDef FPGA Settings.ctl" Type="VI" URL="../Types/SysDef FPGA Settings.ctl"/>
