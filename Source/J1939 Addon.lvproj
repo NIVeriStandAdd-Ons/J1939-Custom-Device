@@ -735,7 +735,7 @@
 				<Property Name="Source[41].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[41].type" Type="Str">Container</Property>
 				<Property Name="Source[42].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[42].itemID" Type="Ref">/My Computer/J1939 Addon Shared.lvlib/Shared/Tables</Property>
+				<Property Name="Source[42].itemID" Type="Ref"></Property>
 				<Property Name="Source[42].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[42].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[42].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -1460,7 +1460,7 @@
 				<Property Name="Source[15].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[15].type" Type="Str">Container</Property>
 				<Property Name="Source[16].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/RT PXI Target - Pharlap/J1939 Addon Shared.lvlib/Shared/Tables</Property>
+				<Property Name="Source[16].itemID" Type="Ref"></Property>
 				<Property Name="Source[16].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[16].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[16].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -1915,7 +1915,7 @@
 				<Property Name="Source[10].type" Type="Str">Container</Property>
 				<Property Name="Source[11].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[11].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/J1939 Addon Shared.lvlib/Shared/Tables</Property>
+				<Property Name="Source[11].itemID" Type="Ref"></Property>
 				<Property Name="Source[11].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[11].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[11].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -2450,7 +2450,7 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[10].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/J1939 Addon Shared.lvlib/Shared/Tables</Property>
+				<Property Name="Source[10].itemID" Type="Ref"></Property>
 				<Property Name="Source[10].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[10].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[10].properties[1].type" Type="Str">Remove block diagram</Property>

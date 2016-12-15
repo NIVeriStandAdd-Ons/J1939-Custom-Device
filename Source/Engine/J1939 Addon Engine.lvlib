@@ -151,12 +151,10 @@
 		<Item Name="Diagnostic Data Lookup Table State Variables.ctl" Type="VI" URL="../Types/Diagnostic Data Lookup Table State Variables.ctl"/>
 		<Item Name="DTC FIFOs.ctl" Type="VI" URL="../Types/DTC FIFOs.ctl"/>
 		<Item Name="Incoming Single Point Configuration.ctl" Type="VI" URL="../Types/Incoming Single Point Configuration.ctl"/>
-		<Item Name="Incoming Single Point Frame Pairs.ctl" Type="VI" URL="../Types/Incoming Single Point Frame Pairs.ctl"/>
 		<Item Name="Inline Device Cluster.ctl" Type="VI" URL="../Types/Inline Device Cluster.ctl"/>
 		<Item Name="Internal Command Configuration Parameters.ctl" Type="VI" URL="../Types/Internal Command Configuration Parameters.ctl"/>
 		<Item Name="Internal Command Engine States.ctl" Type="VI" URL="../Types/Internal Command Engine States.ctl"/>
 		<Item Name="Outgoing Cyclic Configuration.ctl" Type="VI" URL="../Types/Outgoing Cyclic Configuration.ctl"/>
-		<Item Name="Outgoing Cyclic Frame Pairs.ctl" Type="VI" URL="../Types/Outgoing Cyclic Frame Pairs.ctl"/>
 		<Item Name="Process Parameters.ctl" Type="VI" URL="../Types/Process Parameters.ctl"/>
 		<Item Name="Simulated Settings.ctl" Type="VI" URL="../Types/Simulated Settings.ctl"/>
 	</Item>
