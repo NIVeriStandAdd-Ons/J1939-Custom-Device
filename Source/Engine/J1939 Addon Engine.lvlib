@@ -87,6 +87,7 @@
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Address Lookup Table Initialize.vi" Type="VI" URL="../SubVIs/Address Lookup Table Initialize.vi"/>
+		<Item Name="Clear DTC FIFOs.vi" Type="VI" URL="../SubVIs/Clear DTC FIFOs.vi"/>
 		<Item Name="Conversion Lookup Table Get Conversion Parameter.vi" Type="VI" URL="../SubVIs/Conversion Lookup Table Get Conversion Parameter.vi"/>
 		<Item Name="Conversion Lookup Table Initialize.vi" Type="VI" URL="../SubVIs/Conversion Lookup Table Initialize.vi"/>
 		<Item Name="Convert Data to DTC Frame.vi" Type="VI" URL="../SubVIs/Convert Data to DTC Frame.vi"/>
@@ -158,9 +159,6 @@
 		<Item Name="Outgoing Cyclic Frame Pairs.ctl" Type="VI" URL="../Types/Outgoing Cyclic Frame Pairs.ctl"/>
 		<Item Name="Process Parameters.ctl" Type="VI" URL="../Types/Process Parameters.ctl"/>
 		<Item Name="Simulated Settings.ctl" Type="VI" URL="../Types/Simulated Settings.ctl"/>
-	</Item>
-	<Item Name="Userlib" Type="Folder">
-		<Item Name="Inline Async API.lvlib" Type="Library" URL="../SubVIs/Inline Async API/Inline Async API.lvlib"/>
 	</Item>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
 </Library>
