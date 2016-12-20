@@ -88,6 +88,7 @@
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Address Lookup Table Initialize.vi" Type="VI" URL="../SubVIs/Address Lookup Table Initialize.vi"/>
 		<Item Name="Clear DTC FIFOs.vi" Type="VI" URL="../SubVIs/Clear DTC FIFOs.vi"/>
+		<Item Name="Command Handler.vi" Type="VI" URL="../SubVIs/Command Handler.vi"/>
 		<Item Name="Conversion Lookup Table Get Conversion Parameter.vi" Type="VI" URL="../SubVIs/Conversion Lookup Table Get Conversion Parameter.vi"/>
 		<Item Name="Conversion Lookup Table Initialize.vi" Type="VI" URL="../SubVIs/Conversion Lookup Table Initialize.vi"/>
 		<Item Name="Convert Data to DTC Frame.vi" Type="VI" URL="../SubVIs/Convert Data to DTC Frame.vi"/>
@@ -101,7 +102,6 @@
 		<Item Name="Diagnostic Data Lookup Table Action.vi" Type="VI" URL="../SubVIs/Diagnostic Data Lookup Table Action.vi"/>
 		<Item Name="Diagnostic Data Lookup Table Initialize.vi" Type="VI" URL="../SubVIs/Diagnostic Data Lookup Table Initialize.vi"/>
 		<Item Name="Download Bitfile.vi" Type="VI" URL="../SubVIs/Download Bitfile.vi"/>
-		<Item Name="Get Internal Command FIFO References.vi" Type="VI" URL="../SubVIs/Get Internal Command FIFO References.vi"/>
 		<Item Name="Get Simulated Active DTCs.vi" Type="VI" URL="../SubVIs/Get Simulated Active DTCs.vi"/>
 		<Item Name="Get Simulated Previously Active DTCs.vi" Type="VI" URL="../SubVIs/Get Simulated Previously Active DTCs.vi"/>
 		<Item Name="Init Incoming Single Point Signals.vi" Type="VI" URL="../SubVIs/Init Incoming Single Point Signals.vi"/>
@@ -112,7 +112,6 @@
 		<Item Name="Main Cleanup.vi" Type="VI" URL="../SubVIs/Main Cleanup.vi"/>
 		<Item Name="Main Initialize.vi" Type="VI" URL="../SubVIs/Main Initialize.vi"/>
 		<Item Name="Main Listen for New Connections.vi" Type="VI" URL="../SubVIs/Main Listen for New Connections.vi"/>
-		<Item Name="Main Listen for TCP Commands.vi" Type="VI" URL="../SubVIs/Main Listen for TCP Commands.vi"/>
 		<Item Name="Main Output Messages.vi" Type="VI" URL="../SubVIs/Main Output Messages.vi"/>
 		<Item Name="Main Process Outgoing Messages.vi" Type="VI" URL="../SubVIs/Main Process Outgoing Messages.vi"/>
 		<Item Name="Main Read Data From VeriStand.vi" Type="VI" URL="../SubVIs/Main Read Data From VeriStand.vi"/>

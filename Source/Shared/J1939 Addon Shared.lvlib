@@ -42,7 +42,6 @@
 			<Item Name="Search Sysdef for Custom Devices.vi" Type="VI" URL="../SubVIs/Search Sysdef for Custom Devices.vi"/>
 			<Item Name="Search Sysdef for Targets.vi" Type="VI" URL="../SubVIs/Search Sysdef for Targets.vi"/>
 			<Item Name="Select Custom Device.vi" Type="VI" URL="../SubVIs/Select Custom Device.vi"/>
-			<Item Name="Send Request over STM.vi" Type="VI" URL="../SubVIs/Send Request over STM.vi"/>
 			<Item Name="STM Close Connection.vi" Type="VI" URL="../SubVIs/STM Close Connection.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
