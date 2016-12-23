@@ -111,7 +111,6 @@
 		<Item Name="Load 986x Bitfile.vi" Type="VI" URL="../SubVIs/Load 986x Bitfile.vi"/>
 		<Item Name="Main Cleanup.vi" Type="VI" URL="../SubVIs/Main Cleanup.vi"/>
 		<Item Name="Main Initialize.vi" Type="VI" URL="../SubVIs/Main Initialize.vi"/>
-		<Item Name="Main Listen for New Connections.vi" Type="VI" URL="../SubVIs/Main Listen for New Connections.vi"/>
 		<Item Name="Main Output Messages.vi" Type="VI" URL="../SubVIs/Main Output Messages.vi"/>
 		<Item Name="Main Process Outgoing Messages.vi" Type="VI" URL="../SubVIs/Main Process Outgoing Messages.vi"/>
 		<Item Name="Main Read Data From VeriStand.vi" Type="VI" URL="../SubVIs/Main Read Data From VeriStand.vi"/>
