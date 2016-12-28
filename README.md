@@ -23,11 +23,15 @@ Addon does not support claiming addresses for simulated ECUs but can send data f
 
 NI XNET 14.0
 
-Inline Async API (https://github.com/NIVeriStandAdd-Ons/Inline-Async-API)
+NI Simple Messaging Library 3.0.0.7 or later
 
-System Definition Utilities (https://github.com/NIVeriStandAdd-Ons/System-Definition-Utilities)
+NI Asynchronous Messaging Communication Library 3.3.1.22 or later
+
+VeriStand Addon Inline Async API (https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-Inline-Async-API)
 
 VeriStand Addon Network Comm (https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-Network-Comm)
+
+VeriStand Addon System Definition Utilities (https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-System-Definition-Utilities)
 
 ### License ###
 
