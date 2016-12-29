@@ -19,12 +19,6 @@
 			<Item Name="DM13 Stop.vi" Type="VI" URL="../SubVIs/DM13 Stop.vi"/>
 			<Item Name="Request Address.vi" Type="VI" URL="../SubVIs/Request Address.vi"/>
 			<Item Name="Request.vi" Type="VI" URL="../SubVIs/Request.vi"/>
-			<Item Name="TP.CM BAM.vi" Type="VI" URL="../SubVIs/TP.CM BAM.vi"/>
-			<Item Name="TP.CM CTS.vi" Type="VI" URL="../SubVIs/TP.CM CTS.vi"/>
-			<Item Name="TP.CM EndofMsgACK.vi" Type="VI" URL="../SubVIs/TP.CM EndofMsgACK.vi"/>
-			<Item Name="TP.CM RTS.vi" Type="VI" URL="../SubVIs/TP.CM RTS.vi"/>
-			<Item Name="TP.Conn Abort.vi" Type="VI" URL="../SubVIs/TP.Conn Abort.vi"/>
-			<Item Name="TP.DT.vi" Type="VI" URL="../SubVIs/TP.DT.vi"/>
 		</Item>
 		<Item Name="Type" Type="Folder">
 			<Item Name="CAN Outgoing Message Cluster.ctl" Type="VI" URL="../Types/CAN Outgoing Message Cluster.ctl"/>
@@ -33,10 +27,7 @@
 			<Item Name="Outgoing Messages Frame Type.ctl" Type="VI" URL="../Types/Outgoing Messages Frame Type.ctl"/>
 			<Item Name="PGN Fields Cluster.ctl" Type="VI" URL="../Types/PGN Fields Cluster.ctl"/>
 		</Item>
-		<Item Name="Check Output Message Frame Type.vi" Type="VI" URL="../Check Output Message Frame Type.vi"/>
 		<Item Name="Common Conversions.vi" Type="VI" URL="../Common Conversions.vi"/>
 		<Item Name="Common Messages.vi" Type="VI" URL="../Common Messages.vi"/>
-		<Item Name="Filter by Device Address.vi" Type="VI" URL="../Filter by Device Address.vi"/>
-		<Item Name="Parse Message Type.vi" Type="VI" URL="../Parse Message Type.vi"/>
 	</Item>
 </Library>
