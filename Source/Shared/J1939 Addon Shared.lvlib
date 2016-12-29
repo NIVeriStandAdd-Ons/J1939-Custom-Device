@@ -48,10 +48,15 @@
 			<Item Name="Address Lookup Table Data.ctl" Type="VI" URL="../Types/Address Lookup Table Data.ctl"/>
 			<Item Name="Address Parse Tree Cluster.ctl" Type="VI" URL="../Types/Address Parse Tree Cluster.ctl"/>
 			<Item Name="Compile Addon Settings.ctl" Type="VI" URL="../Types/Compile Addon Settings.ctl"/>
+			<Item Name="Compiled Monitor Tool Settings.ctl" Type="VI" URL="../Types/Compiled Monitor Tool Settings.ctl"/>
 			<Item Name="Compiled Simulated Settings.ctl" Type="VI" URL="../Types/Compiled Simulated Settings.ctl"/>
+			<Item Name="Compiled.Node Settings.ctl" Type="VI" URL="../Types/Compiled.Node Settings.ctl"/>
+			<Item Name="Complied Simulated Device Settings.ctl" Type="VI" URL="../Types/Complied Simulated Device Settings.ctl"/>
 			<Item Name="Convert DTCs Cluster.ctl" Type="VI" URL="../Types/Convert DTCs Cluster.ctl"/>
+			<Item Name="Device Settings.ctl" Type="VI" URL="../Types/Device Settings.ctl"/>
 			<Item Name="Error Cluster.ctl" Type="VI" URL="../Types/Error Cluster.ctl"/>
 			<Item Name="Error Types.ctl" Type="VI" URL="../Types/Error Types.ctl"/>
+			<Item Name="Frame Settings.ctl" Type="VI" URL="../Types/Frame Settings.ctl"/>
 			<Item Name="Incoming Single Point Channel Pairs.ctl" Type="VI" URL="../Types/Incoming Single Point Channel Pairs.ctl"/>
 			<Item Name="Monitor Settings.ctl" Type="VI" URL="../Types/Monitor Settings.ctl"/>
 			<Item Name="Outgoing Cyclic Channel Pairs.ctl" Type="VI" URL="../Types/Outgoing Cyclic Channel Pairs.ctl"/>
@@ -60,8 +65,10 @@
 			<Item Name="SPN Properties.ctl" Type="VI" URL="../Types/SPN Properties.ctl"/>
 			<Item Name="SysDef Command Settings.ctl" Type="VI" URL="../Types/SysDef Command Settings.ctl"/>
 			<Item Name="SysDef FPGA Settings.ctl" Type="VI" URL="../Types/SysDef FPGA Settings.ctl"/>
+			<Item Name="SysDef Incoming Frame Configuration.ctl" Type="VI" URL="../Types/SysDef Incoming Frame Configuration.ctl"/>
 			<Item Name="SysDef Incoming Single Point Configurations.ctl" Type="VI" URL="../Types/SysDef Incoming Single Point Configurations.ctl"/>
 			<Item Name="SysDef Outgoing Cyclic Configurations.ctl" Type="VI" URL="../Types/SysDef Outgoing Cyclic Configurations.ctl"/>
+			<Item Name="SysDef Outgoing Frame Configuration.ctl" Type="VI" URL="../Types/SysDef Outgoing Frame Configuration.ctl"/>
 			<Item Name="XNET Frame Event Properties.ctl" Type="VI" URL="../Types/XNET Frame Event Properties.ctl"/>
 			<Item Name="XNET Settings.ctl" Type="VI" URL="../Types/XNET Settings.ctl"/>
 		</Item>
