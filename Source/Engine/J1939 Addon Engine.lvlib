@@ -75,11 +75,14 @@
 		<Item Name="Protocol.Get Simulated Active DTCs.vi" Type="VI" URL="../SubVIs/Protocol.Get Simulated Active DTCs.vi"/>
 		<Item Name="Protocol.Get Simulated Previously Active DTCs.vi" Type="VI" URL="../SubVIs/Protocol.Get Simulated Previously Active DTCs.vi"/>
 		<Item Name="Protocol.Initialize.vi" Type="VI" URL="../SubVIs/Protocol.Initialize.vi"/>
+		<Item Name="Protocol.J1939 Filter by Device Address.vi" Type="VI" URL="../SubVIs/Protocol.J1939 Filter by Device Address.vi"/>
 		<Item Name="Protocol.Output Messages.vi" Type="VI" URL="../SubVIs/Protocol.Output Messages.vi"/>
 		<Item Name="Protocol.Parse Message Type.vi" Type="VI" URL="../SubVIs/Protocol.Parse Message Type.vi"/>
 		<Item Name="Protocol.Process Incoming Messages by PDU F.vi" Type="VI" URL="../SubVIs/Protocol.Process Incoming Messages by PDU F.vi"/>
 		<Item Name="Protocol.Process Incoming Messages.vi" Type="VI" URL="../SubVIs/Protocol.Process Incoming Messages.vi"/>
-		<Item Name="Protocol.Read Incoming Messages.vi" Type="VI" URL="../SubVIs/Protocol.Read Incoming Messages.vi"/>
+		<Item Name="Protocol.Process J1939 Incoming Messages.vi" Type="VI" URL="../SubVIs/Protocol.Process J1939 Incoming Messages.vi"/>
+		<Item Name="Protocol.Read CAN Incoming Messages.vi" Type="VI" URL="../SubVIs/Protocol.Read CAN Incoming Messages.vi"/>
+		<Item Name="Protocol.Read J1939 Incoming Messages.vi" Type="VI" URL="../SubVIs/Protocol.Read J1939 Incoming Messages.vi"/>
 		<Item Name="Protocol.Read Queued Processed Outgoing Messages.vi" Type="VI" URL="../SubVIs/Protocol.Read Queued Processed Outgoing Messages.vi"/>
 		<Item Name="Protocol.RQST Look for Response.vi" Type="VI" URL="../SubVIs/Protocol.RQST Look for Response.vi"/>
 		<Item Name="Protocol.RQST Lookup Table Act.vi" Type="VI" URL="../SubVIs/Protocol.RQST Lookup Table Act.vi"/>

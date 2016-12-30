@@ -76,6 +76,7 @@
 		<Item Name="J1939 Addon Shared.lvlib" Type="Library" URL="../Shared/J1939 Addon Shared.lvlib"/>
 		<Item Name="J1939 Addon System Explorer.lvlib" Type="Library" URL="../System Explorer/J1939 Addon System Explorer.lvlib"/>
 		<Item Name="J1939 Workspace Object.lvlib" Type="Library" URL="../Workspace/J1939 Workspace Object.lvlib"/>
+		<Item Name="TestingAddressClaimLogic.vi" Type="VI" URL="../../../../Users/deaton/Desktop/TestingAddressClaimLogic.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="_XNET Close All.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Close All.vi"/>
@@ -1157,6 +1158,7 @@
 		<Item Name="J1939 Addon Engine.lvlib" Type="Library" URL="../Engine/J1939 Addon Engine.lvlib"/>
 		<Item Name="J1939 Addon Shared.lvlib" Type="Library" URL="../Shared/J1939 Addon Shared.lvlib"/>
 		<Item Name="J1939 Host Automation API.lvlib" Type="Library" URL="../APIs/Host Automation API/J1939 Host Automation API.lvlib"/>
+		<Item Name="Testing.vi" Type="VI" URL="../../../../Users/deaton/Desktop/Testing.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="_XNET Close All.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Close All.vi"/>
@@ -1348,7 +1350,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{EBCBE6D2-9B73-4CA1-9314-AE8EF883EA33}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/J1939 Addon Engine Pharlap.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">33</Property>
+				<Property Name="Bld_version.build" Type="Int">41</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Pharlap/J1939 Addon Engine Pharlap.llb</Property>
