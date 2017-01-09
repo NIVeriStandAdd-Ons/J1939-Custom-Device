@@ -34,14 +34,11 @@
 	<Property Name="Serialized ACL" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Processes" Type="Folder">
-		<Item Name="Command.Main.vi" Type="VI" URL="../SubVIs/Command.Main.vi"/>
 		<Item Name="Protocol.Main.vi" Type="VI" URL="../SubVIs/Protocol.Main.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Command.Convert Internal Command.vi" Type="VI" URL="../SubVIs/Command.Convert Internal Command.vi"/>
-		<Item Name="Command.Diagnostic Data Lookup Table Action.vi" Type="VI" URL="../SubVIs/Command.Diagnostic Data Lookup Table Action.vi"/>
-		<Item Name="Command.Diagnostic Data Lookup Table Initialize.vi" Type="VI" URL="../SubVIs/Command.Diagnostic Data Lookup Table Initialize.vi"/>
-		<Item Name="Command.Diagnostic Data Lookup Table.vi" Type="VI" URL="../SubVIs/Command.Diagnostic Data Lookup Table.vi"/>
+		<Item Name="Command.Main.vi" Type="VI" URL="../SubVIs/Command.Main.vi"/>
 		<Item Name="Main.CheckAddressClaim.vi" Type="VI" URL="../SubVIs/Main.CheckAddressClaim.vi"/>
 		<Item Name="Main.Cleanup.vi" Type="VI" URL="../SubVIs/Main.Cleanup.vi"/>
 		<Item Name="Main.Create XNET Data Sessions.vi" Type="VI" URL="../SubVIs/Main.Create XNET Data Sessions.vi"/>
@@ -94,10 +91,8 @@
 		<Item Name="Protocol.Send Reset Previously Active DTC to Main.vi" Type="VI" URL="../SubVIs/Protocol.Send Reset Previously Active DTC to Main.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
-		<Item Name="Command.Configuration.ctl" Type="VI" URL="../Types/Command.Configuration.ctl"/>
-		<Item Name="Command.Diagnostic Data Lookup Table Action.ctl" Type="VI" URL="../Types/Command.Diagnostic Data Lookup Table Action.ctl"/>
-		<Item Name="Command.Diagnostic Data Lookup Table Reference.ctl" Type="VI" URL="../Types/Command.Diagnostic Data Lookup Table Reference.ctl"/>
-		<Item Name="Command.Diagnostic Data Lookup Table State Variables.ctl" Type="VI" URL="../Types/Command.Diagnostic Data Lookup Table State Variables.ctl"/>
+		<Item Name="Command.Commands.ctl" Type="VI" URL="../Types/Command.Commands.ctl"/>
+		<Item Name="Command.Responses.ctl" Type="VI" URL="../Types/Command.Responses.ctl"/>
 		<Item Name="Command.States.ctl" Type="VI" URL="../Types/Command.States.ctl"/>
 		<Item Name="Engine.DTC FIFOs.ctl" Type="VI" URL="../Types/Engine.DTC FIFOs.ctl"/>
 		<Item Name="Engine.DTC Settings.ctl" Type="VI" URL="../Types/Engine.DTC Settings.ctl"/>
