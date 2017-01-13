@@ -11,25 +11,13 @@
 				<Item Name="ActionVIOnLoad.vi" Type="VI" URL="../Actions/ActionVIOnLoad.vi"/>
 			</Item>
 			<Item Name="Extra Pages" Type="Folder">
-				<Item Name="Clear DTCs Page.vi" Type="VI" URL="../Pages/Clear DTCs Page.vi"/>
 				<Item Name="Diagnostic Channel.vi" Type="VI" URL="../Pages/Diagnostic Channel.vi"/>
-				<Item Name="Diagnostics Page.vi" Type="VI" URL="../Pages/Diagnostics Page.vi"/>
-				<Item Name="DM1 Active DTCs Page.vi" Type="VI" URL="../Pages/DM1 Active DTCs Page.vi"/>
-				<Item Name="DM2 Previously Active DTCs Page.vi" Type="VI" URL="../Pages/DM2 Previously Active DTCs Page.vi"/>
-				<Item Name="DTC Page.vi" Type="VI" URL="../Pages/DTC Page.vi"/>
 				<Item Name="Event Frame Page.vi" Type="VI" URL="../Pages/Event Frame Page.vi"/>
 				<Item Name="Frame Page.vi" Type="VI" URL="../Pages/Frame Page.vi"/>
-				<Item Name="Incoming Page.vi" Type="VI" URL="../Pages/Incoming Page.vi"/>
-				<Item Name="Incoming Single Point Page.vi" Type="VI" URL="../Pages/Incoming Single Point Page.vi"/>
 				<Item Name="Monitor Tool Page.vi" Type="VI" URL="../Pages/Monitor Tool Page.vi"/>
-				<Item Name="Outgoing Cyclic Page.vi" Type="VI" URL="../Pages/Outgoing Cyclic Page.vi"/>
-				<Item Name="Outgoing Event Page.vi" Type="VI" URL="../Pages/Outgoing Event Page.vi"/>
-				<Item Name="Outgoing Page.vi" Type="VI" URL="../Pages/Outgoing Page.vi"/>
+				<Item Name="Section Page.vi" Type="VI" URL="../Pages/Section Page.vi"/>
 				<Item Name="Signal Page.vi" Type="VI" URL="../Pages/Signal Page.vi"/>
 				<Item Name="Simulated Device Page.vi" Type="VI" URL="../Pages/Simulated Device Page.vi"/>
-				<Item Name="Simulated Diagnostics Page.vi" Type="VI" URL="../Pages/Simulated Diagnostics Page.vi"/>
-				<Item Name="Simulation Page.vi" Type="VI" URL="../Pages/Simulation Page.vi"/>
-				<Item Name="Verify DTC Page.vi" Type="VI" URL="../Pages/Verify DTC Page.vi"/>
 			</Item>
 			<Item Name="RTMs" Type="Folder">
 				<Item Name="Add Device.vi" Type="VI" URL="../RTMs/Add Device.vi"/>
