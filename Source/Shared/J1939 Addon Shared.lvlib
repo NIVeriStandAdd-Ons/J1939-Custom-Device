@@ -57,9 +57,11 @@
 			<Item Name="Error Cluster.ctl" Type="VI" URL="../Types/Error Cluster.ctl"/>
 			<Item Name="Error Types.ctl" Type="VI" URL="../Types/Error Types.ctl"/>
 			<Item Name="Frame Settings.ctl" Type="VI" URL="../Types/Frame Settings.ctl"/>
+			<Item Name="Incoming Settings.ctl" Type="VI" URL="../Types/Incoming Settings.ctl"/>
 			<Item Name="Incoming Single Point Channel Pairs.ctl" Type="VI" URL="../Types/Incoming Single Point Channel Pairs.ctl"/>
 			<Item Name="Monitor Settings.ctl" Type="VI" URL="../Types/Monitor Settings.ctl"/>
 			<Item Name="Outgoing Cyclic Channel Pairs.ctl" Type="VI" URL="../Types/Outgoing Cyclic Channel Pairs.ctl"/>
+			<Item Name="Outgoing Settings.ctl" Type="VI" URL="../Types/Outgoing Settings.ctl"/>
 			<Item Name="Private Data.ctl" Type="VI" URL="../Types/Private Data.ctl"/>
 			<Item Name="Request Message.ctl" Type="VI" URL="../Types/Request Message.ctl"/>
 			<Item Name="SPN Properties.ctl" Type="VI" URL="../Types/SPN Properties.ctl"/>

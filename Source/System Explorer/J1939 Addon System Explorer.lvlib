@@ -22,6 +22,7 @@
 			<Item Name="RTMs" Type="Folder">
 				<Item Name="Add Device.vi" Type="VI" URL="../RTMs/Add Device.vi"/>
 				<Item Name="Add DTC.vi" Type="VI" URL="../RTMs/Add DTC.vi"/>
+				<Item Name="Create Information Channels.vi" Type="VI" URL="../RTMs/Create Information Channels.vi"/>
 				<Item Name="EnableDisable Main Page.vi" Type="VI" URL="../RTMs/EnableDisable Main Page.vi"/>
 				<Item Name="Export Configuation.vi" Type="VI" URL="../RTMs/Export Configuation.vi"/>
 				<Item Name="Select XNET Signals.vi" Type="VI" URL="../RTMs/Select XNET Signals.vi"/>
@@ -34,6 +35,7 @@
 			<Item Name="Add Custom Device Section - Offline.vi" Type="VI" URL="../SubVIs/Add Custom Device Section - Offline.vi"/>
 			<Item Name="Add Database to SysDef.vi" Type="VI" URL="../SubVIs/Add Database to SysDef.vi"/>
 			<Item Name="Browse for XNET Database.vi" Type="VI" URL="../SubVIs/Browse for XNET Database.vi"/>
+			<Item Name="Compiled Get Node Frames.Incoming.vi" Type="VI" URL="../SubVIs/Compiled Get Node Frames.Incoming.vi"/>
 			<Item Name="Compiled Get Node Frames.vi" Type="VI" URL="../SubVIs/Compiled Get Node Frames.vi"/>
 			<Item Name="Compiled Get Node Settings.vi" Type="VI" URL="../SubVIs/Compiled Get Node Settings.vi"/>
 			<Item Name="Compiled Get Sim Device Settings.vi" Type="VI" URL="../SubVIs/Compiled Get Sim Device Settings.vi"/>
