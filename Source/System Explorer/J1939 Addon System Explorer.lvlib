@@ -72,4 +72,5 @@
 			<Item Name="XNET Port.ctl" Type="VI" URL="../Types/XNET Port.ctl"/>
 		</Item>
 	</Item>
+	<Item Name="Add Information Channels.vi" Type="VI" URL="../SubVIs/Add Information Channels.vi"/>
 </Library>
