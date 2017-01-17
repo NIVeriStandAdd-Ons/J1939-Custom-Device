@@ -36,8 +36,6 @@
 		<Item Name="Protocol.Main.vi" Type="VI" URL="../SubVIs/Protocol.Main.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
-		<Item Name="Command.Convert Internal Command.vi" Type="VI" URL="../SubVIs/Command.Convert Internal Command.vi"/>
-		<Item Name="Command.Main.vi" Type="VI" URL="../SubVIs/Command.Main.vi"/>
 		<Item Name="Main.Cleanup.vi" Type="VI" URL="../SubVIs/Main.Cleanup.vi"/>
 		<Item Name="Main.Create XNET Data Sessions.vi" Type="VI" URL="../SubVIs/Main.Create XNET Data Sessions.vi"/>
 		<Item Name="Main.Download Bitfile.vi" Type="VI" URL="../SubVIs/Main.Download Bitfile.vi"/>
@@ -46,20 +44,20 @@
 		<Item Name="Main.Initialize.vi" Type="VI" URL="../SubVIs/Main.Initialize.vi"/>
 		<Item Name="Main.InitializeXNET.vi" Type="VI" URL="../SubVIs/Main.InitializeXNET.vi"/>
 		<Item Name="Main.Load 986x Bitfile.vi" Type="VI" URL="../SubVIs/Main.Load 986x Bitfile.vi"/>
-		<Item Name="Main.Package Parameters for Asynch VIs.vi" Type="VI" URL="../SubVIs/Main.Package Parameters for Asynch VIs.vi"/>
 		<Item Name="Main.Read Data from VS.vi" Type="VI" URL="../SubVIs/Main.Read Data from VS.vi"/>
 		<Item Name="Main.Read DTC Values from VS.vi" Type="VI" URL="../SubVIs/Main.Read DTC Values from VS.vi"/>
 		<Item Name="Main.Reset DTC Enable Values.vi" Type="VI" URL="../SubVIs/Main.Reset DTC Enable Values.vi"/>
 		<Item Name="Main.Start.vi" Type="VI" URL="../SubVIs/Main.Start.vi"/>
 		<Item Name="Main.Unload bitfile.vi" Type="VI" URL="../SubVIs/Main.Unload bitfile.vi"/>
 		<Item Name="Main.Write Data to VS.vi" Type="VI" URL="../SubVIs/Main.Write Data to VS.vi"/>
-		<Item Name="NetworkCommand.Handler.vi" Type="VI" URL="../SubVIs/NetworkCommand.Handler.vi"/>
 		<Item Name="Protocol.Address Lookup Table Action.vi" Type="VI" URL="../SubVIs/Protocol.Address Lookup Table Action.vi"/>
 		<Item Name="Protocol.Address Lookup Table Initialize.vi" Type="VI" URL="../SubVIs/Protocol.Address Lookup Table Initialize.vi"/>
 		<Item Name="Protocol.Address Lookup Table.vi" Type="VI" URL="../SubVIs/Protocol.Address Lookup Table.vi"/>
 		<Item Name="Protocol.Claim Addresses.vi" Type="VI" URL="../SubVIs/Protocol.Claim Addresses.vi"/>
 		<Item Name="Protocol.Cleanup.vi" Type="VI" URL="../SubVIs/Protocol.Cleanup.vi"/>
 		<Item Name="Protocol.Close References.vi" Type="VI" URL="../SubVIs/Protocol.Close References.vi"/>
+		<Item Name="Protocol.Command.Convert Internal Command.vi" Type="VI" URL="../SubVIs/Protocol.Command.Convert Internal Command.vi"/>
+		<Item Name="Protocol.Command.Main.vi" Type="VI" URL="../SubVIs/Protocol.Command.Main.vi"/>
 		<Item Name="Protocol.Convert Data to DTC Frame.vi" Type="VI" URL="../SubVIs/Protocol.Convert Data to DTC Frame.vi"/>
 		<Item Name="Protocol.Convert Frame to NI-XNET CAN Frame.vi" Type="VI" URL="../SubVIs/Protocol.Convert Frame to NI-XNET CAN Frame.vi"/>
 		<Item Name="Protocol.Convert Rate to ms Wait.vi" Type="VI" URL="../SubVIs/Protocol.Convert Rate to ms Wait.vi"/>
@@ -71,6 +69,7 @@
 		<Item Name="Protocol.Get Simulated Previously Active DTCs.vi" Type="VI" URL="../SubVIs/Protocol.Get Simulated Previously Active DTCs.vi"/>
 		<Item Name="Protocol.Initialize.vi" Type="VI" URL="../SubVIs/Protocol.Initialize.vi"/>
 		<Item Name="Protocol.J1939 Filter by Device Address.vi" Type="VI" URL="../SubVIs/Protocol.J1939 Filter by Device Address.vi"/>
+		<Item Name="Protocol.Network.Command Handler.vi" Type="VI" URL="../SubVIs/Protocol.Network.Command Handler.vi"/>
 		<Item Name="Protocol.Output Messages.vi" Type="VI" URL="../SubVIs/Protocol.Output Messages.vi"/>
 		<Item Name="Protocol.Parse Message Type.vi" Type="VI" URL="../SubVIs/Protocol.Parse Message Type.vi"/>
 		<Item Name="Protocol.Process Incoming Messages by PDU F.vi" Type="VI" URL="../SubVIs/Protocol.Process Incoming Messages by PDU F.vi"/>
@@ -89,9 +88,6 @@
 		<Item Name="Protocol.Send Reset Previously Active DTC to Main.vi" Type="VI" URL="../SubVIs/Protocol.Send Reset Previously Active DTC to Main.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
-		<Item Name="Command.Commands.ctl" Type="VI" URL="../Types/Command.Commands.ctl"/>
-		<Item Name="Command.Responses.ctl" Type="VI" URL="../Types/Command.Responses.ctl"/>
-		<Item Name="Command.States.ctl" Type="VI" URL="../Types/Command.States.ctl"/>
 		<Item Name="Engine.DTC FIFOs.ctl" Type="VI" URL="../Types/Engine.DTC FIFOs.ctl"/>
 		<Item Name="Engine.DTC Settings.ctl" Type="VI" URL="../Types/Engine.DTC Settings.ctl"/>
 		<Item Name="Engine.Node DTC Settings.ctl" Type="VI" URL="../Types/Engine.Node DTC Settings.ctl"/>
@@ -100,6 +96,9 @@
 		<Item Name="Protocol.Address Lookup Table Action.ctl" Type="VI" URL="../Types/Protocol.Address Lookup Table Action.ctl"/>
 		<Item Name="Protocol.Address Table Reference.ctl" Type="VI" URL="../Types/Protocol.Address Table Reference.ctl"/>
 		<Item Name="Protocol.App Settings.ctl" Type="VI" URL="../Types/Protocol.App Settings.ctl"/>
+		<Item Name="Protocol.Command.Commands.ctl" Type="VI" URL="../Types/Protocol.Command.Commands.ctl"/>
+		<Item Name="Protocol.Command.Responses.ctl" Type="VI" URL="../Types/Protocol.Command.Responses.ctl"/>
+		<Item Name="Protocol.Command.States.ctl" Type="VI" URL="../Types/Protocol.Command.States.ctl"/>
 		<Item Name="Protocol.Configuration.ctl" Type="VI" URL="../Types/Protocol.Configuration.ctl"/>
 		<Item Name="Protocol.Refs.ctl" Type="VI" URL="../Types/Protocol.Refs.ctl"/>
 		<Item Name="Protocol.RQST Lookup Table Action.ctl" Type="VI" URL="../Types/Protocol.RQST Lookup Table Action.ctl"/>
