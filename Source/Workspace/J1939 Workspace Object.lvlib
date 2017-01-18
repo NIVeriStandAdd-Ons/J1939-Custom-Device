@@ -7,6 +7,15 @@
 	<Item Name="DTCs" Type="Folder">
 		<Item Name="J1939 - Workspace Control.vi" Type="VI" URL="../DTCs/J1939 - Workspace Control.vi"/>
 	</Item>
+	<Item Name="Shared" Type="Folder">
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Workspace.Initialize.vi" Type="VI" URL="../DTCs/SubVIs/Workspace.Initialize.vi"/>
+		</Item>
+		<Item Name="Types" Type="Folder">
+			<Item Name="UI.Refs.ctl" Type="VI" URL="../../../../Control Addon/Source/Workspace Objects/Types/UI.Refs.ctl"/>
+			<Item Name="UI.StateVariables.ctl" Type="VI" URL="../../../../Control Addon/Source/Workspace Objects/Types/UI.StateVariables.ctl"/>
+		</Item>
+	</Item>
 	<Item Name="SPN" Type="Folder">
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Convert VeriStand Variant.vi" Type="VI" URL="../SPN/SubVIs/Convert VeriStand Variant.vi"/>
