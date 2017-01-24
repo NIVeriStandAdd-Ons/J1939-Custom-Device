@@ -61,6 +61,7 @@
 			<Item Name="Incoming Single Point Channel Pairs.ctl" Type="VI" URL="../Types/Incoming Single Point Channel Pairs.ctl"/>
 			<Item Name="Monitor Settings.ctl" Type="VI" URL="../Types/Monitor Settings.ctl"/>
 			<Item Name="Outgoing Cyclic Channel Pairs.ctl" Type="VI" URL="../Types/Outgoing Cyclic Channel Pairs.ctl"/>
+			<Item Name="Outgoing Event Trigger Types.ctl" Type="VI" URL="../Types/Outgoing Event Trigger Types.ctl"/>
 			<Item Name="Outgoing Settings.ctl" Type="VI" URL="../Types/Outgoing Settings.ctl"/>
 			<Item Name="Private Data.ctl" Type="VI" URL="../Types/Private Data.ctl"/>
 			<Item Name="Request Message.ctl" Type="VI" URL="../Types/Request Message.ctl"/>

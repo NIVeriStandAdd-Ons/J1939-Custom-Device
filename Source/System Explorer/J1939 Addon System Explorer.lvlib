@@ -12,7 +12,6 @@
 			</Item>
 			<Item Name="Extra Pages" Type="Folder">
 				<Item Name="Diagnostic Channel.vi" Type="VI" URL="../Pages/Diagnostic Channel.vi"/>
-				<Item Name="Event Frame Page.vi" Type="VI" URL="../Pages/Event Frame Page.vi"/>
 				<Item Name="Frame Page.vi" Type="VI" URL="../Pages/Frame Page.vi"/>
 				<Item Name="Monitor Tool Page.vi" Type="VI" URL="../Pages/Monitor Tool Page.vi"/>
 				<Item Name="Section Page.vi" Type="VI" URL="../Pages/Section Page.vi"/>
@@ -46,6 +45,7 @@
 			<Item Name="Determine Decimation Rate.vi" Type="VI" URL="../SubVIs/Determine Decimation Rate.vi"/>
 			<Item Name="Disable Selected Opposing Channels.vi" Type="VI" URL="../SubVIs/Disable Selected Opposing Channels.vi"/>
 			<Item Name="Find and Disable Selected Opposing Channels.vi" Type="VI" URL="../SubVIs/Find and Disable Selected Opposing Channels.vi"/>
+			<Item Name="Frame.Settings.Get.vi" Type="VI" URL="../SubVIs/Frame.Settings.Get.vi"/>
 			<Item Name="Get Address and Name Settings.vi" Type="VI" URL="../SubVIs/Get Address and Name Settings.vi"/>
 			<Item Name="Get All Incoming Frames.vi" Type="VI" URL="../SubVIs/Get All Incoming Frames.vi"/>
 			<Item Name="Get All Outgoing Frames.vi" Type="VI" URL="../SubVIs/Get All Outgoing Frames.vi"/>
@@ -58,6 +58,7 @@
 			<Item Name="Get Target IP and Name.vi" Type="VI" URL="../SubVIs/Get Target IP and Name.vi"/>
 			<Item Name="Get Used J1939 Addresses.vi" Type="VI" URL="../SubVIs/Get Used J1939 Addresses.vi"/>
 			<Item Name="Get XNET Signal Names.vi" Type="VI" URL="../SubVIs/Get XNET Signal Names.vi"/>
+			<Item Name="Initialize Single Node Browser.vi" Type="VI" URL="../SubVIs/Initialize Single Node Browser.vi"/>
 			<Item Name="Initialize XNET Tree.vi" Type="VI" URL="../SubVIs/Initialize XNET Tree.vi"/>
 			<Item Name="Load Existing Selected XNET Signals.vi" Type="VI" URL="../SubVIs/Load Existing Selected XNET Signals.vi"/>
 			<Item Name="Move Addon Settings.vi" Type="VI" URL="../SubVIs/Move Addon Settings.vi"/>
@@ -66,10 +67,13 @@
 			<Item Name="Request Address and Name.vi" Type="VI" URL="../SubVIs/Request Address and Name.vi"/>
 			<Item Name="Select XNET Signals UI.vi" Type="VI" URL="../SubVIs/Select XNET Signals UI.vi"/>
 			<Item Name="Set Help Document Display.vi" Type="VI" URL="../SubVIs/Set Help Document Display.vi"/>
+			<Item Name="Set Node Dependence.vi" Type="VI" URL="../SubVIs/Set Node Dependence.vi"/>
 			<Item Name="Set Tree Symbols.vi" Type="VI" URL="../SubVIs/Set Tree Symbols.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="CAN Frame Filter.ctl" Type="VI" URL="../Types/CAN Frame Filter.ctl"/>
+			<Item Name="Compiled Refs.ctl" Type="VI" URL="../../Shared/Types/Compiled Refs.ctl"/>
+			<Item Name="Frame.Settings.ctl" Type="VI" URL="../Types/Frame.Settings.ctl"/>
 			<Item Name="XNET Port.ctl" Type="VI" URL="../Types/XNET Port.ctl"/>
 		</Item>
 	</Item>

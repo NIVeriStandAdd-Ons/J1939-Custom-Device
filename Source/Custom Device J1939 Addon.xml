@@ -656,7 +656,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Event Frame Page.vi</Path>
+        <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Frame Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
