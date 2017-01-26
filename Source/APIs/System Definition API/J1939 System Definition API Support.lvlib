@@ -15,14 +15,10 @@
 		<Item Name="Add Frames.vi" Type="VI" URL="../SubVIs/Add Frames.vi"/>
 		<Item Name="Add Items.vi" Type="VI" URL="../SubVIs/Add Items.vi"/>
 		<Item Name="Create Custom Device.vi" Type="VI" URL="../SubVIs/Create Custom Device.vi"/>
-		<Item Name="Get Custom Device Properties.vi" Type="VI" URL="../SubVIs/Get Custom Device Properties.vi"/>
 		<Item Name="Get Frames.vi" Type="VI" URL="../SubVIs/Get Frames.vi"/>
-		<Item Name="Get XNET Properties.vi" Type="VI" URL="../SubVIs/Get XNET Properties.vi"/>
 		<Item Name="Remove All.vi" Type="VI" URL="../SubVIs/Remove All.vi"/>
 		<Item Name="Remove Frames.vi" Type="VI" URL="../SubVIs/Remove Frames.vi"/>
 		<Item Name="Remove Items.vi" Type="VI" URL="../SubVIs/Remove Items.vi"/>
 		<Item Name="Remove Signals.vi" Type="VI" URL="../SubVIs/Remove Signals.vi"/>
-		<Item Name="Set Custom Device Properties.vi" Type="VI" URL="../SubVIs/Set Custom Device Properties.vi"/>
-		<Item Name="Set XNET Properties.vi" Type="VI" URL="../SubVIs/Set XNET Properties.vi"/>
 	</Item>
 </Library>

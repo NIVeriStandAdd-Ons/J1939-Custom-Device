@@ -73,7 +73,6 @@
 			<Item Name="Compiled.Get Monitor Tool Settings.vi" Type="VI" URL="../SubVIs/Compiled.Get Monitor Tool Settings.vi"/>
 			<Item Name="Compiled.Get Sim DTCs.vi" Type="VI" URL="../SubVIs/Compiled.Get Sim DTCs.vi"/>
 			<Item Name="Determine Decimation Rate.vi" Type="VI" URL="../SubVIs/Determine Decimation Rate.vi"/>
-			<Item Name="Frame.Settings.vi" Type="VI" URL="../SubVIs/Frame.Settings.vi"/>
 			<Item Name="Get All Incoming Frames.vi" Type="VI" URL="../SubVIs/Get All Incoming Frames.vi"/>
 			<Item Name="Get All Outgoing Frames.vi" Type="VI" URL="../SubVIs/Get All Outgoing Frames.vi"/>
 			<Item Name="Get DTC References.vi" Type="VI" URL="../SubVIs/Get DTC References.vi"/>
@@ -88,18 +87,15 @@
 			<Item Name="Move Addon Settings.vi" Type="VI" URL="../SubVIs/Move Addon Settings.vi"/>
 			<Item Name="Move Frame Settings.vi" Type="VI" URL="../SubVIs/Move Frame Settings.vi"/>
 			<Item Name="Move Tool Diagnostics Section.vi" Type="VI" URL="../SubVIs/Move Tool Diagnostics Section.vi"/>
-			<Item Name="Node.Settings.vi" Type="VI" URL="../SubVIs/Node.Settings.vi"/>
 			<Item Name="Request Address and Name.vi" Type="VI" URL="../SubVIs/Request Address and Name.vi"/>
 			<Item Name="Select XNET Signals UI.vi" Type="VI" URL="../SubVIs/Select XNET Signals UI.vi"/>
 			<Item Name="Set Help Document Display.vi" Type="VI" URL="../SubVIs/Set Help Document Display.vi"/>
 			<Item Name="Set Node Dependency.vi" Type="VI" URL="../SubVIs/Set Node Dependency.vi"/>
 			<Item Name="Set Tree Symbols.vi" Type="VI" URL="../SubVIs/Set Tree Symbols.vi"/>
-			<Item Name="XNET.Settings.vi" Type="VI" URL="../SubVIs/XNET.Settings.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="CAN Frame Filter.ctl" Type="VI" URL="../Types/CAN Frame Filter.ctl"/>
 			<Item Name="Compiled Refs.ctl" Type="VI" URL="../../Shared/Types/Compiled Refs.ctl"/>
-			<Item Name="Frame.Settings.ctl" Type="VI" URL="../Types/Frame.Settings.ctl"/>
 			<Item Name="XNET Port.ctl" Type="VI" URL="../Types/XNET Port.ctl"/>
 		</Item>
 	</Item>

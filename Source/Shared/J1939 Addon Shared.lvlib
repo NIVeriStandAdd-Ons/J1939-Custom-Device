@@ -23,9 +23,11 @@
 			<Item Name="Create Simulation Section.vi" Type="VI" URL="../SubVIs/Create Simulation Section.vi"/>
 			<Item Name="Defer Front Panel Updates.vi" Type="VI" URL="../SubVIs/Defer Front Panel Updates.vi"/>
 			<Item Name="Error Display.vi" Type="VI" URL="../SubVIs/Error Display.vi"/>
+			<Item Name="Frame.Settings.vi" Type="VI" URL="../SubVIs/Frame.Settings.vi"/>
 			<Item Name="Generate RAW Frame.vi" Type="VI" URL="../SubVIs/Generate RAW Frame.vi"/>
 			<Item Name="Get DTCs From CD and Display.vi" Type="VI" URL="../SubVIs/Get DTCs From CD and Display.vi"/>
 			<Item Name="Get Targets and Devices via Storage API.vi" Type="VI" URL="../SubVIs/Get Targets and Devices via Storage API.vi"/>
+			<Item Name="Node.Settings.vi" Type="VI" URL="../SubVIs/Node.Settings.vi"/>
 			<Item Name="Open Connection to Target.vi" Type="VI" URL="../SubVIs/Open Connection to Target.vi"/>
 			<Item Name="Parse Address Tree.vi" Type="VI" URL="../SubVIs/Parse Address Tree.vi"/>
 			<Item Name="Queue Error Messages.vi" Type="VI" URL="../SubVIs/Queue Error Messages.vi"/>
@@ -42,7 +44,9 @@
 			<Item Name="Search Sysdef for Custom Devices.vi" Type="VI" URL="../SubVIs/Search Sysdef for Custom Devices.vi"/>
 			<Item Name="Search Sysdef for Targets.vi" Type="VI" URL="../SubVIs/Search Sysdef for Targets.vi"/>
 			<Item Name="Select Custom Device.vi" Type="VI" URL="../SubVIs/Select Custom Device.vi"/>
+			<Item Name="SPN.Settings.vi" Type="VI" URL="../SubVIs/SPN.Settings.vi"/>
 			<Item Name="STM Close Connection.vi" Type="VI" URL="../SubVIs/STM Close Connection.vi"/>
+			<Item Name="XNET.Settings.vi" Type="VI" URL="../SubVIs/XNET.Settings.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Address Lookup Table Data.ctl" Type="VI" URL="../Types/Address Lookup Table Data.ctl"/>
@@ -57,6 +61,7 @@
 			<Item Name="Error Cluster.ctl" Type="VI" URL="../Types/Error Cluster.ctl"/>
 			<Item Name="Error Types.ctl" Type="VI" URL="../Types/Error Types.ctl"/>
 			<Item Name="Frame Settings.ctl" Type="VI" URL="../Types/Frame Settings.ctl"/>
+			<Item Name="Frame.Settings.ctl" Type="VI" URL="../Types/Frame.Settings.ctl"/>
 			<Item Name="Incoming Settings.ctl" Type="VI" URL="../Types/Incoming Settings.ctl"/>
 			<Item Name="Incoming Single Point Channel Pairs.ctl" Type="VI" URL="../Types/Incoming Single Point Channel Pairs.ctl"/>
 			<Item Name="Monitor Settings.ctl" Type="VI" URL="../Types/Monitor Settings.ctl"/>
