@@ -18,7 +18,6 @@
 	</Item>
 	<Item Name="SPN" Type="Folder">
 		<Item Name="SubVIs" Type="Folder">
-			<Item Name="Convert VeriStand Variant.vi" Type="VI" URL="../SPN/SubVIs/Convert VeriStand Variant.vi"/>
 			<Item Name="Pull out Scale Info_NET.vi" Type="VI" URL="../SPN/SubVIs/Pull out Scale Info_NET.vi"/>
 			<Item Name="Select Channel Dialog.vi" Type="VI" URL="../SPN/SubVIs/Select Channel Dialog.vi"/>
 		</Item>
