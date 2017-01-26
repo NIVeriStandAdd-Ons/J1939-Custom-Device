@@ -61,7 +61,6 @@
 		<Item Name="Protocol.Command.Main.vi" Type="VI" URL="../SubVIs/Protocol.Command.Main.vi"/>
 		<Item Name="Protocol.Convert Data to DTC Frame.vi" Type="VI" URL="../SubVIs/Protocol.Convert Data to DTC Frame.vi"/>
 		<Item Name="Protocol.Convert Frame to NI-XNET CAN Frame.vi" Type="VI" URL="../SubVIs/Protocol.Convert Frame to NI-XNET CAN Frame.vi"/>
-		<Item Name="Protocol.Convert Rate to ms Wait.vi" Type="VI" URL="../SubVIs/Protocol.Convert Rate to ms Wait.vi"/>
 		<Item Name="Protocol.Convert Signals to Frame by ID.vi" Type="VI" URL="../SubVIs/Protocol.Convert Signals to Frame by ID.vi"/>
 		<Item Name="Protocol.Create Protocol Settings.vi" Type="VI" URL="../SubVIs/Protocol.Create Protocol Settings.vi"/>
 		<Item Name="Protocol.Create XNET Sessions.vi" Type="VI" URL="../SubVIs/Protocol.Create XNET Sessions.vi"/>
