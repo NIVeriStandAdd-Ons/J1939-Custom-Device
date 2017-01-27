@@ -19,17 +19,15 @@
 <p>Note: Using this custom device requires one CAN port per instance.  This port cannot be shared with anything else.  Only NI XNET devices are supported.</p>
 <h2>What do you want to do?</h2>
 <h3>Import database</h3>
-<p class="Body">Upon adding the custom device, the user is forced to select a database to import.  From this database, any number of J1939 parameters can be selected for acquisition or gerneration.  To select these signals, right click on <strong>Single Point</strong> or <strong>Event Triggered</strong> repectively and select <strong>Import Frames</strong>.  Databases can only be selected upon adding a custom device and cannot be editted after the device has been created.</p>
+<p class="Body">Upon adding the custom device, the user is forced to select a database to import.  From this database, any number of J1939 parameters can be selected for acquisition or gerneration.  To select these signals, right click on <strong>Single Point</strong>, <strong>Cylic</strong> or <strong>Event Triggered</strong> repectively and select <strong>Import Frames</strong>.  Databases can only be selected upon adding a custom device and cannot be editted after the device has been created.</p>
 <h3>Set CAN Port</h3>
 <p class="Body">Select the CAN port that will be connected to your J1939 network from the <strong>XNET CAN Port</strong> field.  Note: Using this custom device requires one CAN port per instance.  This port cannot be shared with anything else.  Only NI XNET devices are supported.</p>
 <h3>Set Baud Rate</h3>
 <p class="Body">Set the J1939 network baud rate in the <strong>Baud Rate</strong> field.  Typical J1939 baud rates are 250 and 500 kHz.</p>
-<h3>Set Decimation Period</h3>
-<p class="Body">By default, this device evaluates frames for parameter changes at the same rate as the primary control loop (PCL) rate.  To decrease this check rate (bus traffic), set the <strong>Write Decimation</strong> field to the desired value.  Units are iterations of the PCL rate (ie. Settings of 1000 Hz and 10 for the PCL and Write Decimation respectively would result in checking for changes at 100 Hz).  Note: Value changes between decimation iterations are lost.  This setting does not affect software cyclic frame rates.</p>
-<h3>Set Incoming Process Rate</h3>
-<p class="Body">Incoming process rate sets the rate at which data is read from the CAN port.  Set the rate in the <strong>Incoming Process Rate</strong> field.</p>
-<h3>Set Outgoing Process Rate</h3>
-Outgoing process rate sets the rate at which data is written to the CAN port.  Set the rate in the <strong>Outgoing Process Rate</strong> field.</p>
+<h3>Set Incoming Decimation</h3>
+<p class="Body">Incoming decimation sets the decimation from the Primary Control Loop (PCL) at which data is read from the CAN port.  Set the <strong>Incoming Decimation</strong> field.</p>
+<h3>Set Outgoing Decimation</h3>
+<p class="Body">Outgoing decimation sets the decimation from the Primary Control Loop (PCL) at which data is written to the CAN port.  Set the <strong>Outgoing Decimation</strong> field.</p>
 <h3>NI 986x Support for CompactRIO (Pharlap targets only)</h3>
 This add-on supports using the NI 986x devices with CompactRIO (Pharlap OS only).  To do so, you need to use one of the included bitfiles or build your own.   Set the <strong>Enable Bitfile</strong> field to True.  Set the <strong>RIO Device</strong> field number (typically 0) to match your CompactRIO configuration.   Navigate to the fpga bitfile through the <strong>Bitfile Path</strong> field.  Note: A pre-compiled bitfile for a cRIO 9082 with a NI 9862 module in slot 8 has been included in VeriStand Public Documents folder at Custom Devices\J1939 Custom Device\FPGA Bitfiles.  The source code used for creating this bitfile is included as a template for building other bitfiles.  Notice that all other slots (1 - 7) are filled with a scan engine cRIO module (the specific module number doesn't matter) for use with the Scan Engine add-on.</p>
 </body>
