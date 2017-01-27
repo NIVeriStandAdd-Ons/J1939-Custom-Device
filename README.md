@@ -22,7 +22,10 @@ IMPORT FROM A GENERIC J1939 DATABASE AND APPLY TO SPECIFIC ADDRESSES.
 IMPROVED WORKSPACE/TOOL OPERATION
 
 MAJOR CHANGES
+
 ADDON CAN ONLY SEND FROM PRE-DEFINED ADDRESSES.  THIS APPLIES TO RAW MESSAGES AND REPLYING TO REQUESTS.
+
+ALL DATA IS NOW ACQUIRED AND GENERATED IN THE VERISTAND PRIMARY CONTROL LOOP.
 
 This addon implements the J1939-21 specification (namely the transport protocols). The user can import j1939 messages from a .DBC file and then read or write those messages. In addition, this addon supports requesting and clearing active and previously active diagnostic trouble code. It support address claiming for addon's configured address. A custom workspace object and tool are provided for viewing network topology and DTCs among other things.
 
