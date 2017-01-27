@@ -17,11 +17,22 @@
 </noscript><h1>J1939 Outgoing Event Triggered Frame Page</h1>
 <p class="Body"><strong>J1939 Outgoing Event Triggered Frame</strong> contains J1939 parameters from the highlighted frame.</p>
 <h2>What do you want to do?</h2>
+<h3>Set Disable Transmission Channel</h3>
+<p class="Body">The Disable Transmission channel will stop all CAN generation for the given frame when the channel is not set to 0.  When the channel is 0, transmission will occur as expected.  To set the Disable Transmission channel, select <strong>Disable Transmission</strong> and then browse to the desired channel.</p>
+<h3>Set Transmission Trigger</h3>
+<p class="Body">The Transmission Trigger allows various options for sending event frames.
+<ul>
+<li><strong>Channel value change</strong> - Triggers when any signal contained within the frame has a value change. 
+<li><strong>Trigger channel (not zero)</strong> - Triggers when the Trigger channel has a value change to something that is not zero.
+<li><strong>Channel value change or trigger channel (not zero)</strong> - Triggers when either of the previous conditions is true. 
+<li><strong>Trigger channel (any value)</strong> - Triggers when the Trigger channel has a value change.
+<li><strong>Channel value change or trigger channel (any value)</strong> - Triggers when either of the previous conditions is true. 
+</ul>
+Select the desired trigger option from <strong>Transmit Trigger</strong> and then browse to the desired channel (if appropriate).
+</p>
 <h3>Delete</h3>
 <p class="Body">To delete a frame, right-click the desired frame in the configuration tree and select <strong>Delete</strong> from the shortcut menu.</p>
 <h3>Delete multiple parameters</h3>
 <p class="Body">To delete multiple parameters, right-click the desired frame in the configuration tree and select <strong>Delete Multiple Parameters</strong> from the shortcut menu.</p>
-<h3>Set software cyclic channel</h3>
-<p class="Body">By default, frames are generated when there is a value change on any parameter within that frame.  To enable software cyclic frame generation, select <strong>Enable software cyclic trigger</strong> and enter the desired transmission period into <strong>Transmit Time</strong> field.  Note that frames with software cyclic frame generation enabled generate if there is a value change on a contained parameter or if the period since the last generation has expired (does not maintain phase).  If the frame is set to generate periodically in the imported database, these fields are automatically set to match the database.  </p>  
 </body>
 </html>

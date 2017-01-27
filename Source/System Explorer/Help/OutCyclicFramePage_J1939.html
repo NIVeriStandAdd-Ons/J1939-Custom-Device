@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Style-Type" content="text/css">
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
 
-<title>J1939 Outgoing Event Triggered Frame Page</title>
+<title>J1939 Outgoing Cyclic Frame Page</title>
 <link rel="STYLESHEET" type="text/css" href="VSsystemexplorer.css">
 <script src="common.js" type="text/javascript"></script><script src="expandable_tree.js" type="text/javascript"></script>
 <link rel="STYLESHEET" type="text/css" href="expandable_tree.css">
@@ -14,14 +14,14 @@
 <noscript>
 <p class="Body">JavaScript is disabled. <a href="veristandmerge.chm::/JavaScript_Disabled.html">Details</a></p>
 <hr width="100%" noshade>
-</noscript><h1>J1939 Outgoing Event Triggered Frame Page</h1>
-<p class="Body"><strong>J1939 Outgoing Event Triggered Frame</strong> contains J1939 parameters from the highlighted frame.</p>
+</noscript><h1>J1939 Outgoing Cylic Frame Page</h1>
+<p class="Body"><strong>J1939 Outgoing Cyclic Frame</strong> contains J1939 parameters from the highlighted frame.</p>
 <h2>What do you want to do?</h2>
+<h3>Set Disable Transmission Channel</h3>
+<p class="Body">The Disable Transmission channel will stop all CAN generation for the given frame when the channel is not set to 0.  When the channel is 0, transmission will occur as expected.  To set the Disable Transmission channel, select <strong>Disable Transmission</strong> and then browse to the desired channel.</p>
 <h3>Delete</h3>
 <p class="Body">To delete a frame, right-click the desired frame in the configuration tree and select <strong>Delete</strong> from the shortcut menu.</p>
 <h3>Delete multiple parameters</h3>
 <p class="Body">To delete multiple parameters, right-click the desired frame in the configuration tree and select <strong>Delete Multiple Parameters</strong> from the shortcut menu.</p>
-<h3>Set software cyclic channel</h3>
-<p class="Body">By default, frames are generated when there is a value change on any parameter within that frame.  To enable software cyclic frame generation, select <strong>Enable software cyclic trigger</strong> and enter the desired transmission period into <strong>Transmit Time</strong> field.  Note that frames with software cyclic frame generation enabled generate if there is a value change on a contained parameter or if the period since the last generation has expired (does not maintain phase).  If the frame is set to generate periodically in the imported database, these fields are automatically set to match the database.  </p>  
 </body>
 </html>
