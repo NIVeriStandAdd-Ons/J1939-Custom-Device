@@ -2,30 +2,23 @@
 <nidocument>
 <nicomment>
 
+<nifamily familyname="J1939" displayname="J1939">
+</nifamily>
 </nicomment>
-<nierror code="15302">
-The process outgoing queue timed out after reporting a certain number of elements.  This means that messages meant to be generated were lost.
-</nierror>
-<nierror code="15301">
-The processed incoming queue timed out after reporting a certain number of elements.  This means that messages meant to be scaled were lost.
-</nierror>
-<nierror code="15300">
-The processed outgoing queue timed out after reporting a certain number of elements.  This means that messages meant to be generated were lost.
-</nierror>
-<nierror code="15101">
-The connection to the target failed. Make sure the device is enabled, deployed and running.  Also try re-selecting the custom device.
-</nierror>
-<nierror code="15100">
-Request timed out.  No valid message was received back from the request.
-</nierror>
-<nierror code="15002">
-The address responded with an invalid message.  This is most likely a dev error.
+<nierror code="15000">
+The address responded to the clear DTC message with NACK.
 </nierror>
 <nierror code="15001">
 The address responded to the clear DTC message with Access Denied.
 </nierror>
-<nierror code="15000">
-The address responded to the clear DTC message with NACK.
+<nierror code="15002">
+The address responded with an invalid message.  This is most likely a dev error.
+</nierror>
+<nierror code="15100">
+Request timed out.  No valid message was received back from the request.
+</nierror>
+<nierror code="15101">
+The connection to the target failed. Make sure the device is enabled, deployed and running.  Also try re-selecting the custom device.
 </nierror>
 <nierror code="15200">
 The BAM message was ignored (not generated).  You can't generate two BAM messages from the same source address.
@@ -38,5 +31,17 @@ Connection Mode message timed out.  The connection was aborted.
 </nierror>
 <nierror code="15203">
 Address claim failed.  The custom device is running without an address.
+</nierror>
+<nierror code="15300">
+The processed outgoing queue timed out after reporting a certain number of elements.  This means that messages meant to be generated were lost.
+</nierror>
+<nierror code="15301">
+The processed incoming queue timed out after reporting a certain number of elements.  This means that messages meant to be scaled were lost.
+</nierror>
+<nierror code="15302">
+The process outgoing queue timed out after reporting a certain number of elements.  This means that messages meant to be generated were lost.
+</nierror>
+<nierror code="15400">
+RAW message was not sent.
 </nierror>
 </nidocument>
