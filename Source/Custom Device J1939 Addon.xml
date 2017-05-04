@@ -5,7 +5,7 @@
     <eng>J1939 Addon</eng>
     <loc>J1939 Addon</loc>
   </AddMenu>
-  <Version>4.0.0</Version>
+  <Version>4.0.1</Version>
   <Type>Inline HW Interface</Type>
   <MaxOccurrence>-1</MaxOccurrence>
   <MainPageGUID>5D441869-002F-93F2-B7E0-78053FA04717</MainPageGUID>
@@ -464,8 +464,8 @@
     </Page>
     <Page>
       <Name>
-        <eng>J1939 Frame</eng>
-        <loc>J1939 Frame</loc>
+        <eng>J1939 Incoming Frame</eng>
+        <loc>J1939 Incoming Frame</loc>
       </Name>
       <DisallowRenaming>true</DisallowRenaming>
       <GUID>AA452EA6-A39D-713C-6D0F-1CFCE5C8BC25</GUID>
@@ -487,7 +487,7 @@
           </Name>
           <Item2Launch>
   					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Create Information Channels.vi</Path>
+					  <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Create Information Channels.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -502,6 +502,49 @@
             <Path>.</Path>
           </Item2Launch>
         </MenuItem>  
+        <MenuItem>
+          <GUID>77550670-1485-13A6-568B9AB41979630D</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Delete</eng>
+            <loc>Delete</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Actions\Delete.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple Parameters</eng>
+            <loc>Delete Multiple Parameters</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+    </Page>
+    <Page>
+      <Name>
+        <eng>J1939 Outgoing Frame</eng>
+        <loc>J1939 Outgoing Frame</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <GUID>032E9F13-B321-4033-8075-157E9AAD2CDE</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\NI-XNET SignalFrame.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Frame Page.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
         <MenuItem>
           <GUID>77550670-1485-13A6-568B9AB41979630D</GUID>
           <Type>Action</Type>
