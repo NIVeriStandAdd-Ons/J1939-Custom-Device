@@ -21,56 +21,22 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Help" Type="Folder" URL="../Help">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="Host Automation API" Type="Folder">
+			<Item Name="J1939 Host Automation API.lvlib" Type="Library" URL="../APIs/Host Automation API/J1939 Host Automation API.lvlib"/>
+		</Item>
 		<Item Name="NI VeriStand APIs" Type="Folder">
 			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
 		<Item Name="Support Files" Type="Folder">
-			<Item Name="Help" Type="Folder">
-				<Item Name="arraytools.js" Type="Document" URL="../System Explorer/Help/arraytools.js"/>
-				<Item Name="checkinstalled.js" Type="Document" URL="../System Explorer/Help/checkinstalled.js"/>
-				<Item Name="ClearDTC.html" Type="Document" URL="../System Explorer/Help/ClearDTC.html"/>
-				<Item Name="common.js" Type="Document" URL="../System Explorer/Help/common.js"/>
-				<Item Name="cssframes.js" Type="Document" URL="../System Explorer/Help/cssframes.js"/>
-				<Item Name="Diagnostics_J1939.html" Type="Document" URL="../System Explorer/Help/Diagnostics_J1939.html"/>
-				<Item Name="domtools.js" Type="Document" URL="../System Explorer/Help/domtools.js"/>
-				<Item Name="dynamiccontent.js" Type="Document" URL="../System Explorer/Help/dynamiccontent.js"/>
-				<Item Name="dynamicjumps.js" Type="Document" URL="../System Explorer/Help/dynamicjumps.js"/>
-				<Item Name="dynamiclinks.js" Type="Document" URL="../System Explorer/Help/dynamiclinks.js"/>
-				<Item Name="expandable_tree.css" Type="Document" URL="../System Explorer/Help/expandable_tree.css"/>
-				<Item Name="expandable_tree.js" Type="Document" URL="../System Explorer/Help/expandable_tree.js"/>
-				<Item Name="feedbacklink.js" Type="Document" URL="../System Explorer/Help/feedbacklink.js"/>
-				<Item Name="initpagedyn.js" Type="Document" URL="../System Explorer/Help/initpagedyn.js"/>
-				<Item Name="InPage_J1939.html" Type="Document" URL="../System Explorer/Help/InPage_J1939.html"/>
-				<Item Name="InSingleFramePage_J1939.html" Type="Document" URL="../System Explorer/Help/InSingleFramePage_J1939.html"/>
-				<Item Name="InSinglePage_J1939.html" Type="Document" URL="../System Explorer/Help/InSinglePage_J1939.html"/>
-				<Item Name="J1939-errors.txt" Type="Document" URL="../System Explorer/Help/J1939-errors.txt"/>
-				<Item Name="J1939.chm" Type="Document" URL="../System Explorer/Help/J1939.chm"/>
-				<Item Name="J1939.hhp" Type="Document" URL="../System Explorer/Help/J1939.hhp"/>
-				<Item Name="launchhelp.js" Type="Document" URL="../System Explorer/Help/launchhelp.js"/>
-				<Item Name="linking.js" Type="Document" URL="../System Explorer/Help/linking.js"/>
-				<Item Name="MainPage_J1939.html" Type="Document" URL="../System Explorer/Help/MainPage_J1939.html"/>
-				<Item Name="objectnames.js" Type="Document" URL="../System Explorer/Help/objectnames.js"/>
-				<Item Name="osbrowser.js" Type="Document" URL="../System Explorer/Help/osbrowser.js"/>
-				<Item Name="OutEventFramePage_J1939.html" Type="Document" URL="../System Explorer/Help/OutEventFramePage_J1939.html"/>
-				<Item Name="OutEventPage_J1939.html" Type="Document" URL="../System Explorer/Help/OutEventPage_J1939.html"/>
-				<Item Name="OutPage_J1939.html" Type="Document" URL="../System Explorer/Help/OutPage_J1939.html"/>
-				<Item Name="pdf.js" Type="Document" URL="../System Explorer/Help/pdf.js"/>
-				<Item Name="polyviselect.js" Type="Document" URL="../System Explorer/Help/polyviselect.js"/>
-				<Item Name="SignalPage_J1939.html" Type="Document" URL="../System Explorer/Help/SignalPage_J1939.html"/>
-				<Item Name="stylesheets.js" Type="Document" URL="../System Explorer/Help/stylesheets.js"/>
-				<Item Name="variables.js" Type="Document" URL="../System Explorer/Help/variables.js"/>
-				<Item Name="VerifyDTC_J1939.html" Type="Document" URL="../System Explorer/Help/VerifyDTC_J1939.html"/>
-				<Item Name="VSsystemexplorer.css" Type="Document" URL="../System Explorer/Help/VSsystemexplorer.css"/>
-				<Item Name="web.js" Type="Document" URL="../System Explorer/Help/web.js"/>
-			</Item>
-			<Item Name="Host Automation API" Type="Folder">
-				<Item Name="J1939 Host Automation API.lvlib" Type="Library" URL="../APIs/Host Automation API/J1939 Host Automation API.lvlib"/>
-			</Item>
 			<Item Name="Custom Device J1939 Addon.xml" Type="Document" URL="../Custom Device J1939 Addon.xml"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
+			<Item Name="LLB Pre-Build CHM Build.vi" Type="VI" URL="../Utility/LLB Pre-Build CHM Build.vi"/>
 		</Item>
 		<Item Name="J1939 Addon Engine.lvlib" Type="Library" URL="../Engine/J1939 Addon Engine.lvlib"/>
 		<Item Name="J1939 Addon Shared.lvlib" Type="Library" URL="../Shared/J1939 Addon Shared.lvlib"/>
@@ -78,19 +44,23 @@
 		<Item Name="J1939 Workspace Object.lvlib" Type="Library" URL="../Workspace/J1939 Workspace Object.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="_XNET Close All.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Close All.vi"/>
 				<Item Name="_XNET Convert List From Array To Comma.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Convert List From Array To Comma.vi"/>
 				<Item Name="_XNET Create Session.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Create Session.vi"/>
 				<Item Name="_XNET Split Database Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Split Database Cluster.vi"/>
+				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
+				<Item Name="CHM Generator.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Compiled HTML Menu Tool/CHM Generator/CHM Generator.lvclass"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="cluster_Graph Handler Message.ctl" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/Display Template Support/Display Template Support.llb/cluster_Graph Handler Message.ctl"/>
 				<Item Name="cluster_Graph Plot Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/Display Template Support/Display Template Support.llb/cluster_Graph Plot Settings.ctl"/>
 				<Item Name="cluster_Graph Scale Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/Display Template Support/Display Template Support.llb/cluster_Graph Scale Settings.ctl"/>
 				<Item Name="cluster_Screen Item Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/Display Template Support/Display Template Support.llb/cluster_Screen Item Settings.ctl"/>
+				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Custom Device Offline API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Offline API/Custom Device Offline API.lvlib"/>
 				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
@@ -116,6 +86,9 @@
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
+				<Item Name="ImportExport.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Custom Device Import and Export Tool/ImportExport.lvlib"/>
+				<Item Name="Keyed Value Tree.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Compiled HTML Menu Tool/Keyed Value Tree/Keyed Value Tree.lvclass"/>
+				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVNodeAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVNodeAndColumnTypeDef.ctl"/>
@@ -133,12 +106,14 @@
 				<Item Name="NI VeriStand Addon Network Comm.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Addon Network Comm/Engine/NI VeriStand Addon Network Comm.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_FTP.lvlib" Type="Library" URL="/&lt;vilib&gt;/FTP/NI_FTP.lvlib"/>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_VS UI Single Node Browser.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/UI Controls/Single Node Browser/NI_VS UI Single Node Browser.lvlib"/>
 				<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="ref_Display Template Handler RunPauseStop.ctl" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/Display Template Support/Display Template Support.llb/ref_Display Template Handler RunPauseStop.ctl"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -148,6 +123,7 @@
 				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="sub_Display Template - Polymorphic.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/Display Template Support/Display Template Support.llb/sub_Display Template - Polymorphic.vi"/>
 				<Item Name="sub_Display Template Handler Custom.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/Display Template Support/Display Template Support.llb/sub_Display Template Handler Custom.vi"/>
 				<Item Name="sub_Display Template Handler Graph.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/Display Template Support/Display Template Support.llb/sub_Display Template Handler Graph.vi"/>
@@ -157,8 +133,8 @@
 				<Item Name="sub_Display Template Handler Model Status RunPauseStop.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/Display Template Support/Display Template Support.llb/sub_Display Template Handler Model Status RunPauseStop.vi"/>
 				<Item Name="sub_Display Template Handler Numeric.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/Display Template Support/Display Template Support.llb/sub_Display Template Handler Numeric.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
-				<Item Name="System Definition Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS System Definition Utilities/System Definition Utilities.lvlib"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -309,6 +285,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Utility/LLB Pre-Build CHM Build.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E8035317-FDF9-4FC1-9EF0-1450E8CAE472}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -321,7 +298,7 @@
 				<Property Name="Destination[3].destName" Type="Str">XML Destination</Property>
 				<Property Name="Destination[3].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6524DC79-F3E3-4B5C-A3E9-38A36B3D30B0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1CC1A680-72E8-490F-9DE3-A30A05C45C29}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Support Files/Custom Device J1939 Addon.xml</Property>
@@ -376,7 +353,7 @@
 				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Support Files/Help/J1939.chm</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Help/J1939.chm</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">6</Property>
 			</Item>
@@ -711,7 +688,7 @@
 				<Property Name="Source[39].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[39].type" Type="Str">Container</Property>
 				<Property Name="Source[4].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Support Files/Host Automation API/J1939 Host Automation API.lvlib/Types</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Host Automation API/J1939 Host Automation API.lvlib/Types</Property>
 				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[4].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -766,35 +743,35 @@
 				<Property Name="Source[45].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[45].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[45].type" Type="Str">Container</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Support Files/Host Automation API/J1939 Host Automation API.lvlib/Clear DTC.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Host Automation API/J1939 Host Automation API.lvlib/Clear DTC.vi</Property>
 				<Property Name="Source[5].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[5].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[5].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[5].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[5].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Support Files/Host Automation API/J1939 Host Automation API.lvlib/Close Connection with CD.vi</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Host Automation API/J1939 Host Automation API.lvlib/Close Connection with CD.vi</Property>
 				<Property Name="Source[6].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[6].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[6].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[6].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[6].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Support Files/Host Automation API/J1939 Host Automation API.lvlib/Initialize Connection with CD.vi</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Host Automation API/J1939 Host Automation API.lvlib/Initialize Connection with CD.vi</Property>
 				<Property Name="Source[7].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[7].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[7].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[7].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[7].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Support Files/Host Automation API/J1939 Host Automation API.lvlib/Set CAN_Raw.vi</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Host Automation API/J1939 Host Automation API.lvlib/Set CAN_Raw.vi</Property>
 				<Property Name="Source[8].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[8].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[8].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[8].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[8].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Support Files/Host Automation API/J1939 Host Automation API.lvlib/Verify DTC.vi</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Host Automation API/J1939 Host Automation API.lvlib/Verify DTC.vi</Property>
 				<Property Name="Source[9].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[9].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[9].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -815,20 +792,20 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E9B14692-4A42-4687-9BF8-F10A68357D6F}</Property>
-				<Property Name="Bld_version.build" Type="Int">21</Property>
+				<Property Name="Bld_version.build" Type="Int">22</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Host Automation API.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/J1939 Addon/Windows/Host Automation API/Host Automation API.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">J1939 Host Automation API.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows/Host Automation API/J1939 Host Automation API.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/J1939 Addon/Windows/Host Automation API</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows/Host Automation API</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7FA23D05-298E-4252-B67A-4EBF526EDDB2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1CC1A680-72E8-490F-9DE3-A30A05C45C29}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Support Files/Host Automation API/J1939 Host Automation API.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Host Automation API/J1939 Host Automation API.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
@@ -842,7 +819,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2014 NI</Property>
 				<Property Name="TgtF_productName" Type="Str">Host API</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{F14C55F4-A617-421A-938A-E83FDAE0DB4B}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Host Automation API.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">J1939 Host Automation API.lvlibp</Property>
 			</Item>
 			<Item Name="Workspace Object" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{F54605DA-28DA-4892-A052-25CD528267CE}</Property>
@@ -958,7 +935,7 @@
 				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Support Files/Help/J1939.chm</Property>
+				<Property Name="Source[5].itemID" Type="Ref"></Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/J1939 Workspace Object.lvlib/SPN/J1939 - SPN Indicator.vi</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
@@ -1083,7 +1060,7 @@
 				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Support Files/Help/J1939.chm</Property>
+				<Property Name="Source[4].itemID" Type="Ref"></Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/J1939 Addon Shared.lvlib</Property>
 				<Property Name="Source[5].Library.allowMissingMembers" Type="Bool">true</Property>
@@ -1175,6 +1152,7 @@
 				<Item Name="_XNET Convert List From Array To Comma.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Convert List From Array To Comma.vi"/>
 				<Item Name="_XNET Create Session.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Create Session.vi"/>
 				<Item Name="_XNET Split Database Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Split Database Cluster.vi"/>
+				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
@@ -1222,7 +1200,6 @@
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
-				<Item Name="System Definition Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS System Definition Utilities/System Definition Utilities.lvlib"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -1684,6 +1661,7 @@
 				<Item Name="_XNET Convert List From Array To Comma.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Convert List From Array To Comma.vi"/>
 				<Item Name="_XNET Create Session.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Create Session.vi"/>
 				<Item Name="_XNET Split Database Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Split Database Cluster.vi"/>
+				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
@@ -1732,7 +1710,6 @@
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
-				<Item Name="System Definition Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS System Definition Utilities/System Definition Utilities.lvlib"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -2228,6 +2205,7 @@
 				<Item Name="_XNET Convert List From Array To Comma.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Convert List From Array To Comma.vi"/>
 				<Item Name="_XNET Create Session.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Create Session.vi"/>
 				<Item Name="_XNET Split Database Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Split Database Cluster.vi"/>
+				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
@@ -2276,7 +2254,6 @@
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
-				<Item Name="System Definition Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS System Definition Utilities/System Definition Utilities.lvlib"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>

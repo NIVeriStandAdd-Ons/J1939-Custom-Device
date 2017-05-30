@@ -1,0 +1,55 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled File=J1939.chm
+Default Topic=HTML Help Source\Main.html
+Display compile progress=No
+Language=0x409 English (United States)
+Title=J1939
+
+[FILES]
+HTML Help Source\css\expandable_tree.css
+HTML Help Source\css\VSsystemexplorer.css
+HTML Help Source\js\arraytools.js
+HTML Help Source\js\checkinstalled.js
+HTML Help Source\js\common.js
+HTML Help Source\js\cssframes.js
+HTML Help Source\js\domtools.js
+HTML Help Source\js\dynamiccontent.js
+HTML Help Source\js\dynamicjumps.js
+HTML Help Source\js\dynamiclinks.js
+HTML Help Source\js\expandable_tree.js
+HTML Help Source\js\feedbacklink.js
+HTML Help Source\js\Globals.js
+HTML Help Source\js\initpagedyn.js
+HTML Help Source\js\launchhelp.js
+HTML Help Source\js\linking.js
+HTML Help Source\js\objectnames.js
+HTML Help Source\js\osbrowser.js
+HTML Help Source\js\pdf.js
+HTML Help Source\js\polyviselect.js
+HTML Help Source\js\stylesheets.js
+HTML Help Source\js\variables.js
+HTML Help Source\js\web.js
+HTML Help Source\ClearDTC.html
+HTML Help Source\Diagnostics_J1939.html
+HTML Help Source\DM1.html
+HTML Help Source\DM2.html
+HTML Help Source\DTC.html
+HTML Help Source\FrameInformation.html
+HTML Help Source\InPage_J1939.html
+HTML Help Source\InSingleFramePage_J1939.html
+HTML Help Source\InSinglePage_J1939.html
+HTML Help Source\Main.html
+HTML Help Source\Monitor.html
+HTML Help Source\OutCyclicFramePage_J1939.html
+HTML Help Source\OutCyclicPage_J1939.html
+HTML Help Source\OutEventFramePage_J1939.html
+HTML Help Source\OutEventPage_J1939.html
+HTML Help Source\OutPage_J1939.html
+HTML Help Source\ReceiveTime.html
+HTML Help Source\SignalPage_J1939.html
+HTML Help Source\Sim Device.html
+HTML Help Source\Sim Diagnostics.html
+HTML Help Source\Simulation.html
+HTML Help Source\TimeDif_J1939.html
+HTML Help Source\VerifyDTC_J1939.html
