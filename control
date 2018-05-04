@@ -1,4 +1,4 @@
-Package: j1939-addon-custom-device-{veristand_version}
+Package: j1939-addon-{veristand_version}
 Version: {nipkg_version}
 Architecture: windows_x64
 Maintainer: National Instruments <support@ni.com>
@@ -11,5 +11,5 @@ XB-LanguageSupport: en
 XB-UserVisible: yes
 Section: Add-Ons
 XB-DisplayVersion: 1.0
-XB-DisplayName: J1939 Add-On Custom Device for VeriStand {veristand_version}
+XB-DisplayName: J1939 Add-On for VeriStand {veristand_version}
 Depends: 
