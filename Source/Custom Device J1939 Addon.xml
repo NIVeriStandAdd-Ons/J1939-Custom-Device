@@ -5,7 +5,7 @@
     <eng>J1939 Addon</eng>
     <loc>J1939 Addon</loc>
   </AddMenu>
-  <Version>4.0.2</Version>
+  <Version>4.0.3</Version>
   <Type>Inline HW Interface</Type>
   <MaxOccurrence>-1</MaxOccurrence>
   <MainPageGUID>5D441869-002F-93F2-B7E0-78053FA04717</MainPageGUID>
