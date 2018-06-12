@@ -43,7 +43,7 @@ IP has been tested by developer. It meets VeriStand addon coding best practices.
 
 ### Dependencies ###
 
-NI XNET 16.0
+NI XNET 18.0
 
 NI Simple Messaging Library 3.0.0.7 or later
 
