@@ -1,11 +1,10 @@
 [OPTIONS]
 Compatibility=1.1 or later
-Compiled file=J1939.chm
-Default topic=HTML Help Source\Main.html
+Compiled File=J1939.chm
+Default Topic=HTML Help Source\Main.html
 Display compile progress=No
 Language=0x409 English (United States)
 Title=J1939
-
 
 [FILES]
 HTML Help Source\css\expandable_tree.css
@@ -42,6 +41,8 @@ HTML Help Source\InSingleFramePage_J1939.html
 HTML Help Source\InSinglePage_J1939.html
 HTML Help Source\Main.html
 HTML Help Source\Monitor.html
+HTML Help Source\OutCyclicEventFramePage_J1939.html
+HTML Help Source\OutCyclicEventPage_J1939.html
 HTML Help Source\OutCyclicFramePage_J1939.html
 HTML Help Source\OutCyclicPage_J1939.html
 HTML Help Source\OutEventFramePage_J1939.html
@@ -54,8 +55,3 @@ HTML Help Source\Sim Diagnostics.html
 HTML Help Source\Simulation.html
 HTML Help Source\TimeDif_J1939.html
 HTML Help Source\VerifyDTC_J1939.html
-HTML Help Source\OutCyclicEventFramePage_J1939.html
-HTML Help Source\OutCyclicEventPage_J1939.html
-
-[INFOTYPES]
-
