@@ -5,7 +5,7 @@
     <eng>J1939 Addon</eng>
     <loc>J1939 Addon</loc>
   </AddMenu>
-  <Version>4.1.0</Version>
+  <Version>4.2.0</Version>
   <Type>Inline HW Interface</Type>
   <MaxOccurrence>-1</MaxOccurrence>
   <MainPageGUID>5D441869-002F-93F2-B7E0-78053FA04717</MainPageGUID>
@@ -1295,6 +1295,36 @@
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Signal Page.vi</Path>
       </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>J1939 Outgoing Signal</eng>
+        <loc>J1939 Outgoing Signal</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <GUID>7ef80e0d-db85-46b1-8781-0be83a57b682</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\NI-XNET Signal.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Signal Page.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>77550670-1485-13A6-568B9AB41979630D</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Delete</eng>
+            <loc>Delete</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Actions\Delete.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
     </Page>
   </Pages>
   <CustomXML>
