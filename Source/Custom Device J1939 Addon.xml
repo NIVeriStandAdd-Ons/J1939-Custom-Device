@@ -1324,8 +1324,167 @@
             <Path>Actions\Delete.vi</Path>
           </Item2Launch>
         </MenuItem>
+        <MenuItem>
+          <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+          <Type>Separator</Type>
+          <Name>
+            <eng>.</eng>
+            <loc>.</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>.</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>7fe1a9a4-97a7-4087-b172-431271011b74</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Make Counter Signal</eng>
+            <loc>Make Counter Signal</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Make Counter Signal.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>e1098548-6a43-407f-91a9-80b527e74dd4</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Make Protection Signal</eng>
+            <loc>Make Protection Signal</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Make Protection Signal.vi</Path>
+          </Item2Launch>
+        </MenuItem>
       </RunTimeMenu>
     </Page>
+  		<Page>
+			<Name>
+				<eng>Protection Channel</eng>
+				<loc>Protection Channel</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<GUID>fe15317e-b165-43a3-9d5b-faa422f66725</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET CRC.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Protection Channel.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>250fd420-a5d8-45c1-9e2f-37c5f5408603</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Select Channels</eng>
+						<loc>Select Channels</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Select Channels.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+        <MenuItem>
+          <GUID>e1098548-6a43-407f-91a9-80b527e74dd4</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Make Signal</eng>
+            <loc>Make Signal</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Make Protection Signal.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+				<MenuItem>
+					<GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+					<Type>Separator</Type>
+					<Name>
+						<eng>.</eng>
+						<loc>.</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>.</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>77550670-1485-13A6-568B9AB41979630D</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Delete</eng>
+						<loc>Delete</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>Actions\Delete.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>Select Channels</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\Add Multiple Alias.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>250fd420-a5d8-45c1-9e2f-37c5f5408603</ReferencedGUID>
+					<ButtonText>
+						<eng>Select Channels</eng>
+						<loc>Select Channels</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Select Channels</eng>
+						<loc>Select Channels</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Select Channels</eng>
+						<loc>Select Channels</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+			</ButtonList>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Rolling Counter Channel</eng>
+				<loc>Rolling Counter Channel</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<GUID>4a3d9735-5760-4a43-a9a4-de30f92d91fe</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Counter.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Rolling Counter Channel.vi</Path>
+			</Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>7fe1a9a4-97a7-4087-b172-431271011b74</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Make Signal</eng>
+            <loc>Make Signal</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Make Counter Signal.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+		</Page>
   </Pages>
   <CustomXML>
     <Dummy></Dummy>

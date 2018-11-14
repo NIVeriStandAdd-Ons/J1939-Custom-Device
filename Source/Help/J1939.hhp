@@ -31,6 +31,7 @@ HTML Help Source\js\stylesheets.js
 HTML Help Source\js\variables.js
 HTML Help Source\js\web.js
 HTML Help Source\ClearDTC.html
+HTML Help Source\Counter.html
 HTML Help Source\Diagnostics_J1939.html
 HTML Help Source\DM1.html
 HTML Help Source\DM2.html
@@ -48,6 +49,7 @@ HTML Help Source\OutCyclicPage_J1939.html
 HTML Help Source\OutEventFramePage_J1939.html
 HTML Help Source\OutEventPage_J1939.html
 HTML Help Source\OutPage_J1939.html
+HTML Help Source\ProtectionSignal.html
 HTML Help Source\ReceiveTime.html
 HTML Help Source\SignalOutputPage_J1939.html
 HTML Help Source\SignalPage_J1939.html

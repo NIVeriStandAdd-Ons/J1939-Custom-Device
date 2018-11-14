@@ -44,6 +44,8 @@
 				<Item Name="Diagnostic Channel.vi" Type="VI" URL="../Pages/Diagnostic Channel.vi"/>
 				<Item Name="Frame Page.vi" Type="VI" URL="../Pages/Frame Page.vi"/>
 				<Item Name="Monitor Tool Page.vi" Type="VI" URL="../Pages/Monitor Tool Page.vi"/>
+				<Item Name="Protection Channel.vi" Type="VI" URL="../Pages/Protection Channel.vi"/>
+				<Item Name="Rolling Counter Channel.vi" Type="VI" URL="../Pages/Rolling Counter Channel.vi"/>
 				<Item Name="Section Page.vi" Type="VI" URL="../Pages/Section Page.vi"/>
 				<Item Name="Signal Page.vi" Type="VI" URL="../Pages/Signal Page.vi"/>
 				<Item Name="Simulated Device Page.vi" Type="VI" URL="../Pages/Simulated Device Page.vi"/>
@@ -54,6 +56,9 @@
 				<Item Name="Create Information Channels.vi" Type="VI" URL="../RTMs/Create Information Channels.vi"/>
 				<Item Name="EnableDisable Main Page.vi" Type="VI" URL="../RTMs/EnableDisable Main Page.vi"/>
 				<Item Name="Export Configuation.vi" Type="VI" URL="../RTMs/Export Configuation.vi"/>
+				<Item Name="Make Counter Signal.vi" Type="VI" URL="../RTMs/Make Counter Signal.vi"/>
+				<Item Name="Make Protection Signal.vi" Type="VI" URL="../RTMs/Make Protection Signal.vi"/>
+				<Item Name="Select Channels.vi" Type="VI" URL="../RTMs/Select Channels.vi"/>
 				<Item Name="Select XNET Signals.vi" Type="VI" URL="../RTMs/Select XNET Signals.vi"/>
 			</Item>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
@@ -65,6 +70,7 @@
 			<Item Name="Add Database to SysDef.vi" Type="VI" URL="../SubVIs/Add Database to SysDef.vi"/>
 			<Item Name="Add Information Channels.vi" Type="VI" URL="../SubVIs/Add Information Channels.vi"/>
 			<Item Name="Browse for XNET Database.vi" Type="VI" URL="../SubVIs/Browse for XNET Database.vi"/>
+			<Item Name="ChannelSelectionScreen.vi" Type="VI" URL="../SubVIs/ChannelSelectionScreen.vi"/>
 			<Item Name="Compiled Get Node Frames.Incoming.vi" Type="VI" URL="../SubVIs/Compiled Get Node Frames.Incoming.vi"/>
 			<Item Name="Compiled Get Node Frames.vi" Type="VI" URL="../SubVIs/Compiled Get Node Frames.vi"/>
 			<Item Name="Compiled Get Node Settings.vi" Type="VI" URL="../SubVIs/Compiled Get Node Settings.vi"/>
@@ -72,6 +78,7 @@
 			<Item Name="Compiled.Get Data Settings.vi" Type="VI" URL="../SubVIs/Compiled.Get Data Settings.vi"/>
 			<Item Name="Compiled.Get Monitor Tool Settings.vi" Type="VI" URL="../SubVIs/Compiled.Get Monitor Tool Settings.vi"/>
 			<Item Name="Compiled.Get Sim DTCs.vi" Type="VI" URL="../SubVIs/Compiled.Get Sim DTCs.vi"/>
+			<Item Name="Counter.Settings.vi" Type="VI" URL="../SubVIs/Counter.Settings.vi"/>
 			<Item Name="Get All Incoming Frames.vi" Type="VI" URL="../SubVIs/Get All Incoming Frames.vi"/>
 			<Item Name="Get All Outgoing Frames.vi" Type="VI" URL="../SubVIs/Get All Outgoing Frames.vi"/>
 			<Item Name="Get DTC References.vi" Type="VI" URL="../SubVIs/Get DTC References.vi"/>
@@ -79,22 +86,29 @@
 			<Item Name="Get Frame Signals.vi" Type="VI" URL="../SubVIs/Get Frame Signals.vi"/>
 			<Item Name="Get Internal Command Data References.vi" Type="VI" URL="../SubVIs/Get Internal Command Data References.vi"/>
 			<Item Name="Get Selected XNET Channels.vi" Type="VI" URL="../SubVIs/Get Selected XNET Channels.vi"/>
+			<Item Name="Get Selection from TreeBrowserWF.vi" Type="VI" URL="../SubVIs/Get Selection from TreeBrowserWF.vi"/>
 			<Item Name="Get Used J1939 Addresses.vi" Type="VI" URL="../SubVIs/Get Used J1939 Addresses.vi"/>
 			<Item Name="Get XNET Signal Names.vi" Type="VI" URL="../SubVIs/Get XNET Signal Names.vi"/>
 			<Item Name="Initialize Single Node Browser.vi" Type="VI" URL="../SubVIs/Initialize Single Node Browser.vi"/>
+			<Item Name="Initialize TreeBrowserWF.vi" Type="VI" URL="../SubVIs/Initialize TreeBrowserWF.vi"/>
 			<Item Name="Initialize XNET Tree.vi" Type="VI" URL="../SubVIs/Initialize XNET Tree.vi"/>
 			<Item Name="Move Addon Settings.vi" Type="VI" URL="../SubVIs/Move Addon Settings.vi"/>
 			<Item Name="Move Frame Settings.vi" Type="VI" URL="../SubVIs/Move Frame Settings.vi"/>
 			<Item Name="Move Tool Diagnostics Section.vi" Type="VI" URL="../SubVIs/Move Tool Diagnostics Section.vi"/>
+			<Item Name="Protection.Settings.vi" Type="VI" URL="../SubVIs/Protection.Settings.vi"/>
 			<Item Name="Request Address and Name.vi" Type="VI" URL="../SubVIs/Request Address and Name.vi"/>
+			<Item Name="Select Channels and Update Properties.vi" Type="VI" URL="../SubVIs/Select Channels and Update Properties.vi"/>
 			<Item Name="Select XNET Signals UI.vi" Type="VI" URL="../SubVIs/Select XNET Signals UI.vi"/>
 			<Item Name="Set Help Document Display.vi" Type="VI" URL="../SubVIs/Set Help Document Display.vi"/>
 			<Item Name="Set Node Dependency.vi" Type="VI" URL="../SubVIs/Set Node Dependency.vi"/>
 			<Item Name="Set Tree Symbols.vi" Type="VI" URL="../SubVIs/Set Tree Symbols.vi"/>
+			<Item Name="UpdateChannelMonitorListbox.vi" Type="VI" URL="../SubVIs/UpdateChannelMonitorListbox.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="CAN Frame Filter.ctl" Type="VI" URL="../Types/CAN Frame Filter.ctl"/>
-			<Item Name="Compiled Refs.ctl" Type="VI" URL="../../Shared/Types/Compiled Refs.ctl"/>
+			<Item Name="Compiled Refs.ctl" Type="VI" URL="../Types/Compiled Refs.ctl"/>
+			<Item Name="Protection Signal Linked Channels.ctl" Type="VI" URL="../Types/Protection Signal Linked Channels.ctl"/>
+			<Item Name="Protection Signal Settings.ctl" Type="VI" URL="../Types/Protection Signal Settings.ctl"/>
 			<Item Name="XNET Port.ctl" Type="VI" URL="../Types/XNET Port.ctl"/>
 		</Item>
 	</Item>
