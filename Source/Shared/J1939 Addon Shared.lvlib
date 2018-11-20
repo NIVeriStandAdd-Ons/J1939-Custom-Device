@@ -90,10 +90,15 @@
 			<Item Name="Device Settings.ctl" Type="VI" URL="../Types/Device Settings.ctl"/>
 			<Item Name="Error Cluster.ctl" Type="VI" URL="../Types/Error Cluster.ctl"/>
 			<Item Name="Error Types.ctl" Type="VI" URL="../Types/Error Types.ctl"/>
+			<Item Name="Exported Counter Settings.ctl" Type="VI" URL="../Types/Exported Counter Settings.ctl"/>
+			<Item Name="Exported Frame Settings.ctl" Type="VI" URL="../Types/Exported Frame Settings.ctl"/>
+			<Item Name="Exported Frame Type.ctl" Type="VI" URL="../Types/Exported Frame Type.ctl"/>
+			<Item Name="Exported Protection Settings.ctl" Type="VI" URL="../Types/Exported Protection Settings.ctl"/>
 			<Item Name="Frame.Settings.ctl" Type="VI" URL="../Types/Frame.Settings.ctl"/>
 			<Item Name="Incoming Frame Settings.ctl" Type="VI" URL="../Types/Incoming Frame Settings.ctl"/>
 			<Item Name="Incoming Settings.ctl" Type="VI" URL="../Types/Incoming Settings.ctl"/>
 			<Item Name="Incoming Single Point Channel Pairs.ctl" Type="VI" URL="../Types/Incoming Single Point Channel Pairs.ctl"/>
+			<Item Name="InputChannelConfiguration.ctl" Type="VI" URL="../Types/InputChannelConfiguration.ctl"/>
 			<Item Name="Monitor Settings.ctl" Type="VI" URL="../Types/Monitor Settings.ctl"/>
 			<Item Name="Outgoing Cyclic Channel Pairs.ctl" Type="VI" URL="../Types/Outgoing Cyclic Channel Pairs.ctl"/>
 			<Item Name="Outgoing Event Trigger Types.ctl" Type="VI" URL="../Types/Outgoing Event Trigger Types.ctl"/>
