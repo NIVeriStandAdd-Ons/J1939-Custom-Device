@@ -75,6 +75,7 @@
 			<Item Name="Compiled Get Node Frames.vi" Type="VI" URL="../SubVIs/Compiled Get Node Frames.vi"/>
 			<Item Name="Compiled Get Node Settings.vi" Type="VI" URL="../SubVIs/Compiled Get Node Settings.vi"/>
 			<Item Name="Compiled Get Sim Device Settings.vi" Type="VI" URL="../SubVIs/Compiled Get Sim Device Settings.vi"/>
+			<Item Name="Compiled.Get CounterAndProtectionFrames.vi" Type="VI" URL="../SubVIs/Compiled.Get CounterAndProtectionFrames.vi"/>
 			<Item Name="Compiled.Get Data Settings.vi" Type="VI" URL="../SubVIs/Compiled.Get Data Settings.vi"/>
 			<Item Name="Compiled.Get Monitor Tool Settings.vi" Type="VI" URL="../SubVIs/Compiled.Get Monitor Tool Settings.vi"/>
 			<Item Name="Compiled.Get Sim DTCs.vi" Type="VI" URL="../SubVIs/Compiled.Get Sim DTCs.vi"/>
@@ -107,6 +108,8 @@
 		<Item Name="Types" Type="Folder">
 			<Item Name="CAN Frame Filter.ctl" Type="VI" URL="../Types/CAN Frame Filter.ctl"/>
 			<Item Name="Compiled Refs.ctl" Type="VI" URL="../Types/Compiled Refs.ctl"/>
+			<Item Name="Export Frame GUIDs List.ctl" Type="VI" URL="../Types/Export Frame GUIDs List.ctl"/>
+			<Item Name="Export Frames List and Type.ctl" Type="VI" URL="../Types/Export Frames List and Type.ctl"/>
 			<Item Name="Protection Signal Linked Channels.ctl" Type="VI" URL="../Types/Protection Signal Linked Channels.ctl"/>
 			<Item Name="Protection Signal Settings.ctl" Type="VI" URL="../Types/Protection Signal Settings.ctl"/>
 			<Item Name="XNET Port.ctl" Type="VI" URL="../Types/XNET Port.ctl"/>
