@@ -80,6 +80,7 @@
 			<Item Name="Compiled.Get Monitor Tool Settings.vi" Type="VI" URL="../SubVIs/Compiled.Get Monitor Tool Settings.vi"/>
 			<Item Name="Compiled.Get Sim DTCs.vi" Type="VI" URL="../SubVIs/Compiled.Get Sim DTCs.vi"/>
 			<Item Name="Counter.Settings.vi" Type="VI" URL="../SubVIs/Counter.Settings.vi"/>
+			<Item Name="Debug.vi" Type="VI" URL="../Debug.vi"/>
 			<Item Name="Get All Incoming Frames.vi" Type="VI" URL="../SubVIs/Get All Incoming Frames.vi"/>
 			<Item Name="Get All Outgoing Frames.vi" Type="VI" URL="../SubVIs/Get All Outgoing Frames.vi"/>
 			<Item Name="Get DTC References.vi" Type="VI" URL="../SubVIs/Get DTC References.vi"/>
