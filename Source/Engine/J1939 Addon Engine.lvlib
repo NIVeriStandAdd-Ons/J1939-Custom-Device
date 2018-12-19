@@ -37,10 +37,6 @@
 		<Item Name="Protocol.Main.vi" Type="VI" URL="../SubVIs/Protocol.Main.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
-		<Item Name="CalculateCounterAndProtections_Main.vi" Type="VI" URL="../SubVIs/CalculateCounterAndProtections_Main.vi"/>
-		<Item Name="Determine Periodic.vi" Type="VI" URL="../SubVIs/Determine Periodic.vi"/>
-		<Item Name="Determine Transmission.vi" Type="VI" URL="../SubVIs/Determine Transmission.vi"/>
-		<Item Name="Initialize Frames.vi" Type="VI" URL="../SubVIs/Initialize Frames.vi"/>
 		<Item Name="Main.Cleanup.vi" Type="VI" URL="../SubVIs/Main.Cleanup.vi"/>
 		<Item Name="Main.Create XNET Data Sessions.vi" Type="VI" URL="../SubVIs/Main.Create XNET Data Sessions.vi"/>
 		<Item Name="Main.Download Bitfile.vi" Type="VI" URL="../SubVIs/Main.Download Bitfile.vi"/>
@@ -112,9 +108,6 @@
 		<Item Name="Protocol.RQST Lookup Table Reference.ctl" Type="VI" URL="../Types/Protocol.RQST Lookup Table Reference.ctl"/>
 		<Item Name="Protocol.XNET Refs.ctl" Type="VI" URL="../Types/Protocol.XNET Refs.ctl"/>
 		<Item Name="Protocol.XNET Settings.ctl" Type="VI" URL="../Types/Protocol.XNET Settings.ctl"/>
-		<Item Name="RT Counter Settings.ctl" Type="VI" URL="../Types/RT Counter Settings.ctl"/>
-		<Item Name="RT Frame Settings.ctl" Type="VI" URL="../Types/RT Frame Settings.ctl"/>
-		<Item Name="RT Protection Configuration.ctl" Type="VI" URL="../Types/RT Protection Configuration.ctl"/>
 	</Item>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
 </Library>
