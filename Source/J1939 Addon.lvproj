@@ -1338,12 +1338,6 @@
 				<Item Name="XNET Write (State LIN Schedule Change).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write (State LIN Schedule Change).vi"/>
 				<Item Name="XNET Write.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write.vi"/>
 			</Item>
-			<Item Name="Exported Counter Settings.ctl" Type="VI" URL="../../../Protection Support/Source/Shared/Types/Exported Counter Settings.ctl"/>
-			<Item Name="Exported Event Trigger Type.ctl" Type="VI" URL="../../../Protection Support/Source/Shared/Types/Exported Event Trigger Type.ctl"/>
-			<Item Name="Exported Frame Settings.ctl" Type="VI" URL="../../../Protection Support/Source/Shared/Types/Exported Frame Settings.ctl"/>
-			<Item Name="Exported Frame Type.ctl" Type="VI" URL="../../../Protection Support/Source/Shared/Types/Exported Frame Type.ctl"/>
-			<Item Name="Exported Protection Settings.ctl" Type="VI" URL="../../../Protection Support/Source/Shared/Types/Exported Protection Settings.ctl"/>
-			<Item Name="Initialize Protection Frames.vi" Type="VI" URL="../../../Protection Support/Source/Engine/SubVIs/Initialize Protection Frames.vi"/>
 			<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI" Type="Document" URL="NationalInstruments.VeriStand.SystemDefinitionAPI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1356,10 +1350,8 @@
 			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Protection Type.ctl" Type="VI" URL="../../../Protection Support/Source/Shared/Types/Protection Type.ctl"/>
-			<Item Name="RT Frame Settings.ctl" Type="VI" URL="../../../Protection Support/Source/Engine/Types/RT Frame Settings.ctl"/>
-			<Item Name="RT Protection Configuration.ctl" Type="VI" URL="../../../Protection Support/Source/Engine/Types/RT Protection Configuration.ctl"/>
-			<Item Name="XNET Signal Configuration.ctl" Type="VI" URL="../../../Protection Support/Source/Shared/Types/XNET Signal Configuration.ctl"/>
+			<Item Name="Protection and Counter Support Engine.lvlib" Type="Library" URL="../SubModules/Frame Protection Support/Source/Engine/Protection and Counter Support Engine.lvlib"/>
+			<Item Name="Protection and Counter Support Shared.lvlib" Type="Library" URL="../SubModules/Frame Protection Support/Source/Shared/Protection and Counter Support Shared.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -1826,12 +1818,6 @@
 				<Item Name="XNET Write (State LIN Schedule Change).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write (State LIN Schedule Change).vi"/>
 				<Item Name="XNET Write.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write.vi"/>
 			</Item>
-			<Item Name="Exported Counter Settings.ctl" Type="VI" URL="../../../Protection Support/Source/Shared/Types/Exported Counter Settings.ctl"/>
-			<Item Name="Exported Event Trigger Type.ctl" Type="VI" URL="../../../Protection Support/Source/Shared/Types/Exported Event Trigger Type.ctl"/>
-			<Item Name="Exported Frame Settings.ctl" Type="VI" URL="../../../Protection Support/Source/Shared/Types/Exported Frame Settings.ctl"/>
-			<Item Name="Exported Frame Type.ctl" Type="VI" URL="../../../Protection Support/Source/Shared/Types/Exported Frame Type.ctl"/>
-			<Item Name="Exported Protection Settings.ctl" Type="VI" URL="../../../Protection Support/Source/Shared/Types/Exported Protection Settings.ctl"/>
-			<Item Name="Initialize Protection Frames.vi" Type="VI" URL="../../../Protection Support/Source/Engine/SubVIs/Initialize Protection Frames.vi"/>
 			<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI" Type="Document" URL="NationalInstruments.VeriStand.SystemDefinitionAPI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1844,10 +1830,8 @@
 			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Protection Type.ctl" Type="VI" URL="../../../Protection Support/Source/Shared/Types/Protection Type.ctl"/>
-			<Item Name="RT Frame Settings.ctl" Type="VI" URL="../../../Protection Support/Source/Engine/Types/RT Frame Settings.ctl"/>
-			<Item Name="RT Protection Configuration.ctl" Type="VI" URL="../../../Protection Support/Source/Engine/Types/RT Protection Configuration.ctl"/>
-			<Item Name="XNET Signal Configuration.ctl" Type="VI" URL="../../../Protection Support/Source/Shared/Types/XNET Signal Configuration.ctl"/>
+			<Item Name="Protection and Counter Support Engine.lvlib" Type="Library" URL="../SubModules/Frame Protection Support/Source/Engine/Protection and Counter Support Engine.lvlib"/>
+			<Item Name="Protection and Counter Support Shared.lvlib" Type="Library" URL="../SubModules/Frame Protection Support/Source/Shared/Protection and Counter Support Shared.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -2321,12 +2305,6 @@
 				<Item Name="XNET Write (State LIN Schedule Change).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write (State LIN Schedule Change).vi"/>
 				<Item Name="XNET Write.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write.vi"/>
 			</Item>
-			<Item Name="Exported Counter Settings.ctl" Type="VI" URL="../../../Protection Support/Source/Shared/Types/Exported Counter Settings.ctl"/>
-			<Item Name="Exported Event Trigger Type.ctl" Type="VI" URL="../../../Protection Support/Source/Shared/Types/Exported Event Trigger Type.ctl"/>
-			<Item Name="Exported Frame Settings.ctl" Type="VI" URL="../../../Protection Support/Source/Shared/Types/Exported Frame Settings.ctl"/>
-			<Item Name="Exported Frame Type.ctl" Type="VI" URL="../../../Protection Support/Source/Shared/Types/Exported Frame Type.ctl"/>
-			<Item Name="Exported Protection Settings.ctl" Type="VI" URL="../../../Protection Support/Source/Shared/Types/Exported Protection Settings.ctl"/>
-			<Item Name="Initialize Protection Frames.vi" Type="VI" URL="../../../Protection Support/Source/Engine/SubVIs/Initialize Protection Frames.vi"/>
 			<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI" Type="Document" URL="NationalInstruments.VeriStand.SystemDefinitionAPI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -2339,10 +2317,8 @@
 			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Protection Type.ctl" Type="VI" URL="../../../Protection Support/Source/Shared/Types/Protection Type.ctl"/>
-			<Item Name="RT Frame Settings.ctl" Type="VI" URL="../../../Protection Support/Source/Engine/Types/RT Frame Settings.ctl"/>
-			<Item Name="RT Protection Configuration.ctl" Type="VI" URL="../../../Protection Support/Source/Engine/Types/RT Protection Configuration.ctl"/>
-			<Item Name="XNET Signal Configuration.ctl" Type="VI" URL="../../../Protection Support/Source/Shared/Types/XNET Signal Configuration.ctl"/>
+			<Item Name="Protection and Counter Support Engine.lvlib" Type="Library" URL="../SubModules/Frame Protection Support/Source/Engine/Protection and Counter Support Engine.lvlib"/>
+			<Item Name="Protection and Counter Support Shared.lvlib" Type="Library" URL="../SubModules/Frame Protection Support/Source/Shared/Protection and Counter Support Shared.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
