@@ -1,0 +1,3 @@
+[submodule "Source/SubModules/Frame Protection Support"]
+	path = Source/SubModules/Frame Protection Support
+	url = https://github.com/NIVeriStandAdd-Ons/Frame-Protection-Support.git
