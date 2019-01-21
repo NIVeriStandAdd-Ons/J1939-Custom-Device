@@ -35,13 +35,17 @@ LV 2015
 
 ### Built Availability ###
 
-Users are allowed to build anything under Build Specifications in the source's LabVIEW project(s).  Pre-built versions are available upon request through NI Field Sales.
+https://github.com/NIVeriStandAdd-Ons/J1939-Custom-Device/releases
+
+### Built Dependencies ###
+
+NI XNET 18.0
 
 ### Quality, Limitations ###
 
 IP has been tested by developer. It meets VeriStand addon coding best practices. It is currently used by various customers.
 
-### Dependencies ###
+### Source Dependencies ###
 
 NI XNET 18.0
 
