@@ -31,7 +31,7 @@ This addon implements the J1939-21 specification (namely the transport protocols
 
 ### LabVIEW Version ###
 
-LV 2015
+LV 2019
 
 ### Built Availability ###
 
@@ -39,7 +39,7 @@ https://github.com/NIVeriStandAdd-Ons/J1939-Custom-Device/releases
 
 ### Built Dependencies ###
 
-NI XNET 18.0
+NI XNET 19.0
 
 ### Quality, Limitations ###
 
@@ -47,7 +47,7 @@ IP has been tested by developer. It meets VeriStand addon coding best practices.
 
 ### Source Dependencies ###
 
-NI XNET 18.0
+NI XNET 19.0
 
 NI Simple Messaging Library 3.0.0.7 or later
 
