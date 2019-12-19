@@ -103,4 +103,5 @@
 			<Item Name="XNET Port.ctl" Type="VI" URL="../Types/XNET Port.ctl"/>
 		</Item>
 	</Item>
+	<Item Name="OnLoad.LegacyLogic.vi" Type="VI" URL="../SubVIs/OnLoad.LegacyLogic.vi"/>
 </Library>

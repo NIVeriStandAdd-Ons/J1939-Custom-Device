@@ -37,6 +37,7 @@
 		<Item Name="Protocol.Main.vi" Type="VI" URL="../SubVIs/Protocol.Main.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Format Debug String.vi" Type="VI" URL="../SubVIs/Format Debug String.vi"/>
 		<Item Name="Main.Cleanup.vi" Type="VI" URL="../SubVIs/Main.Cleanup.vi"/>
 		<Item Name="Main.Create XNET Data Sessions.vi" Type="VI" URL="../SubVIs/Main.Create XNET Data Sessions.vi"/>
 		<Item Name="Main.Download Bitfile.vi" Type="VI" URL="../SubVIs/Main.Download Bitfile.vi"/>
