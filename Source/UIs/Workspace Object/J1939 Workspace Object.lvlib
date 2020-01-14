@@ -5,26 +5,9 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="DTCs" Type="Folder">
-		<Item Name="J1939 - Workspace Control.vi" Type="VI" URL="../DTCs/J1939 - Workspace Control.vi"/>
-	</Item>
-	<Item Name="Shared" Type="Folder">
-		<Item Name="SubVIs" Type="Folder">
-			<Item Name="Workspace.Initialize.vi" Type="VI" URL="../Shared/SubVIs/Workspace.Initialize.vi"/>
-		</Item>
-		<Item Name="Types" Type="Folder">
-			<Item Name="UI.Refs.ctl" Type="VI" URL="../Shared/Types/UI.Refs.ctl"/>
-			<Item Name="UI.StateVariables.ctl" Type="VI" URL="../Shared/Types/UI.StateVariables.ctl"/>
-		</Item>
+		<Item Name="J1939 - Workspace Control.vi" Type="VI" URL="../J1939 - Workspace Control.vi"/>
 	</Item>
 	<Item Name="SPN" Type="Folder">
-		<Item Name="SubVIs" Type="Folder">
-			<Item Name="Pull out Scale Info_NET.vi" Type="VI" URL="../SPN/SubVIs/Pull out Scale Info_NET.vi"/>
-			<Item Name="Select Channel Dialog.vi" Type="VI" URL="../SPN/SubVIs/Select Channel Dialog.vi"/>
-		</Item>
-		<Item Name="J1939 - SPN Indicator.vi" Type="VI" URL="../SPN/J1939 - SPN Indicator.vi"/>
-	</Item>
-	<Item Name="Tool" Type="Folder">
-		<Item Name="J1939 Workspace Tool Menu.rtm" Type="Document" URL="../Tool/J1939 Workspace Tool Menu.rtm"/>
-		<Item Name="J1939 Workspace Tool.vi" Type="VI" URL="../Tool/J1939 Workspace Tool.vi"/>
+		<Item Name="J1939 - SPN Indicator.vi" Type="VI" URL="../J1939 - SPN Indicator.vi"/>
 	</Item>
 </Library>
