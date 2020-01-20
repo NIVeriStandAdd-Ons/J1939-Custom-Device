@@ -4,6 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="J1939 Workspace Tool Menu.rtm" Type="Document" URL="../J1939 Workspace Tool Menu.rtm"/>
-	<Item Name="J1939 Workspace Tool.vi" Type="VI" URL="../J1939 Workspace Tool.vi"/>
+	<Item Name="J1939 - Tool.rtm" Type="Document" URL="../J1939 - Tool.rtm"/>
+	<Item Name="J1939 - Tool.vi" Type="VI" URL="../J1939 - Tool.vi"/>
 </Library>

@@ -7,7 +7,11 @@
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Pull out Scale Info_NET.vi" Type="VI" URL="../SubVIs/Pull out Scale Info_NET.vi"/>
 		<Item Name="Select Channel Dialog.vi" Type="VI" URL="../SubVIs/Select Channel Dialog.vi"/>
+		<Item Name="UI.Addon.Path.Parse.vi" Type="VI" URL="../SubVIs/UI.Addon.Path.Parse.vi"/>
+		<Item Name="UI.Connection.State.Get.vi" Type="VI" URL="../SubVIs/UI.Connection.State.Get.vi"/>
+		<Item Name="UI.Menu.Config.State.Set.vi" Type="VI" URL="../SubVIs/UI.Menu.Config.State.Set.vi"/>
 		<Item Name="Workspace.Initialize.vi" Type="VI" URL="../SubVIs/Workspace.Initialize.vi"/>
+		<Item Name="Workspace.UI.DisableState.Set.vi" Type="VI" URL="../SubVIs/Workspace.UI.DisableState.Set.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="UI.Refs.ctl" Type="VI" URL="../Types/UI.Refs.ctl"/>
