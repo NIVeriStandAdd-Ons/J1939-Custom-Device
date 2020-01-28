@@ -4,13 +4,9 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Types" Type="Folder">
-		<Item Name="DTC_Action.ctl" Type="VI" URL="../Types/DTC_Action.ctl"/>
-		<Item Name="Verify DTC_Status.ctl" Type="VI" URL="../Types/Verify DTC_Status.ctl"/>
-	</Item>
-	<Item Name="Clear DTC.vi" Type="VI" URL="../SubVIs/Clear DTC.vi"/>
-	<Item Name="Close Connection with CD.vi" Type="VI" URL="../SubVIs/Close Connection with CD.vi"/>
-	<Item Name="Initialize Connection with CD.vi" Type="VI" URL="../SubVIs/Initialize Connection with CD.vi"/>
-	<Item Name="Set CAN_Raw.vi" Type="VI" URL="../SubVIs/Set CAN_Raw.vi"/>
-	<Item Name="Verify DTC.vi" Type="VI" URL="../SubVIs/Verify DTC.vi"/>
+	<Item Name="Clear DTC.vi" Type="VI" URL="../Clear DTC.vi"/>
+	<Item Name="Close Connection with CD.vi" Type="VI" URL="../Close Connection with CD.vi"/>
+	<Item Name="Initialize Connection with CD.vi" Type="VI" URL="../Initialize Connection with CD.vi"/>
+	<Item Name="Set CAN_Raw.vi" Type="VI" URL="../Set CAN_Raw.vi"/>
+	<Item Name="Verify DTC.vi" Type="VI" URL="../Verify DTC.vi"/>
 </Library>

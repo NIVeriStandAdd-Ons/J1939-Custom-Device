@@ -21,29 +21,100 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Help" Type="Folder" URL="../Help">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="Addon" Type="Folder">
+			<Item Name="Support Files" Type="Folder">
+				<Item Name="Glyphs" Type="Folder">
+					<Item Name="J1939.png" Type="Document" URL="../Addon/Support Files/Glyphs/J1939.png"/>
+					<Item Name="J1939_Disabled.png" Type="Document" URL="../Addon/Support Files/Glyphs/J1939_Disabled.png"/>
+				</Item>
+				<Item Name="Help" Type="Folder">
+					<Item Name="HTML Help Source" Type="Folder">
+						<Item Name="css" Type="Folder">
+							<Item Name="expandable_tree.css" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/css/expandable_tree.css"/>
+							<Item Name="VSsystemexplorer.css" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/css/VSsystemexplorer.css"/>
+						</Item>
+						<Item Name="js" Type="Folder">
+							<Item Name="arraytools.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/arraytools.js"/>
+							<Item Name="checkinstalled.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/checkinstalled.js"/>
+							<Item Name="common.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/common.js"/>
+							<Item Name="cssframes.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/cssframes.js"/>
+							<Item Name="domtools.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/domtools.js"/>
+							<Item Name="dynamiccontent.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/dynamiccontent.js"/>
+							<Item Name="dynamicjumps.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/dynamicjumps.js"/>
+							<Item Name="dynamiclinks.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/dynamiclinks.js"/>
+							<Item Name="expandable_tree.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/expandable_tree.js"/>
+							<Item Name="feedbacklink.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/feedbacklink.js"/>
+							<Item Name="Globals.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/Globals.js"/>
+							<Item Name="initpagedyn.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/initpagedyn.js"/>
+							<Item Name="launchhelp.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/launchhelp.js"/>
+							<Item Name="linking.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/linking.js"/>
+							<Item Name="objectnames.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/objectnames.js"/>
+							<Item Name="osbrowser.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/osbrowser.js"/>
+							<Item Name="pdf.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/pdf.js"/>
+							<Item Name="polyviselect.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/polyviselect.js"/>
+							<Item Name="stylesheets.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/stylesheets.js"/>
+							<Item Name="variables.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/variables.js"/>
+							<Item Name="web.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/web.js"/>
+						</Item>
+						<Item Name="ClearDTC.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/ClearDTC.html"/>
+						<Item Name="Counter.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/Counter.html"/>
+						<Item Name="Diagnostics_J1939.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/Diagnostics_J1939.html"/>
+						<Item Name="DM1.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/DM1.html"/>
+						<Item Name="DM2.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/DM2.html"/>
+						<Item Name="DTC.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/DTC.html"/>
+						<Item Name="FrameInformation.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/FrameInformation.html"/>
+						<Item Name="InPage_J1939.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/InPage_J1939.html"/>
+						<Item Name="InSingleFramePage_J1939.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/InSingleFramePage_J1939.html"/>
+						<Item Name="InSinglePage_J1939.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/InSinglePage_J1939.html"/>
+						<Item Name="Main.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/Main.html"/>
+						<Item Name="Monitor.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/Monitor.html"/>
+						<Item Name="OutCyclicEventFramePage_J1939.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/OutCyclicEventFramePage_J1939.html"/>
+						<Item Name="OutCyclicEventPage_J1939.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/OutCyclicEventPage_J1939.html"/>
+						<Item Name="OutCyclicFramePage_J1939.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/OutCyclicFramePage_J1939.html"/>
+						<Item Name="OutCyclicPage_J1939.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/OutCyclicPage_J1939.html"/>
+						<Item Name="OutEventFramePage_J1939.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/OutEventFramePage_J1939.html"/>
+						<Item Name="OutEventPage_J1939.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/OutEventPage_J1939.html"/>
+						<Item Name="OutPage_J1939.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/OutPage_J1939.html"/>
+						<Item Name="ProtectionSignal.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/ProtectionSignal.html"/>
+						<Item Name="ReceiveTime.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/ReceiveTime.html"/>
+						<Item Name="SignalOutputPage_J1939.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/SignalOutputPage_J1939.html"/>
+						<Item Name="SignalPage_J1939.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/SignalPage_J1939.html"/>
+						<Item Name="Sim Device.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/Sim Device.html"/>
+						<Item Name="Sim Diagnostics.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/Sim Diagnostics.html"/>
+						<Item Name="Simulation.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/Simulation.html"/>
+						<Item Name="TimeDif_J1939.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/TimeDif_J1939.html"/>
+						<Item Name="VerifyDTC_J1939.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/VerifyDTC_J1939.html"/>
+					</Item>
+					<Item Name="Build CHM.cfg" Type="Document" URL="../Addon/Support Files/Help/Build CHM.cfg"/>
+					<Item Name="Build CHM.log" Type="Document" URL="../Addon/Support Files/Help/Build CHM.log"/>
+					<Item Name="Build CHM.vi" Type="VI" URL="../Addon/Support Files/Help/Build CHM.vi"/>
+					<Item Name="J1939-errors.txt" Type="Document" URL="../Addon/Support Files/Help/J1939-errors.txt"/>
+					<Item Name="J1939.chm" Type="Document" URL="../Addon/Support Files/Help/J1939.chm"/>
+					<Item Name="J1939.hhp" Type="Document" URL="../Addon/Support Files/Help/J1939.hhp"/>
+				</Item>
+			</Item>
+			<Item Name="Support Libraries" Type="Folder">
+				<Item Name="J1939 Utilities.lvlib" Type="Library" URL="../Addon/Support Libraries/J1939 Utilities/J1939 Utilities.lvlib"/>
+			</Item>
+			<Item Name="Custom Device J1939 Addon.xml" Type="Document" URL="../Addon/Custom Device J1939 Addon.xml"/>
+			<Item Name="J1939 Addon Engine.lvlib" Type="Library" URL="../Addon/Addon Engine/J1939 Addon Engine.lvlib"/>
+			<Item Name="J1939 Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/J1939 Addon Shared.lvlib"/>
+			<Item Name="J1939 Addon System Explorer.lvlib" Type="Library" URL="../Addon/Addon System Explorer/J1939 Addon System Explorer.lvlib"/>
 		</Item>
-		<Item Name="Host Automation API" Type="Folder">
-			<Item Name="J1939 Host Automation API.lvlib" Type="Library" URL="../APIs/Host Automation API/J1939 Host Automation API.lvlib"/>
+		<Item Name="APIs" Type="Folder">
+			<Item Name="Host Automation API" Type="Folder">
+				<Item Name="J1939 Host Automation API.lvlib" Type="Library" URL="../APIs/Host Automation API/J1939 Host Automation API.lvlib"/>
+			</Item>
 		</Item>
-		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
-			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
+		<Item Name="UIs" Type="Folder">
+			<Item Name="J1939 Workspace Object.lvlib" Type="Library" URL="../UIs/Workspace Object/J1939 Workspace Object.lvlib"/>
+			<Item Name="J1939 Workspace Shared.lvlib" Type="Library" URL="../UIs/Workspace Shared/J1939 Workspace Shared.lvlib"/>
+			<Item Name="J1939 Workspace Tool.lvlib" Type="Library" URL="../UIs/Workspace Tool/J1939 Workspace Tool.lvlib"/>
 		</Item>
-		<Item Name="Support Files" Type="Folder">
-			<Item Name="Custom Device J1939 Addon.xml" Type="Document" URL="../Custom Device J1939 Addon.xml"/>
+		<Item Name="Utilities" Type="Folder">
+			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utilities/Copy .LLB to NI VeriStand dir.vi"/>
+			<Item Name="LLB Pre-Build CHM Build.vi" Type="VI" URL="../Utilities/LLB Pre-Build CHM Build.vi"/>
 		</Item>
-		<Item Name="Utility" Type="Folder">
-			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
-			<Item Name="LLB Pre-Build CHM Build.vi" Type="VI" URL="../Utility/LLB Pre-Build CHM Build.vi"/>
-		</Item>
-		<Item Name="J1939 Addon Engine.lvlib" Type="Library" URL="../Engine/J1939 Addon Engine.lvlib"/>
-		<Item Name="J1939 Addon Shared.lvlib" Type="Library" URL="../Shared/J1939 Addon Shared.lvlib"/>
-		<Item Name="J1939 Addon System Explorer.lvlib" Type="Library" URL="../System Explorer/J1939 Addon System Explorer.lvlib"/>
-		<Item Name="J1939 Workspace Object.lvlib" Type="Library" URL="../UIs/Workspace Object/J1939 Workspace Object.lvlib"/>
-		<Item Name="J1939 Workspace Shared.lvlib" Type="Library" URL="../UIs/Workspace Shared/J1939 Workspace Shared.lvlib"/>
-		<Item Name="J1939 Workspace Tool.lvlib" Type="Library" URL="../UIs/Workspace Tool/J1939 Workspace Tool.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -64,7 +135,9 @@
 				<Item Name="cluster_Screen Item Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Display Template Support/DisplayTemplateSupport.llb/cluster_Screen Item Settings.ctl"/>
 				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 				<Item Name="Custom Device Offline API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Offline API/Custom Device Offline API.lvlib"/>
+				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
 				<Item Name="Data Access System Explorer.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access System Explorer/Data Access System Explorer.lvlib"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
@@ -78,7 +151,6 @@
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
-				<Item Name="Filter Type.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Hardware Resource Discovery/Types/Filter Type.ctl"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
@@ -115,7 +187,6 @@
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="NI_VS UI Single Node Browser.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/UI Controls/Single Node Browser/NI_VS UI Single Node Browser.lvlib"/>
 				<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
-				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
 				<Item Name="NIVS Hardware Discovery.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Hardware Resource Discovery/NIVS Hardware Discovery.lvlib"/>
@@ -314,8 +385,8 @@
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
-				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Utility/LLB Pre-Build CHM Build.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Utilities/LLB Pre-Build CHM Build.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E8035317-FDF9-4FC1-9EF0-1450E8CAE472}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -327,18 +398,34 @@
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="Destination[3].destName" Type="Str">XML Destination</Property>
 				<Property Name="Destination[3].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME</Property>
-				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1CC1A680-72E8-490F-9DE3-A30A05C45C29}</Property>
+				<Property Name="Destination[4].destName" Type="Str">Glyphs</Property>
+				<Property Name="Destination[4].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows/Glyphs</Property>
+				<Property Name="DestinationCount" Type="Int">5</Property>
+				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4F8AB68F-BD80-4F3E-8B54-42ED31577AF2}</Property>
+				<Property Name="Source[0].properties[0].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[0].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[0].properties[2].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[0].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[0].properties[3].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[0].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[0].properties[4].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[0].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[0].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Support Files/Custom Device J1939 Addon.xml</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Addon/Custom Device J1939 Addon.xml</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/J1939 Addon System Explorer.lvlib/System Explorer</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Addon/J1939 Addon System Explorer.lvlib/System Explorer</Property>
 				<Property Name="Source[2].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[2].properties[1].type" Type="Str">Allow debugging</Property>
@@ -354,9 +441,9 @@
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/NI VeriStand APIs</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Addon/J1939 Addon Shared.lvlib/Shared</Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[3].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[3].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[3].properties[2].type" Type="Str">Run when opened</Property>
@@ -367,24 +454,16 @@
 				<Property Name="Source[3].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[4].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/J1939 Addon Shared.lvlib/Shared</Property>
-				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[4].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[4].properties[2].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[4].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[4].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[4].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[4].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Help/J1939.chm</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Addon/Support Files/Help/J1939.chm</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Addon/Support Files/Glyphs</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">6</Property>
 			</Item>
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -392,20 +471,20 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Engine Release</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/J1939 Addon/Windows/J1939 Addon Engine.llb</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows/J1939 Addon Engine Windows.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{32214451-43E2-4D3E-92C8-CE819321FAC4}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/J1939 Addon/Windows/J1939 Addon Engine.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows/J1939 Addon Engine Windows.llb</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/J1939 Addon/Windows/Data</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows/Data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7FA23D05-298E-4252-B67A-4EBF526EDDB2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4A5721CA-D5D4-4894-97DB-9AF6B6DD56E2}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
@@ -419,7 +498,7 @@
 				<Property Name="Source[0].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/J1939 Addon Engine.lvlib/RT Driver VI.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Addon/J1939 Addon Engine.lvlib/RT Driver VI.vi</Property>
 				<Property Name="Source[1].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[1].properties[1].type" Type="Str">Remove front panel</Property>
@@ -429,85 +508,63 @@
 				<Property Name="Source[1].propertiesCount" Type="Int">3</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[10].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[10].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[10].itemID" Type="Ref"></Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Addon/J1939 Addon Engine.lvlib/SubVIs</Property>
 				<Property Name="Source[10].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[10].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[10].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[10].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[10].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[10].properties[2].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[10].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[10].properties[3].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[10].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[10].properties[4].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[10].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[10].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[10].type" Type="Str">Container</Property>
+				<Property Name="Source[11].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[11].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[11].itemID" Type="Ref"></Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Addon/J1939 Addon Engine.lvlib/Types</Property>
 				<Property Name="Source[11].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[11].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[11].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[11].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[11].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[11].properties[2].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[11].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[11].properties[3].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[11].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[11].properties[4].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[11].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[11].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[11].type" Type="Str">Container</Property>
 				<Property Name="Source[12].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[12].itemID" Type="Ref"></Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Addon/Support Libraries/J1939 Utilities.lvlib/J1939 Utilities</Property>
 				<Property Name="Source[12].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[12].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[12].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[12].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[12].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[12].type" Type="Str">Container</Property>
-				<Property Name="Source[13].itemID" Type="Ref"></Property>
+				<Property Name="Source[13].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Addon/J1939 Addon Shared.lvlib/Shared/SubVIs</Property>
 				<Property Name="Source[13].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[13].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[13].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[13].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[13].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[13].type" Type="Str">VI</Property>
-				<Property Name="Source[14].itemID" Type="Ref"></Property>
+				<Property Name="Source[13].type" Type="Str">Container</Property>
+				<Property Name="Source[14].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Addon/J1939 Addon Shared.lvlib/Shared/Types</Property>
 				<Property Name="Source[14].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[14].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[14].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[14].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[14].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[14].type" Type="Str">VI</Property>
-				<Property Name="Source[15].itemID" Type="Ref"></Property>
-				<Property Name="Source[15].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[15].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[15].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[15].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[15].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[15].type" Type="Str">VI</Property>
-				<Property Name="Source[16].itemID" Type="Ref"></Property>
-				<Property Name="Source[16].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[16].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[16].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[16].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[16].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[16].type" Type="Str">VI</Property>
-				<Property Name="Source[17].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[17].itemID" Type="Ref"></Property>
-				<Property Name="Source[17].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[17].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[17].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[17].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[17].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[17].type" Type="Str">Container</Property>
-				<Property Name="Source[18].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[18].itemID" Type="Ref"></Property>
-				<Property Name="Source[18].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[18].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[18].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[18].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[18].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[18].type" Type="Str">Container</Property>
-				<Property Name="Source[19].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[19].itemID" Type="Ref"></Property>
-				<Property Name="Source[19].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[19].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[19].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[19].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[19].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[19].type" Type="Str">Container</Property>
+				<Property Name="Source[14].type" Type="Str">Container</Property>
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/NI VeriStand APIs</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[2].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[2].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -520,78 +577,8 @@
 				<Property Name="Source[2].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="Source[20].itemID" Type="Ref"></Property>
-				<Property Name="Source[20].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[20].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[20].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[20].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[20].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[20].type" Type="Str">VI</Property>
-				<Property Name="Source[21].itemID" Type="Ref"></Property>
-				<Property Name="Source[21].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[21].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[21].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[21].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[21].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[21].type" Type="Str">VI</Property>
-				<Property Name="Source[22].itemID" Type="Ref"></Property>
-				<Property Name="Source[22].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[22].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[22].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[22].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[22].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[22].type" Type="Str">VI</Property>
-				<Property Name="Source[23].itemID" Type="Ref"></Property>
-				<Property Name="Source[23].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[23].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[23].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[23].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[23].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[23].type" Type="Str">VI</Property>
-				<Property Name="Source[24].itemID" Type="Ref"></Property>
-				<Property Name="Source[24].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[24].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[24].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[24].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[24].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[24].type" Type="Str">VI</Property>
-				<Property Name="Source[25].itemID" Type="Ref"></Property>
-				<Property Name="Source[25].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[25].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[25].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[25].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[25].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[25].type" Type="Str">VI</Property>
-				<Property Name="Source[26].itemID" Type="Ref"></Property>
-				<Property Name="Source[26].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[26].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[26].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[26].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[26].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[26].type" Type="Str">VI</Property>
-				<Property Name="Source[27].itemID" Type="Ref"></Property>
-				<Property Name="Source[27].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[27].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[27].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[27].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[27].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[27].type" Type="Str">VI</Property>
-				<Property Name="Source[28].itemID" Type="Ref"></Property>
-				<Property Name="Source[28].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[28].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[28].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[28].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[28].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[28].type" Type="Str">VI</Property>
-				<Property Name="Source[29].itemID" Type="Ref"></Property>
-				<Property Name="Source[29].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[29].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[29].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[29].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[29].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[29].type" Type="Str">VI</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/J1939 Addon Shared.lvlib/Shared</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Addon/J1939 Addon Shared.lvlib/Shared</Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[3].properties[1].type" Type="Str">Allow debugging</Property>
@@ -604,211 +591,57 @@
 				<Property Name="Source[3].properties[4].value" Type="Bool">true</Property>
 				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="Source[30].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[30].itemID" Type="Ref"></Property>
-				<Property Name="Source[30].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[30].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[30].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[30].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[30].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[30].type" Type="Str">Container</Property>
-				<Property Name="Source[31].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[31].itemID" Type="Ref"></Property>
-				<Property Name="Source[31].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[31].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[31].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[31].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[31].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[31].type" Type="Str">Container</Property>
-				<Property Name="Source[32].itemID" Type="Ref"></Property>
-				<Property Name="Source[32].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[32].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[32].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[32].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[32].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[32].type" Type="Str">VI</Property>
-				<Property Name="Source[33].itemID" Type="Ref"></Property>
-				<Property Name="Source[33].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[33].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[33].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[33].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[33].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[33].type" Type="Str">VI</Property>
-				<Property Name="Source[34].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[34].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[34].itemID" Type="Ref">/My Computer/J1939 Addon Engine.lvlib/J1939 Multi Packet Frame</Property>
-				<Property Name="Source[34].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[34].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[34].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[34].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[34].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[34].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[34].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[34].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[34].properties[4].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[34].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[34].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[34].type" Type="Str">Container</Property>
-				<Property Name="Source[35].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[35].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[35].itemID" Type="Ref">/My Computer/J1939 Addon Engine.lvlib/Processes</Property>
-				<Property Name="Source[35].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[35].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[35].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[35].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[35].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[35].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[35].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[35].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[35].properties[4].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[35].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[35].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[35].type" Type="Str">Container</Property>
-				<Property Name="Source[36].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[36].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[36].itemID" Type="Ref">/My Computer/J1939 Addon Engine.lvlib/SubVIs</Property>
-				<Property Name="Source[36].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[36].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[36].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[36].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[36].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[36].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[36].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[36].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[36].properties[4].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[36].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[36].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[36].type" Type="Str">Container</Property>
-				<Property Name="Source[37].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[37].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[37].itemID" Type="Ref">/My Computer/J1939 Addon Engine.lvlib/Types</Property>
-				<Property Name="Source[37].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[37].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[37].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[37].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[37].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[37].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[37].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[37].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[37].properties[4].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[37].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[37].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[37].type" Type="Str">Container</Property>
-				<Property Name="Source[38].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[38].itemID" Type="Ref">/My Computer/J1939 Addon Shared.lvlib/Shared/Userlib/J1939 Utilities.lvlib/J1939 Utilities</Property>
-				<Property Name="Source[38].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[38].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[38].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[38].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[38].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[38].type" Type="Str">Container</Property>
-				<Property Name="Source[39].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[39].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[39].itemID" Type="Ref"></Property>
-				<Property Name="Source[39].properties[0].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[39].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[39].properties[1].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[39].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[39].properties[2].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[39].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[39].properties[3].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[39].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[39].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[39].properties[4].value" Type="Bool">true</Property>
-				<Property Name="Source[39].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[39].type" Type="Str">Container</Property>
-				<Property Name="Source[4].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Host Automation API/J1939 Host Automation API.lvlib/Types</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/APIs/Host Automation API/J1939 Host Automation API.lvlib/Clear DTC.vi</Property>
 				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[4].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[4].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[4].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="Source[40].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[40].itemID" Type="Ref"></Property>
-				<Property Name="Source[40].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[40].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[40].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[40].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[40].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[40].type" Type="Str">Container</Property>
-				<Property Name="Source[41].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[41].itemID" Type="Ref">/My Computer/J1939 Addon Shared.lvlib/Shared/SubVIs</Property>
-				<Property Name="Source[41].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[41].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[41].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[41].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[41].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[41].type" Type="Str">Container</Property>
-				<Property Name="Source[42].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[42].itemID" Type="Ref"></Property>
-				<Property Name="Source[42].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[42].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[42].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[42].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[42].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[42].type" Type="Str">Container</Property>
-				<Property Name="Source[43].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[43].itemID" Type="Ref">/My Computer/J1939 Addon Shared.lvlib/Shared/Types</Property>
-				<Property Name="Source[43].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[43].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[43].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[43].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[43].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[43].type" Type="Str">Container</Property>
-				<Property Name="Source[44].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[44].itemID" Type="Ref">/My Computer/J1939 Addon Shared.lvlib/Shared/Userlib</Property>
-				<Property Name="Source[44].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[44].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[44].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[44].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[44].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[44].type" Type="Str">Container</Property>
-				<Property Name="Source[45].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[45].itemID" Type="Ref">/My Computer/J1939 Addon Engine.lvlib/Tables</Property>
-				<Property Name="Source[45].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[45].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[45].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[45].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[45].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[45].type" Type="Str">Container</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Host Automation API/J1939 Host Automation API.lvlib/Clear DTC.vi</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/APIs/Host Automation API/J1939 Host Automation API.lvlib/Close Connection with CD.vi</Property>
 				<Property Name="Source[5].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[5].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[5].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[5].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[5].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Host Automation API/J1939 Host Automation API.lvlib/Close Connection with CD.vi</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/APIs/Host Automation API/J1939 Host Automation API.lvlib/Initialize Connection with CD.vi</Property>
 				<Property Name="Source[6].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[6].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[6].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[6].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[6].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Host Automation API/J1939 Host Automation API.lvlib/Initialize Connection with CD.vi</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/APIs/Host Automation API/J1939 Host Automation API.lvlib/Set CAN_Raw.vi</Property>
 				<Property Name="Source[7].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[7].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[7].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[7].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[7].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Host Automation API/J1939 Host Automation API.lvlib/Set CAN_Raw.vi</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/APIs/Host Automation API/J1939 Host Automation API.lvlib/Verify DTC.vi</Property>
 				<Property Name="Source[8].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[8].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[8].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[8].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[8].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Host Automation API/J1939 Host Automation API.lvlib/Verify DTC.vi</Property>
+				<Property Name="Source[9].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[9].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Addon/J1939 Addon Engine.lvlib/Processes</Property>
 				<Property Name="Source[9].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[9].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[9].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[9].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[9].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[9].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">46</Property>
+				<Property Name="Source[9].properties[2].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[9].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[9].properties[3].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[9].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[9].properties[4].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[9].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[9].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[9].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">15</Property>
 			</Item>
 			<Item Name="Host API" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
@@ -820,7 +653,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows/Host Automation API</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E9B14692-4A42-4687-9BF8-F10A68357D6F}</Property>
 				<Property Name="Bld_version.build" Type="Int">28</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
@@ -835,7 +668,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{1CC1A680-72E8-490F-9DE3-A30A05C45C29}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Host Automation API/J1939 Host Automation API.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/APIs/Host Automation API/J1939 Host Automation API.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
@@ -859,7 +692,7 @@
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Display Templates</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{384CACA3-CE50-466E-B6BC-980E57348FD1}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -867,21 +700,21 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/Display Templates/Data</Property>
 				<Property Name="Destination[2].destName" Type="Str">J1939 Workspace Objects LLB</Property>
-				<Property Name="Destination[2].path" Type="Path">../Built/Display Templates/J1939 Workspace Objects.llb</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/Display Templates/J1939 Workspace Object Support.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7C7A611D-4B57-436A-9CD4-1753FE47A66A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4CA638D3-1A6B-4EC6-8454-211D4A279AF2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Support Files/Custom Device J1939 Addon.xml</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Addon/Custom Device J1939 Addon.xml</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/J1939 Workspace Object.lvlib</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/UIs/J1939 Workspace Object.lvlib</Property>
 				<Property Name="Source[10].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[10].type" Type="Str">Library</Property>
 				<Property Name="Source[11].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/J1939 Workspace Object.lvlib/DTCs</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/UIs/J1939 Workspace Object.lvlib/DTCs</Property>
 				<Property Name="Source[11].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[11].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[11].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -889,7 +722,7 @@
 				<Property Name="Source[11].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[11].type" Type="Str">Container</Property>
 				<Property Name="Source[12].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/J1939 Workspace Object.lvlib/SPN</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/UIs/J1939 Workspace Object.lvlib/SPN</Property>
 				<Property Name="Source[12].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[12].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[12].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -897,28 +730,28 @@
 				<Property Name="Source[12].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[12].type" Type="Str">Container</Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/J1939 Workspace Shared.lvlib</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/UIs/J1939 Workspace Shared.lvlib</Property>
 				<Property Name="Source[13].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[13].type" Type="Str">Library</Property>
 				<Property Name="Source[14].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[14].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[14].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/J1939 Workspace Shared.lvlib/SubVIs</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/UIs/J1939 Workspace Shared.lvlib/SubVIs</Property>
 				<Property Name="Source[14].type" Type="Str">Container</Property>
 				<Property Name="Source[15].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[15].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[15].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/My Computer/J1939 Workspace Shared.lvlib/Types</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/UIs/J1939 Workspace Shared.lvlib/Types</Property>
 				<Property Name="Source[15].type" Type="Str">Container</Property>
 				<Property Name="Source[16].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Host Automation API/J1939 Host Automation API.lvlib</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/APIs/Host Automation API/J1939 Host Automation API.lvlib</Property>
 				<Property Name="Source[16].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[16].type" Type="Str">Library</Property>
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/J1939 Addon System Explorer.lvlib/System Explorer</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Addon/J1939 Addon System Explorer.lvlib/System Explorer</Property>
 				<Property Name="Source[2].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[2].properties[1].type" Type="Str">Allow debugging</Property>
@@ -933,7 +766,7 @@
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/NI VeriStand APIs</Property>
+				<Property Name="Source[3].itemID" Type="Ref"></Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -950,7 +783,7 @@
 				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/J1939 Addon Shared.lvlib/Shared</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Addon/J1939 Addon Shared.lvlib/Shared</Property>
 				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -964,25 +797,25 @@
 				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/J1939 Workspace Object.lvlib/SPN/J1939 - SPN Indicator.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/UIs/J1939 Workspace Object.lvlib/SPN/J1939 - SPN Indicator.vi</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/J1939 Workspace Object.lvlib/DTCs/J1939 - Workspace Control.vi</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/UIs/J1939 Workspace Object.lvlib/DTCs/J1939 - Workspace Control.vi</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/J1939 Addon Shared.lvlib</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Addon/J1939 Addon Shared.lvlib</Property>
 				<Property Name="Source[7].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[7].type" Type="Str">Library</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/J1939 Addon Shared.lvlib/Shared/Userlib/J1939 Utilities.lvlib</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Addon/Support Libraries/J1939 Utilities.lvlib</Property>
 				<Property Name="Source[8].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[8].type" Type="Str">Library</Property>
 				<Property Name="Source[9].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[9].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/J1939 Addon Shared.lvlib/Shared/Userlib/J1939 Utilities.lvlib/J1939 Utilities</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Addon/Support Libraries/J1939 Utilities.lvlib/J1939 Utilities</Property>
 				<Property Name="Source[9].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[9].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[9].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -999,7 +832,7 @@
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Workspace Tools/J1939 Tool</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{87BEE746-B834-49E2-A2C7-35879181215F}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -1007,18 +840,18 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/Workspace Tools/J1939 Tool/Data</Property>
 				<Property Name="Destination[2].destName" Type="Str">J1939 Workspace Tool LLB</Property>
-				<Property Name="Destination[2].path" Type="Path">../Built/Workspace Tools/J1939 Tool/J1939 Workspace Tool Support.llb</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/Workspace Tools/J1939 Tool/J1939 Tool Support.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8A402B47-3D51-49B3-A4EC-F565000B33BD}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4CA638D3-1A6B-4EC6-8454-211D4A279AF2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/J1939 Addon System Explorer.lvlib/System Explorer</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Addon/J1939 Addon System Explorer.lvlib/System Explorer</Property>
 				<Property Name="Source[1].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[1].properties[1].type" Type="Str">Allow debugging</Property>
@@ -1032,7 +865,7 @@
 				<Property Name="Source[1].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="Source[10].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/J1939 Workspace Object.lvlib/SPN</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/UIs/J1939 Workspace Object.lvlib/SPN</Property>
 				<Property Name="Source[10].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[10].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[10].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -1040,34 +873,34 @@
 				<Property Name="Source[10].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[10].type" Type="Str">Container</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/J1939 Workspace Shared.lvlib</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/UIs/J1939 Workspace Shared.lvlib</Property>
 				<Property Name="Source[11].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[11].type" Type="Str">Library</Property>
 				<Property Name="Source[12].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[12].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/J1939 Workspace Shared.lvlib/SubVIs</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/UIs/J1939 Workspace Shared.lvlib/SubVIs</Property>
 				<Property Name="Source[12].type" Type="Str">Container</Property>
 				<Property Name="Source[13].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[13].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/J1939 Workspace Shared.lvlib/Types</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/UIs/J1939 Workspace Shared.lvlib/Types</Property>
 				<Property Name="Source[13].type" Type="Str">Container</Property>
 				<Property Name="Source[14].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/J1939 Workspace Tool.lvlib</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/UIs/J1939 Workspace Tool.lvlib</Property>
 				<Property Name="Source[14].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[14].type" Type="Str">Library</Property>
 				<Property Name="Source[15].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Host Automation API/J1939 Host Automation API.lvlib</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/APIs/Host Automation API/J1939 Host Automation API.lvlib</Property>
 				<Property Name="Source[15].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[15].type" Type="Str">Library</Property>
 				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/My Computer/J1939 Workspace Tool.lvlib/J1939 - Tool.rtm</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/UIs/J1939 Workspace Tool.lvlib/J1939 - Tool.rtm</Property>
 				<Property Name="Source[16].lvfile" Type="Bool">true</Property>
 				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/NI VeriStand APIs</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[2].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[2].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -1084,7 +917,7 @@
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/J1939 Addon Shared.lvlib/Shared</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Addon/J1939 Addon Shared.lvlib/Shared</Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -1098,17 +931,17 @@
 				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/J1939 Addon Shared.lvlib</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Addon/J1939 Addon Shared.lvlib</Property>
 				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[4].type" Type="Str">Library</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/J1939 Addon Shared.lvlib/Shared/Userlib/J1939 Utilities.lvlib</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Addon/Support Libraries/J1939 Utilities.lvlib</Property>
 				<Property Name="Source[5].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[5].type" Type="Str">Library</Property>
 				<Property Name="Source[6].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[6].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/J1939 Addon Shared.lvlib/Shared/Userlib/J1939 Utilities.lvlib/J1939 Utilities</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Addon/Support Libraries/J1939 Utilities.lvlib/J1939 Utilities</Property>
 				<Property Name="Source[6].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[6].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[6].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -1116,15 +949,15 @@
 				<Property Name="Source[6].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[6].type" Type="Str">Container</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/J1939 Workspace Object.lvlib</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/UIs/J1939 Workspace Object.lvlib</Property>
 				<Property Name="Source[7].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[7].type" Type="Str">Library</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/J1939 Workspace Tool.lvlib/J1939 - Tool.vi</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/UIs/J1939 Workspace Tool.lvlib/J1939 - Tool.vi</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="Source[9].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/J1939 Workspace Object.lvlib/DTCs</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/UIs/J1939 Workspace Object.lvlib/DTCs</Property>
 				<Property Name="Source[9].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[9].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[9].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -1147,9 +980,9 @@
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Workspace Tools/J1939 Tool</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C0663D60-B536-476E-9514-E268917BA193}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">J1939 Tool.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Workspace Tools/J1939 Tool/J1939 Tool.exe</Property>
@@ -1161,11 +994,11 @@
 				<Property Name="Source[0].itemID" Type="Str">{8A402B47-3D51-49B3-A4EC-F565000B33BD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/J1939 Workspace Tool.lvlib/J1939 - Tool.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UIs/J1939 Workspace Tool.lvlib/J1939 - Tool.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/J1939 Workspace Tool.lvlib/J1939 - Tool.rtm</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/UIs/J1939 Workspace Tool.lvlib/J1939 - Tool.rtm</Property>
 				<Property Name="Source[2].lvfile" Type="Bool">true</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
@@ -1229,12 +1062,8 @@
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
-			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
-		</Item>
-		<Item Name="J1939 Addon Engine.lvlib" Type="Library" URL="../Engine/J1939 Addon Engine.lvlib"/>
-		<Item Name="J1939 Addon Shared.lvlib" Type="Library" URL="../Shared/J1939 Addon Shared.lvlib"/>
+		<Item Name="J1939 Addon Engine.lvlib" Type="Library" URL="../Addon/Addon Engine/J1939 Addon Engine.lvlib"/>
+		<Item Name="J1939 Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/J1939 Addon Shared.lvlib"/>
 		<Item Name="J1939 Host Automation API.lvlib" Type="Library" URL="../APIs/Host Automation API/J1939 Host Automation API.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -1244,38 +1073,14 @@
 				<Item Name="_XNET Split Database Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Split Database Cluster.vi"/>
 				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
-				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
+				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
-				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
-				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
-				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="enum_Display Template Handler Minimal To Widget Msg.ctl" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Display Template Support/DisplayTemplateSupport.llb/enum_Display Template Handler Minimal To Widget Msg.ctl"/>
-				<Item Name="enum_Display Template Handler Minimal To Workspace.ctl" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Display Template Support/DisplayTemplateSupport.llb/enum_Display Template Handler Minimal To Workspace.ctl"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
-				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
-				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
-				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
-				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
-				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
-				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
-				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="LVNodeAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVNodeAndColumnTypeDef.ctl"/>
-				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
-				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
-				<Item Name="MergeError.vi" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Shared/MergeError.vi"/>
 				<Item Name="NI STM.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/STM/NI STM.lvlib"/>
 				<Item Name="NI VeriStand Addon Network Comm Shared.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Shared/NI VeriStand Addon Network Comm Shared.lvlib"/>
 				<Item Name="NI VeriStand Addon Network Comm.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Engine/NI VeriStand Addon Network Comm.lvlib"/>
@@ -1283,27 +1088,12 @@
 				<Item Name="NI_FTP.lvlib" Type="Library" URL="/&lt;vilib&gt;/FTP/NI_FTP.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
-				<Item Name="NI_VS UI Single Node Browser.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/UI Controls/Single Node Browser/NI_VS UI Single Node Browser.lvlib"/>
-				<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
-				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
-				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
-				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
-				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
-				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
-				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
-				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Tools_KeyedArray.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/Keyed Array/Tools_KeyedArray.lvlib"/>
 				<Item Name="Tools_String.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/String/Tools_String.lvlib"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
@@ -1423,24 +1213,15 @@
 				<Item Name="XNET Write (State LIN Schedule Change).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write (State LIN Schedule Change).vi"/>
 				<Item Name="XNET Write.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write.vi"/>
 			</Item>
-			<Item Name="J1939 Workspace Shared.lvlib" Type="Library" URL="../UIs/Workspace Shared/J1939 Workspace Shared.lvlib"/>
+			<Item Name="J1939 Utilities.lvlib" Type="Library" URL="../Addon/Support Libraries/J1939 Utilities/J1939 Utilities.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
-			<Item Name="mscorlib" Type="VI" URL="mscorlib">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="NationalInstruments.VeriStand" Type="Document" URL="NationalInstruments.VeriStand">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="NationalInstruments.VeriStand.ClientAPI" Type="Document" URL="NationalInstruments.VeriStand.ClientAPI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI" Type="Document" URL="NationalInstruments.VeriStand.SystemDefinitionAPI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="NationalInstruments.VeriStand.SystemStorageUI" Type="Document" URL="NationalInstruments.VeriStand.SystemStorageUI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NiFpga.dll" Type="Document" URL="NiFpga.dll">
@@ -1464,7 +1245,7 @@
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{EBCBE6D2-9B73-4CA1-9314-AE8EF883EA33}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/J1939 Addon Engine Pharlap.llb</Property>
 				<Property Name="Bld_version.build" Type="Int">108</Property>
@@ -1561,7 +1342,7 @@
 				<Property Name="Source[14].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[14].type" Type="Str">Container</Property>
 				<Property Name="Source[15].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/RT PXI Target - Pharlap/J1939 Addon Shared.lvlib/Shared/Userlib</Property>
+				<Property Name="Source[15].itemID" Type="Ref"></Property>
 				<Property Name="Source[15].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[15].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[15].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -1571,7 +1352,7 @@
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/RT PXI Target - Pharlap/NI VeriStand APIs</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[2].properties[1].type" Type="Str">Allow debugging</Property>
@@ -1645,7 +1426,7 @@
 				<Property Name="Source[6].type" Type="Str">Container</Property>
 				<Property Name="Source[7].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/RT PXI Target - Pharlap/J1939 Host Automation API.lvlib/Types</Property>
+				<Property Name="Source[7].itemID" Type="Ref"></Property>
 				<Property Name="Source[7].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[7].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[7].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -1738,11 +1519,8 @@
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
-		</Item>
-		<Item Name="J1939 Addon Engine.lvlib" Type="Library" URL="../Engine/J1939 Addon Engine.lvlib"/>
-		<Item Name="J1939 Addon Shared.lvlib" Type="Library" URL="../Shared/J1939 Addon Shared.lvlib"/>
+		<Item Name="J1939 Addon Engine.lvlib" Type="Library" URL="../Addon/Addon Engine/J1939 Addon Engine.lvlib"/>
+		<Item Name="J1939 Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/J1939 Addon Shared.lvlib"/>
 		<Item Name="J1939 Host Automation API.lvlib" Type="Library" URL="../APIs/Host Automation API/J1939 Host Automation API.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -1752,39 +1530,14 @@
 				<Item Name="_XNET Split Database Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Split Database Cluster.vi"/>
 				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
-				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
-				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
-				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
-				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="enum_Display Template Handler Minimal To Widget Msg.ctl" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Display Template Support/DisplayTemplateSupport.llb/enum_Display Template Handler Minimal To Widget Msg.ctl"/>
-				<Item Name="enum_Display Template Handler Minimal To Workspace.ctl" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Display Template Support/DisplayTemplateSupport.llb/enum_Display Template Handler Minimal To Workspace.ctl"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
-				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
-				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
-				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
-				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
-				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
-				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
-				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="LVNodeAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVNodeAndColumnTypeDef.ctl"/>
-				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
-				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
-				<Item Name="MergeError.vi" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Shared/MergeError.vi"/>
 				<Item Name="NI STM.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/STM/NI STM.lvlib"/>
 				<Item Name="NI VeriStand Addon Network Comm Shared.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Shared/NI VeriStand Addon Network Comm Shared.lvlib"/>
 				<Item Name="NI VeriStand Addon Network Comm.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Engine/NI VeriStand Addon Network Comm.lvlib"/>
@@ -1792,27 +1545,12 @@
 				<Item Name="NI_FTP.lvlib" Type="Library" URL="/&lt;vilib&gt;/FTP/NI_FTP.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
-				<Item Name="NI_VS UI Single Node Browser.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/UI Controls/Single Node Browser/NI_VS UI Single Node Browser.lvlib"/>
-				<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
-				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
-				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
-				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
-				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
-				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
-				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
-				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Tools_KeyedArray.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/Keyed Array/Tools_KeyedArray.lvlib"/>
 				<Item Name="Tools_String.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/String/Tools_String.lvlib"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
@@ -1932,24 +1670,15 @@
 				<Item Name="XNET Write (State LIN Schedule Change).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write (State LIN Schedule Change).vi"/>
 				<Item Name="XNET Write.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write.vi"/>
 			</Item>
-			<Item Name="J1939 Workspace Shared.lvlib" Type="Library" URL="../UIs/Workspace Shared/J1939 Workspace Shared.lvlib"/>
+			<Item Name="J1939 Utilities.lvlib" Type="Library" URL="../Addon/Support Libraries/J1939 Utilities/J1939 Utilities.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
-			<Item Name="mscorlib" Type="VI" URL="mscorlib">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="NationalInstruments.VeriStand" Type="Document" URL="NationalInstruments.VeriStand">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="NationalInstruments.VeriStand.ClientAPI" Type="Document" URL="NationalInstruments.VeriStand.ClientAPI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI" Type="Document" URL="NationalInstruments.VeriStand.SystemDefinitionAPI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="NationalInstruments.VeriStand.SystemStorageUI" Type="Document" URL="NationalInstruments.VeriStand.SystemStorageUI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NiFpga.dll" Type="Document" URL="NiFpga.dll">
@@ -1973,7 +1702,7 @@
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FD6B9BAB-C36E-4BBD-894E-A675342B6FCC}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_32_ARM/J1939 Addon Engine LinuxARM.llb</Property>
 				<Property Name="Bld_version.build" Type="Int">15</Property>
@@ -2083,7 +1812,7 @@
 				<Property Name="Source[15].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[15].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[15].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/NI VeriStand APIs</Property>
+				<Property Name="Source[15].itemID" Type="Ref"></Property>
 				<Property Name="Source[15].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[15].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[15].properties[1].type" Type="Str">Allow debugging</Property>
@@ -2175,7 +1904,7 @@
 				<Property Name="Source[7].type" Type="Str">Container</Property>
 				<Property Name="Source[8].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[8].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/J1939 Addon Shared.lvlib/Shared/Userlib</Property>
+				<Property Name="Source[8].itemID" Type="Ref"></Property>
 				<Property Name="Source[8].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[8].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[8].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -2185,7 +1914,7 @@
 				<Property Name="Source[9].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[9].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[9].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/J1939 Host Automation API.lvlib/Types</Property>
+				<Property Name="Source[9].itemID" Type="Ref"></Property>
 				<Property Name="Source[9].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[9].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[9].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -2253,11 +1982,8 @@
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
-		</Item>
-		<Item Name="J1939 Addon Engine.lvlib" Type="Library" URL="../Engine/J1939 Addon Engine.lvlib"/>
-		<Item Name="J1939 Addon Shared.lvlib" Type="Library" URL="../Shared/J1939 Addon Shared.lvlib"/>
+		<Item Name="J1939 Addon Engine.lvlib" Type="Library" URL="../Addon/Addon Engine/J1939 Addon Engine.lvlib"/>
+		<Item Name="J1939 Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/J1939 Addon Shared.lvlib"/>
 		<Item Name="J1939 Host Automation API.lvlib" Type="Library" URL="../APIs/Host Automation API/J1939 Host Automation API.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -2267,39 +1993,14 @@
 				<Item Name="_XNET Split Database Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Split Database Cluster.vi"/>
 				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
-				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
-				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
-				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
-				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="enum_Display Template Handler Minimal To Widget Msg.ctl" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Display Template Support/DisplayTemplateSupport.llb/enum_Display Template Handler Minimal To Widget Msg.ctl"/>
-				<Item Name="enum_Display Template Handler Minimal To Workspace.ctl" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Display Template Support/DisplayTemplateSupport.llb/enum_Display Template Handler Minimal To Workspace.ctl"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
-				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
-				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
-				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
-				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
-				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
-				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
-				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="LVNodeAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVNodeAndColumnTypeDef.ctl"/>
-				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
-				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
-				<Item Name="MergeError.vi" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Shared/MergeError.vi"/>
 				<Item Name="NI STM.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/STM/NI STM.lvlib"/>
 				<Item Name="NI VeriStand Addon Network Comm Shared.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Shared/NI VeriStand Addon Network Comm Shared.lvlib"/>
 				<Item Name="NI VeriStand Addon Network Comm.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Engine/NI VeriStand Addon Network Comm.lvlib"/>
@@ -2307,27 +2008,12 @@
 				<Item Name="NI_FTP.lvlib" Type="Library" URL="/&lt;vilib&gt;/FTP/NI_FTP.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
-				<Item Name="NI_VS UI Single Node Browser.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/UI Controls/Single Node Browser/NI_VS UI Single Node Browser.lvlib"/>
-				<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
-				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
-				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
-				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
-				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
-				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
-				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
-				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Tools_KeyedArray.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/Keyed Array/Tools_KeyedArray.lvlib"/>
 				<Item Name="Tools_String.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/String/Tools_String.lvlib"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
@@ -2447,24 +2133,15 @@
 				<Item Name="XNET Write (State LIN Schedule Change).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write (State LIN Schedule Change).vi"/>
 				<Item Name="XNET Write.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write.vi"/>
 			</Item>
-			<Item Name="J1939 Workspace Shared.lvlib" Type="Library" URL="../UIs/Workspace Shared/J1939 Workspace Shared.lvlib"/>
+			<Item Name="J1939 Utilities.lvlib" Type="Library" URL="../Addon/Support Libraries/J1939 Utilities/J1939 Utilities.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
-			<Item Name="mscorlib" Type="VI" URL="mscorlib">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="NationalInstruments.VeriStand" Type="Document" URL="NationalInstruments.VeriStand">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="NationalInstruments.VeriStand.ClientAPI" Type="Document" URL="NationalInstruments.VeriStand.ClientAPI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI" Type="Document" URL="NationalInstruments.VeriStand.SystemDefinitionAPI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="NationalInstruments.VeriStand.SystemStorageUI" Type="Document" URL="NationalInstruments.VeriStand.SystemStorageUI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NiFpga.dll" Type="Document" URL="NiFpga.dll">
@@ -2488,7 +2165,7 @@
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2B235A5-6130-4402-AF5E-CD935E5A2CB5}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_x64/J1939 Addon Engine Linux64.llb</Property>
 				<Property Name="Bld_version.build" Type="Int">15</Property>
@@ -2598,7 +2275,7 @@
 				<Property Name="Source[15].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[15].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[15].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/NI VeriStand APIs</Property>
+				<Property Name="Source[15].itemID" Type="Ref"></Property>
 				<Property Name="Source[15].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[15].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[15].properties[1].type" Type="Str">Auto error handling</Property>
@@ -2694,7 +2371,7 @@
 				<Property Name="Source[7].type" Type="Str">Container</Property>
 				<Property Name="Source[8].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[8].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/J1939 Addon Shared.lvlib/Shared/Userlib</Property>
+				<Property Name="Source[8].itemID" Type="Ref"></Property>
 				<Property Name="Source[8].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[8].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[8].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -2704,7 +2381,7 @@
 				<Property Name="Source[9].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[9].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[9].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/J1939 Host Automation API.lvlib/Types</Property>
+				<Property Name="Source[9].itemID" Type="Ref"></Property>
 				<Property Name="Source[9].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[9].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[9].properties[1].type" Type="Str">Allow debugging</Property>

@@ -5,8 +5,27 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Build Address Tree.vi" Type="VI" URL="../SubVIs/Build Address Tree.vi"/>
+		<Item Name="Build Ring.vi" Type="VI" URL="../SubVIs/Build Ring.vi"/>
+		<Item Name="Check and Reestablish Connection.vi" Type="VI" URL="../SubVIs/Check and Reestablish Connection.vi"/>
+		<Item Name="Clear DTCs Event.vi" Type="VI" URL="../SubVIs/Clear DTCs Event.vi"/>
+		<Item Name="Convert CAN Frame to String.vi" Type="VI" URL="../SubVIs/Convert CAN Frame to String.vi"/>
+		<Item Name="Convert Parse to Command Arquements.vi" Type="VI" URL="../SubVIs/Convert Parse to Command Arquements.vi"/>
+		<Item Name="Error Display.vi" Type="VI" URL="../SubVIs/Error Display.vi"/>
+		<Item Name="Get DTCs From CD and Display.vi" Type="VI" URL="../SubVIs/Get DTCs From CD and Display.vi"/>
+		<Item Name="Get Targets and Devices via Storage API.vi" Type="VI" URL="../SubVIs/Get Targets and Devices via Storage API.vi"/>
+		<Item Name="Parse Address Tree.vi" Type="VI" URL="../SubVIs/Parse Address Tree.vi"/>
 		<Item Name="Pull out Scale Info_NET.vi" Type="VI" URL="../SubVIs/Pull out Scale Info_NET.vi"/>
+		<Item Name="Queue Error Messages.vi" Type="VI" URL="../SubVIs/Queue Error Messages.vi"/>
+		<Item Name="RAW Event.vi" Type="VI" URL="../SubVIs/RAW Event.vi"/>
+		<Item Name="Refresh DTCs Event.vi" Type="VI" URL="../SubVIs/Refresh DTCs Event.vi"/>
+		<Item Name="Request Addresses Event.vi" Type="VI" URL="../SubVIs/Request Addresses Event.vi"/>
+		<Item Name="Request Event.vi" Type="VI" URL="../SubVIs/Request Event.vi"/>
+		<Item Name="Request Frame.vi" Type="VI" URL="../SubVIs/Request Frame.vi"/>
+		<Item Name="Search Sysdef for Custom Devices.vi" Type="VI" URL="../SubVIs/Search Sysdef for Custom Devices.vi"/>
+		<Item Name="Search Sysdef for Targets.vi" Type="VI" URL="../SubVIs/Search Sysdef for Targets.vi"/>
 		<Item Name="Select Channel Dialog.vi" Type="VI" URL="../SubVIs/Select Channel Dialog.vi"/>
+		<Item Name="Select Custom Device.vi" Type="VI" URL="../SubVIs/Select Custom Device.vi"/>
 		<Item Name="UI.Addon.Path.Parse.vi" Type="VI" URL="../SubVIs/UI.Addon.Path.Parse.vi"/>
 		<Item Name="UI.Connection.State.Get.vi" Type="VI" URL="../SubVIs/UI.Connection.State.Get.vi"/>
 		<Item Name="UI.Menu.Config.State.Set.vi" Type="VI" URL="../SubVIs/UI.Menu.Config.State.Set.vi"/>
@@ -14,6 +33,8 @@
 		<Item Name="Workspace.UI.DisableState.Set.vi" Type="VI" URL="../SubVIs/Workspace.UI.DisableState.Set.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
+		<Item Name="Address Parse Tree Cluster.ctl" Type="VI" URL="../Types/Address Parse Tree Cluster.ctl"/>
+		<Item Name="Private Data.ctl" Type="VI" URL="../Types/Private Data.ctl"/>
 		<Item Name="UI.Refs.ctl" Type="VI" URL="../Types/UI.Refs.ctl"/>
 		<Item Name="UI.StateVariables.ctl" Type="VI" URL="../Types/UI.StateVariables.ctl"/>
 	</Item>
