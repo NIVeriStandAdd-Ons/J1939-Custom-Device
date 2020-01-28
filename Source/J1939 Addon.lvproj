@@ -421,18 +421,14 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4A5721CA-D5D4-4894-97DB-9AF6B6DD56E2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{12D69241-8F57-4485-BE6F-43C55D33C5FA}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[0].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[2].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[0].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[0].properties[3].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[0].properties[3].value" Type="Bool">true</Property>
-				<Property Name="Source[0].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[0].properties[4].value" Type="Bool">true</Property>
-				<Property Name="Source[0].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[0].propertiesCount" Type="Int">3</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Addon/J1939 Addon Engine.lvlib/RT Driver VI.vi</Property>
@@ -447,7 +443,7 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[10].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Addon/J1939 Addon Engine.lvlib/SubVIs</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Addon/J1939 Addon Engine.lvlib/Types</Property>
 				<Property Name="Source[10].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[10].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[10].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -460,23 +456,16 @@
 				<Property Name="Source[10].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[10].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[10].type" Type="Str">Container</Property>
-				<Property Name="Source[11].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[11].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Addon/J1939 Addon Engine.lvlib/Types</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Addon/Support Libraries/J1939 Utilities.lvlib/J1939 Utilities</Property>
 				<Property Name="Source[11].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[11].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[11].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[11].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[11].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[11].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[11].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[11].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[11].properties[4].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[11].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[11].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[11].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[11].type" Type="Str">Container</Property>
 				<Property Name="Source[12].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Addon/Support Libraries/J1939 Utilities.lvlib/J1939 Utilities</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Addon/J1939 Addon Shared.lvlib/Shared/SubVIs</Property>
 				<Property Name="Source[12].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[12].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[12].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -484,90 +473,83 @@
 				<Property Name="Source[12].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[12].type" Type="Str">Container</Property>
 				<Property Name="Source[13].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Addon/J1939 Addon Shared.lvlib/Shared/SubVIs</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Addon/J1939 Addon Shared.lvlib/Shared/Types</Property>
 				<Property Name="Source[13].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[13].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[13].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[13].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[13].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[13].type" Type="Str">Container</Property>
-				<Property Name="Source[14].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Addon/J1939 Addon Shared.lvlib/Shared/Types</Property>
-				<Property Name="Source[14].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[14].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[14].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[14].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[14].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[14].type" Type="Str">Container</Property>
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[2].itemID" Type="Ref"></Property>
-				<Property Name="Source[2].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[2].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[2].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[2].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[2].properties[2].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Addon/J1939 Addon Shared.lvlib/Shared</Property>
+				<Property Name="Source[2].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[2].properties[1].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[2].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[2].properties[2].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[2].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[2].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[4].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[2].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[2].properties[3].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[2].properties[3].value" Type="Bool">true</Property>
+				<Property Name="Source[2].properties[4].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[2].properties[4].value" Type="Bool">true</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Addon/J1939 Addon Shared.lvlib/Shared</Property>
-				<Property Name="Source[3].properties[0].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[1].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[3].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[3].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[3].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[3].properties[3].value" Type="Bool">true</Property>
-				<Property Name="Source[3].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[3].properties[4].value" Type="Bool">true</Property>
-				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/APIs/Host Automation API/J1939 Host Automation API.lvlib/Clear DTC.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/APIs/Host Automation API/J1939 Host Automation API.lvlib/Clear DTC.vi</Property>
+				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[3].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[3].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[3].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/APIs/Host Automation API/J1939 Host Automation API.lvlib/Close Connection with CD.vi</Property>
 				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[4].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[4].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[4].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/APIs/Host Automation API/J1939 Host Automation API.lvlib/Close Connection with CD.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/APIs/Host Automation API/J1939 Host Automation API.lvlib/Initialize Connection with CD.vi</Property>
 				<Property Name="Source[5].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[5].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[5].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[5].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[5].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/APIs/Host Automation API/J1939 Host Automation API.lvlib/Initialize Connection with CD.vi</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/APIs/Host Automation API/J1939 Host Automation API.lvlib/Set CAN_Raw.vi</Property>
 				<Property Name="Source[6].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[6].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[6].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[6].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[6].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/APIs/Host Automation API/J1939 Host Automation API.lvlib/Set CAN_Raw.vi</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/APIs/Host Automation API/J1939 Host Automation API.lvlib/Verify DTC.vi</Property>
 				<Property Name="Source[7].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[7].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[7].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[7].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[7].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/APIs/Host Automation API/J1939 Host Automation API.lvlib/Verify DTC.vi</Property>
+				<Property Name="Source[8].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[8].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Addon/J1939 Addon Engine.lvlib/Processes</Property>
 				<Property Name="Source[8].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[8].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[8].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[8].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[8].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[8].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[8].type" Type="Str">VI</Property>
+				<Property Name="Source[8].properties[2].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[8].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[8].properties[3].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[8].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[8].properties[4].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[8].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[8].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[8].type" Type="Str">Container</Property>
 				<Property Name="Source[9].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[9].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Addon/J1939 Addon Engine.lvlib/Processes</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Addon/J1939 Addon Engine.lvlib/SubVIs</Property>
 				<Property Name="Source[9].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[9].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[9].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[9].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[9].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[9].properties[2].type" Type="Str">Auto error handling</Property>
@@ -578,7 +560,7 @@
 				<Property Name="Source[9].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[9].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">15</Property>
+				<Property Name="SourceCount" Type="Int">14</Property>
 			</Item>
 			<Item Name="Host API" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
@@ -1000,8 +982,6 @@
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="J1939 Addon Engine.lvlib" Type="Library" URL="../Addon/Addon Engine/J1939 Addon Engine.lvlib"/>
-		<Item Name="J1939 Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/J1939 Addon Shared.lvlib"/>
-		<Item Name="J1939 Host Automation API.lvlib" Type="Library" URL="../APIs/Host Automation API/J1939 Host Automation API.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="_XNET Close All.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Close All.vi"/>
@@ -1150,6 +1130,8 @@
 				<Item Name="XNET Write (State LIN Schedule Change).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write (State LIN Schedule Change).vi"/>
 				<Item Name="XNET Write.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write.vi"/>
 			</Item>
+			<Item Name="J1939 Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/J1939 Addon Shared.lvlib"/>
+			<Item Name="J1939 Host Automation API.lvlib" Type="Library" URL="../APIs/Host Automation API/J1939 Host Automation API.lvlib"/>
 			<Item Name="J1939 Utilities.lvlib" Type="Library" URL="../Addon/Support Libraries/J1939 Utilities/J1939 Utilities.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="NationalInstruments.VeriStand" Type="Document" URL="NationalInstruments.VeriStand">
@@ -1196,18 +1178,15 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F4150349-BD5C-4902-A5B2-27CFD7FFE78A}</Property>
+				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A6A02D88-3E98-4B92-BCD9-F126677D1964}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[0].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[2].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[0].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[0].properties[3].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[0].properties[3].value" Type="Bool">true</Property>
-				<Property Name="Source[0].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[0].properties[4].value" Type="Bool">true</Property>
-				<Property Name="Source[0].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[0].propertiesCount" Type="Int">3</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target - Pharlap/J1939 Addon Engine.lvlib/RT Driver VI.vi</Property>
 				<Property Name="Source[1].properties[0].type" Type="Str">Remove front panel</Property>
@@ -1223,103 +1202,68 @@
 				<Property Name="Source[1].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/RT PXI Target - Pharlap/J1939 Host Automation API.lvlib/Initialize Connection with CD.vi</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/RT PXI Target - Pharlap/Dependencies/J1939 Host Automation API.lvlib/Verify DTC.vi</Property>
 				<Property Name="Source[10].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[10].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[10].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[10].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[10].properties[2].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[10].properties[2].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[10].properties[2].value" Type="Bool">false</Property>
 				<Property Name="Source[10].properties[3].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[10].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[10].properties[4].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[10].properties[4].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[10].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[10].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[10].type" Type="Str">VI</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/RT PXI Target - Pharlap/J1939 Host Automation API.lvlib/Set CAN_Raw.vi</Property>
+				<Property Name="Source[11].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/RT PXI Target - Pharlap/Dependencies/J1939 Addon Shared.lvlib/Shared/SubVIs</Property>
 				<Property Name="Source[11].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[11].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[11].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[11].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[11].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[11].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[11].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[11].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[11].properties[4].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[11].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[11].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[11].type" Type="Str">VI</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/RT PXI Target - Pharlap/J1939 Host Automation API.lvlib/Verify DTC.vi</Property>
+				<Property Name="Source[11].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[11].type" Type="Str">Container</Property>
+				<Property Name="Source[12].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/RT PXI Target - Pharlap/Dependencies/J1939 Addon Shared.lvlib/Shared/Types</Property>
 				<Property Name="Source[12].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[12].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[12].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[12].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[12].properties[2].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[12].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[12].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[12].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[12].properties[4].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[12].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[12].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[12].type" Type="Str">VI</Property>
-				<Property Name="Source[13].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/RT PXI Target - Pharlap/J1939 Addon Shared.lvlib/Shared/SubVIs</Property>
-				<Property Name="Source[13].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[13].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[13].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[13].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[13].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[13].type" Type="Str">Container</Property>
-				<Property Name="Source[14].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/RT PXI Target - Pharlap/J1939 Addon Shared.lvlib/Shared/Types</Property>
-				<Property Name="Source[14].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[14].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[14].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[14].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[14].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[14].type" Type="Str">Container</Property>
-				<Property Name="Source[15].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[15].itemID" Type="Ref"></Property>
-				<Property Name="Source[15].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[15].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[15].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[15].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[15].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[15].type" Type="Str">Container</Property>
-				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[12].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[12].type" Type="Str">Container</Property>
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[2].itemID" Type="Ref"></Property>
-				<Property Name="Source[2].properties[0].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/RT PXI Target - Pharlap/J1939 Addon Engine.lvlib/Processes</Property>
+				<Property Name="Source[2].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[1].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[2].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[2].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[2].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[2].properties[2].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[2].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[3].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[2].properties[3].value" Type="Bool">true</Property>
-				<Property Name="Source[2].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[2].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[2].properties[3].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[2].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[2].properties[4].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[2].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/RT PXI Target - Pharlap/J1939 Addon Engine.lvlib/Processes</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/RT PXI Target - Pharlap/J1939 Addon Engine.lvlib/SubVIs</Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[3].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[3].properties[2].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[3].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[3].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[3].properties[3].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[3].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[4].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[3].properties[4].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[3].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/RT PXI Target - Pharlap/J1939 Addon Engine.lvlib/SubVIs</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/RT PXI Target - Pharlap/J1939 Addon Engine.lvlib/Types</Property>
 				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[4].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -1334,62 +1278,59 @@
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/RT PXI Target - Pharlap/J1939 Addon Engine.lvlib/Types</Property>
-				<Property Name="Source[5].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[5].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[5].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[5].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[5].properties[2].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/RT PXI Target - Pharlap/Dependencies/J1939 Addon Shared.lvlib/Shared</Property>
+				<Property Name="Source[5].properties[0].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[5].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[5].properties[1].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[5].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[5].properties[2].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[5].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[5].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[5].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[5].properties[4].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[5].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[5].properties[3].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[5].properties[3].value" Type="Bool">true</Property>
+				<Property Name="Source[5].properties[4].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[5].properties[4].value" Type="Bool">true</Property>
 				<Property Name="Source[5].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
-				<Property Name="Source[6].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/RT PXI Target - Pharlap/J1939 Addon Shared.lvlib/Shared</Property>
-				<Property Name="Source[6].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[6].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[6].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[6].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/RT PXI Target - Pharlap/Dependencies/J1939 Host Automation API.lvlib/Clear DTC.vi</Property>
+				<Property Name="Source[6].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[6].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[6].properties[1].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[6].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[6].properties[2].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[6].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[6].properties[3].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[6].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[6].properties[4].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[6].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[6].properties[3].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[6].properties[3].value" Type="Bool">true</Property>
+				<Property Name="Source[6].properties[4].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[6].properties[4].value" Type="Bool">true</Property>
 				<Property Name="Source[6].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="Source[7].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[7].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[7].itemID" Type="Ref"></Property>
+				<Property Name="Source[6].type" Type="Str">VI</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/RT PXI Target - Pharlap/Dependencies/J1939 Host Automation API.lvlib/Close Connection with CD.vi</Property>
 				<Property Name="Source[7].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[7].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[7].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[7].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[7].properties[2].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[7].properties[2].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[7].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[7].properties[3].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[7].properties[3].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[7].properties[3].value" Type="Bool">false</Property>
 				<Property Name="Source[7].properties[4].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[7].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[7].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[7].type" Type="Str">Container</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/RT PXI Target - Pharlap/J1939 Host Automation API.lvlib/Clear DTC.vi</Property>
-				<Property Name="Source[8].properties[0].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[8].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[8].properties[1].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[8].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[7].type" Type="Str">VI</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/RT PXI Target - Pharlap/Dependencies/J1939 Host Automation API.lvlib/Initialize Connection with CD.vi</Property>
+				<Property Name="Source[8].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[8].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[8].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[8].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[8].properties[2].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[8].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[8].properties[3].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[8].properties[3].value" Type="Bool">true</Property>
-				<Property Name="Source[8].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[8].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[8].properties[3].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[8].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[8].properties[4].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[8].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[8].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/RT PXI Target - Pharlap/J1939 Host Automation API.lvlib/Close Connection with CD.vi</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/RT PXI Target - Pharlap/Dependencies/J1939 Host Automation API.lvlib/Set CAN_Raw.vi</Property>
 				<Property Name="Source[9].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[9].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[9].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -1402,7 +1343,7 @@
 				<Property Name="Source[9].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[9].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">16</Property>
+				<Property Name="SourceCount" Type="Int">13</Property>
 			</Item>
 		</Item>
 	</Item>
@@ -1457,8 +1398,6 @@
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="J1939 Addon Engine.lvlib" Type="Library" URL="../Addon/Addon Engine/J1939 Addon Engine.lvlib"/>
-		<Item Name="J1939 Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/J1939 Addon Shared.lvlib"/>
-		<Item Name="J1939 Host Automation API.lvlib" Type="Library" URL="../APIs/Host Automation API/J1939 Host Automation API.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="_XNET Close All.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Close All.vi"/>
@@ -1607,6 +1546,8 @@
 				<Item Name="XNET Write (State LIN Schedule Change).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write (State LIN Schedule Change).vi"/>
 				<Item Name="XNET Write.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write.vi"/>
 			</Item>
+			<Item Name="J1939 Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/J1939 Addon Shared.lvlib"/>
+			<Item Name="J1939 Host Automation API.lvlib" Type="Library" URL="../APIs/Host Automation API/J1939 Host Automation API.lvlib"/>
 			<Item Name="J1939 Utilities.lvlib" Type="Library" URL="../Addon/Support Libraries/J1939 Utilities/J1939 Utilities.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="NationalInstruments.VeriStand" Type="Document" URL="NationalInstruments.VeriStand">
@@ -1653,18 +1594,15 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7004D93C-4F80-4F8B-B4B9-1E426B78D862}</Property>
+				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FF847CD8-B53D-42D3-B928-849D3227290B}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[0].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[2].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[0].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[0].properties[3].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[0].properties[3].value" Type="Bool">true</Property>
-				<Property Name="Source[0].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[0].properties[4].value" Type="Bool">true</Property>
-				<Property Name="Source[0].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[0].propertiesCount" Type="Int">3</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/J1939 Addon Engine.lvlib/RT Driver VI.vi</Property>
@@ -1681,87 +1619,6 @@
 				<Property Name="Source[1].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/J1939 Host Automation API.lvlib/Clear DTC.vi</Property>
-				<Property Name="Source[10].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[10].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[10].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[10].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[10].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[10].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[10].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[10].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[10].properties[4].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[10].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[10].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[10].type" Type="Str">VI</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/J1939 Host Automation API.lvlib/Initialize Connection with CD.vi</Property>
-				<Property Name="Source[11].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[11].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[11].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[11].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[11].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[11].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[11].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[11].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[11].properties[4].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[11].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[11].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[11].type" Type="Str">VI</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/J1939 Host Automation API.lvlib/Close Connection with CD.vi</Property>
-				<Property Name="Source[12].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[12].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[12].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[12].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[12].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[12].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[12].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[12].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[12].properties[4].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[12].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[12].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[12].type" Type="Str">VI</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/J1939 Host Automation API.lvlib/Set CAN_Raw.vi</Property>
-				<Property Name="Source[13].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[13].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[13].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[13].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[13].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[13].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[13].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[13].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[13].properties[4].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[13].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[13].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[13].type" Type="Str">VI</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/J1939 Host Automation API.lvlib/Verify DTC.vi</Property>
-				<Property Name="Source[14].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[14].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[14].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[14].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[14].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[14].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[14].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[14].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[14].properties[4].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[14].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[14].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[14].type" Type="Str">VI</Property>
-				<Property Name="Source[15].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[15].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[15].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[15].itemID" Type="Ref"></Property>
-				<Property Name="Source[15].properties[0].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[15].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[15].properties[1].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[15].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[15].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[15].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[15].properties[3].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[15].properties[3].value" Type="Bool">true</Property>
-				<Property Name="Source[15].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[15].properties[4].value" Type="Bool">true</Property>
-				<Property Name="Source[15].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[15].type" Type="Str">Container</Property>
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
@@ -1811,19 +1668,24 @@
 				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/J1939 Addon Shared.lvlib/Shared</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/Dependencies/J1939 Addon Shared.lvlib/Shared</Property>
 				<Property Name="Source[5].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[5].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[5].properties[1].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[5].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[5].properties[2].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[5].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[5].propertiesCount" Type="Int">3</Property>
+				<Property Name="Source[5].properties[3].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[5].properties[3].value" Type="Bool">true</Property>
+				<Property Name="Source[5].properties[4].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[5].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[5].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="Source[6].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/J1939 Addon Shared.lvlib/Shared/SubVIs</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/Dependencies/J1939 Addon Shared.lvlib/Shared/SubVIs</Property>
 				<Property Name="Source[6].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[6].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[6].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -1832,39 +1694,14 @@
 				<Property Name="Source[6].type" Type="Str">Container</Property>
 				<Property Name="Source[7].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/J1939 Addon Shared.lvlib/Shared/Types</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/Dependencies/J1939 Addon Shared.lvlib/Shared/Types</Property>
 				<Property Name="Source[7].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[7].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[7].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[7].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[7].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[7].type" Type="Str">Container</Property>
-				<Property Name="Source[8].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[8].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref"></Property>
-				<Property Name="Source[8].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[8].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[8].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[8].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[8].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[8].type" Type="Str">Container</Property>
-				<Property Name="Source[9].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[9].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[9].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref"></Property>
-				<Property Name="Source[9].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[9].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[9].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[9].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[9].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[9].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[9].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[9].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[9].properties[4].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[9].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[9].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">16</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 			</Item>
 		</Item>
 	</Item>
@@ -1920,8 +1757,6 @@
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="J1939 Addon Engine.lvlib" Type="Library" URL="../Addon/Addon Engine/J1939 Addon Engine.lvlib"/>
-		<Item Name="J1939 Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/J1939 Addon Shared.lvlib"/>
-		<Item Name="J1939 Host Automation API.lvlib" Type="Library" URL="../APIs/Host Automation API/J1939 Host Automation API.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="_XNET Close All.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Close All.vi"/>
@@ -2070,6 +1905,8 @@
 				<Item Name="XNET Write (State LIN Schedule Change).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write (State LIN Schedule Change).vi"/>
 				<Item Name="XNET Write.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write.vi"/>
 			</Item>
+			<Item Name="J1939 Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/J1939 Addon Shared.lvlib"/>
+			<Item Name="J1939 Host Automation API.lvlib" Type="Library" URL="../APIs/Host Automation API/J1939 Host Automation API.lvlib"/>
 			<Item Name="J1939 Utilities.lvlib" Type="Library" URL="../Addon/Support Libraries/J1939 Utilities/J1939 Utilities.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="NationalInstruments.VeriStand" Type="Document" URL="NationalInstruments.VeriStand">
@@ -2116,18 +1953,15 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{197047BD-8E0F-436A-AB42-45F42B485135}</Property>
+				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4FCBDF15-6BA6-44DD-AF8A-36F951E10156}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[0].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[2].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[0].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[0].properties[3].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[0].properties[3].value" Type="Bool">true</Property>
-				<Property Name="Source[0].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[0].properties[4].value" Type="Bool">true</Property>
-				<Property Name="Source[0].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[0].propertiesCount" Type="Int">3</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/J1939 Addon Engine.lvlib/RT Driver VI.vi</Property>
@@ -2144,87 +1978,6 @@
 				<Property Name="Source[1].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/J1939 Host Automation API.lvlib/Clear DTC.vi</Property>
-				<Property Name="Source[10].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[10].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[10].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[10].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[10].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[10].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[10].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[10].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[10].properties[4].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[10].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[10].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[10].type" Type="Str">VI</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/J1939 Host Automation API.lvlib/Close Connection with CD.vi</Property>
-				<Property Name="Source[11].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[11].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[11].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[11].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[11].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[11].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[11].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[11].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[11].properties[4].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[11].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[11].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[11].type" Type="Str">VI</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/J1939 Host Automation API.lvlib/Initialize Connection with CD.vi</Property>
-				<Property Name="Source[12].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[12].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[12].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[12].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[12].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[12].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[12].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[12].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[12].properties[4].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[12].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[12].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[12].type" Type="Str">VI</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/J1939 Host Automation API.lvlib/Set CAN_Raw.vi</Property>
-				<Property Name="Source[13].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[13].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[13].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[13].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[13].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[13].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[13].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[13].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[13].properties[4].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[13].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[13].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[13].type" Type="Str">VI</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/J1939 Host Automation API.lvlib/Verify DTC.vi</Property>
-				<Property Name="Source[14].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[14].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[14].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[14].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[14].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[14].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[14].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[14].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[14].properties[4].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[14].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[14].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[14].type" Type="Str">VI</Property>
-				<Property Name="Source[15].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[15].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[15].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[15].itemID" Type="Ref"></Property>
-				<Property Name="Source[15].properties[0].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[15].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[15].properties[1].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[15].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[15].properties[2].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[15].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[15].properties[3].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[15].properties[3].value" Type="Bool">true</Property>
-				<Property Name="Source[15].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[15].properties[4].value" Type="Bool">true</Property>
-				<Property Name="Source[15].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[15].type" Type="Str">Container</Property>
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
@@ -2274,8 +2027,9 @@
 				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/J1939 Addon Shared.lvlib/Shared</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Dependencies/J1939 Addon Shared.lvlib/Shared</Property>
 				<Property Name="Source[5].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[5].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[5].properties[1].type" Type="Str">Allow debugging</Property>
@@ -2290,7 +2044,7 @@
 				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="Source[6].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/J1939 Addon Shared.lvlib/Shared/SubVIs</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Dependencies/J1939 Addon Shared.lvlib/Shared/SubVIs</Property>
 				<Property Name="Source[6].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[6].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[6].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -2299,39 +2053,14 @@
 				<Property Name="Source[6].type" Type="Str">Container</Property>
 				<Property Name="Source[7].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/J1939 Addon Shared.lvlib/Shared/Types</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Dependencies/J1939 Addon Shared.lvlib/Shared/Types</Property>
 				<Property Name="Source[7].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[7].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[7].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[7].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[7].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[7].type" Type="Str">Container</Property>
-				<Property Name="Source[8].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[8].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref"></Property>
-				<Property Name="Source[8].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[8].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[8].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[8].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[8].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[8].type" Type="Str">Container</Property>
-				<Property Name="Source[9].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[9].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[9].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref"></Property>
-				<Property Name="Source[9].properties[0].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[9].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[9].properties[1].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[9].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[9].properties[2].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[9].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[9].properties[3].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[9].properties[3].value" Type="Bool">true</Property>
-				<Property Name="Source[9].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[9].properties[4].value" Type="Bool">true</Property>
-				<Property Name="Source[9].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">16</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 			</Item>
 		</Item>
 	</Item>
