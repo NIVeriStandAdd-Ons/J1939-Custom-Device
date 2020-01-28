@@ -23,74 +23,11 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Addon" Type="Folder">
 			<Item Name="Support Files" Type="Folder">
-				<Item Name="Glyphs" Type="Folder">
-					<Item Name="J1939.png" Type="Document" URL="../Addon/Support Files/Glyphs/J1939.png"/>
-					<Item Name="J1939_Disabled.png" Type="Document" URL="../Addon/Support Files/Glyphs/J1939_Disabled.png"/>
+				<Item Name="Glyphs" Type="Folder" URL="../Addon/Support Files/Glyphs">
+					<Property Name="NI.DISK" Type="Bool">true</Property>
 				</Item>
-				<Item Name="Help" Type="Folder">
-					<Item Name="HTML Help Source" Type="Folder">
-						<Item Name="css" Type="Folder">
-							<Item Name="expandable_tree.css" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/css/expandable_tree.css"/>
-							<Item Name="VSsystemexplorer.css" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/css/VSsystemexplorer.css"/>
-						</Item>
-						<Item Name="js" Type="Folder">
-							<Item Name="arraytools.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/arraytools.js"/>
-							<Item Name="checkinstalled.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/checkinstalled.js"/>
-							<Item Name="common.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/common.js"/>
-							<Item Name="cssframes.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/cssframes.js"/>
-							<Item Name="domtools.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/domtools.js"/>
-							<Item Name="dynamiccontent.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/dynamiccontent.js"/>
-							<Item Name="dynamicjumps.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/dynamicjumps.js"/>
-							<Item Name="dynamiclinks.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/dynamiclinks.js"/>
-							<Item Name="expandable_tree.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/expandable_tree.js"/>
-							<Item Name="feedbacklink.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/feedbacklink.js"/>
-							<Item Name="Globals.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/Globals.js"/>
-							<Item Name="initpagedyn.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/initpagedyn.js"/>
-							<Item Name="launchhelp.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/launchhelp.js"/>
-							<Item Name="linking.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/linking.js"/>
-							<Item Name="objectnames.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/objectnames.js"/>
-							<Item Name="osbrowser.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/osbrowser.js"/>
-							<Item Name="pdf.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/pdf.js"/>
-							<Item Name="polyviselect.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/polyviselect.js"/>
-							<Item Name="stylesheets.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/stylesheets.js"/>
-							<Item Name="variables.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/variables.js"/>
-							<Item Name="web.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/web.js"/>
-						</Item>
-						<Item Name="ClearDTC.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/ClearDTC.html"/>
-						<Item Name="Counter.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/Counter.html"/>
-						<Item Name="Diagnostics_J1939.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/Diagnostics_J1939.html"/>
-						<Item Name="DM1.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/DM1.html"/>
-						<Item Name="DM2.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/DM2.html"/>
-						<Item Name="DTC.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/DTC.html"/>
-						<Item Name="FrameInformation.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/FrameInformation.html"/>
-						<Item Name="InPage_J1939.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/InPage_J1939.html"/>
-						<Item Name="InSingleFramePage_J1939.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/InSingleFramePage_J1939.html"/>
-						<Item Name="InSinglePage_J1939.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/InSinglePage_J1939.html"/>
-						<Item Name="Main.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/Main.html"/>
-						<Item Name="Monitor.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/Monitor.html"/>
-						<Item Name="OutCyclicEventFramePage_J1939.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/OutCyclicEventFramePage_J1939.html"/>
-						<Item Name="OutCyclicEventPage_J1939.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/OutCyclicEventPage_J1939.html"/>
-						<Item Name="OutCyclicFramePage_J1939.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/OutCyclicFramePage_J1939.html"/>
-						<Item Name="OutCyclicPage_J1939.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/OutCyclicPage_J1939.html"/>
-						<Item Name="OutEventFramePage_J1939.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/OutEventFramePage_J1939.html"/>
-						<Item Name="OutEventPage_J1939.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/OutEventPage_J1939.html"/>
-						<Item Name="OutPage_J1939.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/OutPage_J1939.html"/>
-						<Item Name="ProtectionSignal.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/ProtectionSignal.html"/>
-						<Item Name="ReceiveTime.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/ReceiveTime.html"/>
-						<Item Name="SignalOutputPage_J1939.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/SignalOutputPage_J1939.html"/>
-						<Item Name="SignalPage_J1939.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/SignalPage_J1939.html"/>
-						<Item Name="Sim Device.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/Sim Device.html"/>
-						<Item Name="Sim Diagnostics.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/Sim Diagnostics.html"/>
-						<Item Name="Simulation.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/Simulation.html"/>
-						<Item Name="TimeDif_J1939.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/TimeDif_J1939.html"/>
-						<Item Name="VerifyDTC_J1939.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/VerifyDTC_J1939.html"/>
-					</Item>
-					<Item Name="Build CHM.cfg" Type="Document" URL="../Addon/Support Files/Help/Build CHM.cfg"/>
-					<Item Name="Build CHM.log" Type="Document" URL="../Addon/Support Files/Help/Build CHM.log"/>
-					<Item Name="Build CHM.vi" Type="VI" URL="../Addon/Support Files/Help/Build CHM.vi"/>
-					<Item Name="J1939-errors.txt" Type="Document" URL="../Addon/Support Files/Help/J1939-errors.txt"/>
-					<Item Name="J1939.chm" Type="Document" URL="../Addon/Support Files/Help/J1939.chm"/>
-					<Item Name="J1939.hhp" Type="Document" URL="../Addon/Support Files/Help/J1939.hhp"/>
+				<Item Name="Help" Type="Folder" URL="../Addon/Support Files/Help">
+					<Property Name="NI.DISK" Type="Bool">true</Property>
 				</Item>
 			</Item>
 			<Item Name="Support Libraries" Type="Folder">
