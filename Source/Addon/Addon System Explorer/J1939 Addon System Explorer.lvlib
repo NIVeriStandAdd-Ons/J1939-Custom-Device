@@ -41,14 +41,14 @@
 				<Item Name="ActionVIOnLoad.vi" Type="VI" URL="../Actions/ActionVIOnLoad.vi"/>
 			</Item>
 			<Item Name="Extra Pages" Type="Folder">
-				<Item Name="Diagnostic Channel.vi" Type="VI" URL="../Pages/Diagnostic Channel.vi"/>
-				<Item Name="Frame Page.vi" Type="VI" URL="../Pages/Frame Page.vi"/>
-				<Item Name="Monitor Tool Page.vi" Type="VI" URL="../Pages/Monitor Tool Page.vi"/>
-				<Item Name="Protection Channel.vi" Type="VI" URL="../Pages/Protection Channel.vi"/>
-				<Item Name="Rolling Counter Channel.vi" Type="VI" URL="../Pages/Rolling Counter Channel.vi"/>
-				<Item Name="Section Page.vi" Type="VI" URL="../Pages/Section Page.vi"/>
-				<Item Name="Signal Page.vi" Type="VI" URL="../Pages/Signal Page.vi"/>
-				<Item Name="Simulated Device Page.vi" Type="VI" URL="../Pages/Simulated Device Page.vi"/>
+				<Item Name="Diagnostic Channel.vi" Type="VI" URL="../Extra Pages/Diagnostic Channel.vi"/>
+				<Item Name="Frame Page.vi" Type="VI" URL="../Extra Pages/Frame Page.vi"/>
+				<Item Name="Monitor Tool Page.vi" Type="VI" URL="../Extra Pages/Monitor Tool Page.vi"/>
+				<Item Name="Protection Channel.vi" Type="VI" URL="../Extra Pages/Protection Channel.vi"/>
+				<Item Name="Rolling Counter Channel.vi" Type="VI" URL="../Extra Pages/Rolling Counter Channel.vi"/>
+				<Item Name="Section Page.vi" Type="VI" URL="../Extra Pages/Section Page.vi"/>
+				<Item Name="Signal Page.vi" Type="VI" URL="../Extra Pages/Signal Page.vi"/>
+				<Item Name="Simulated Device Page.vi" Type="VI" URL="../Extra Pages/Simulated Device Page.vi"/>
 			</Item>
 			<Item Name="RTMs" Type="Folder">
 				<Item Name="Add Device.vi" Type="VI" URL="../RTMs/Add Device.vi"/>
