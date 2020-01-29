@@ -68,7 +68,6 @@
 			<Item Name="Add Custom Device Channel - Offline.vi" Type="VI" URL="../SubVIs/Add Custom Device Channel - Offline.vi"/>
 			<Item Name="Add Custom Device Section - Offline.vi" Type="VI" URL="../SubVIs/Add Custom Device Section - Offline.vi"/>
 			<Item Name="Add Database to SysDef.vi" Type="VI" URL="../SubVIs/Add Database to SysDef.vi"/>
-			<Item Name="Add Information Channels.vi" Type="VI" URL="../SubVIs/Add Information Channels.vi"/>
 			<Item Name="Browse for XNET Database.vi" Type="VI" URL="../SubVIs/Browse for XNET Database.vi"/>
 			<Item Name="Compiled Get Node Frames.Incoming.vi" Type="VI" URL="../SubVIs/Compiled Get Node Frames.Incoming.vi"/>
 			<Item Name="Compiled Get Node Frames.vi" Type="VI" URL="../SubVIs/Compiled Get Node Frames.vi"/>

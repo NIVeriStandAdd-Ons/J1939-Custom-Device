@@ -59,6 +59,7 @@
 			<Item Name="Node.Settings.vi" Type="VI" URL="../SubVIs/Node.Settings.vi"/>
 			<Item Name="SPN.Settings.vi" Type="VI" URL="../SubVIs/SPN.Settings.vi"/>
 			<Item Name="XNET.Settings.vi" Type="VI" URL="../SubVIs/XNET.Settings.vi"/>
+			<Item Name="Add Information Channels.vi" Type="VI" URL="../SubVIs/Add Information Channels.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Address Lookup Table Data.ctl" Type="VI" URL="../Types/Address Lookup Table Data.ctl"/>
