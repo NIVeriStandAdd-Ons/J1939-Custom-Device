@@ -1,6 +1,6 @@
-[submodule "Source/SubModules/Frame Protection Support"]
-	path = Source/SubModules/Frame Protection Support
-	url = https://github.com/NIVeriStandAdd-Ons/Frame-Protection-Support.git
 [submodule "Source/SubModules/CAN-Streaming-Support"]
 	path = Source/SubModules/CAN-Streaming-Support
 	url = https://github.com/NIVeriStandAdd-Ons/CAN-Streaming-Support.git
+[submodule "Source/SubModules/Frame-Protection-Support"]
+	path = Source/SubModules/Frame-Protection-Support
+	url = https://github.com/NIVeriStandAdd-Ons/Frame-Protection-Support.git

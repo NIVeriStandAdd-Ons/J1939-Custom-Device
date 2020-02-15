@@ -348,9 +348,9 @@
 			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Protection and Counter Support Engine.lvlib" Type="Library" URL="../SubModules/Frame Protection Support/Source/Engine/Protection and Counter Support Engine.lvlib"/>
-			<Item Name="Protection and Counter Support Shared.lvlib" Type="Library" URL="../SubModules/Frame Protection Support/Source/Shared/Protection and Counter Support Shared.lvlib"/>
-			<Item Name="Protection and Counter Support System Explorer.lvlib" Type="Library" URL="../SubModules/Frame Protection Support/Source/System Explorer/Protection and Counter Support System Explorer.lvlib"/>
+			<Item Name="Protection and Counter Support Engine.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Engine/Protection and Counter Support Engine.lvlib"/>
+			<Item Name="Protection and Counter Support Shared.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Shared/Protection and Counter Support Shared.lvlib"/>
+			<Item Name="Protection and Counter Support System Explorer.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/System Explorer/Protection and Counter Support System Explorer.lvlib"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1193,8 +1193,8 @@
 			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Protection and Counter Support Engine.lvlib" Type="Library" URL="../SubModules/Frame Protection Support/Source/Engine/Protection and Counter Support Engine.lvlib"/>
-			<Item Name="Protection and Counter Support Shared.lvlib" Type="Library" URL="../SubModules/Frame Protection Support/Source/Shared/Protection and Counter Support Shared.lvlib"/>
+			<Item Name="Protection and Counter Support Engine.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Engine/Protection and Counter Support Engine.lvlib"/>
+			<Item Name="Protection and Counter Support Shared.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Shared/Protection and Counter Support Shared.lvlib"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1211,7 +1211,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{EBCBE6D2-9B73-4CA1-9314-AE8EF883EA33}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/J1939 Addon Engine Pharlap.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">109</Property>
+				<Property Name="Bld_version.build" Type="Int">110</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Pharlap/J1939 Addon Engine Pharlap.llb</Property>
@@ -1611,8 +1611,8 @@
 			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Protection and Counter Support Engine.lvlib" Type="Library" URL="../SubModules/Frame Protection Support/Source/Engine/Protection and Counter Support Engine.lvlib"/>
-			<Item Name="Protection and Counter Support Shared.lvlib" Type="Library" URL="../SubModules/Frame Protection Support/Source/Shared/Protection and Counter Support Shared.lvlib"/>
+			<Item Name="Protection and Counter Support Engine.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Engine/Protection and Counter Support Engine.lvlib"/>
+			<Item Name="Protection and Counter Support Shared.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Shared/Protection and Counter Support Shared.lvlib"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1972,8 +1972,8 @@
 			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Protection and Counter Support Engine.lvlib" Type="Library" URL="../SubModules/Frame Protection Support/Source/Engine/Protection and Counter Support Engine.lvlib"/>
-			<Item Name="Protection and Counter Support Shared.lvlib" Type="Library" URL="../SubModules/Frame Protection Support/Source/Shared/Protection and Counter Support Shared.lvlib"/>
+			<Item Name="Protection and Counter Support Engine.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Engine/Protection and Counter Support Engine.lvlib"/>
+			<Item Name="Protection and Counter Support Shared.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Shared/Protection and Counter Support Shared.lvlib"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
