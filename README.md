@@ -39,7 +39,9 @@ https://github.com/NIVeriStandAdd-Ons/J1939-Custom-Device/releases
 
 ### Built Dependencies ###
 
-NI XNET 19.0
+NI XNET 19.0 or later
+
+Network Streams 19.0 or later
 
 ### Quality, Limitations ###
 
