@@ -58,7 +58,7 @@ build_spec = 'System Definition API'
 
 [package]
 type = 'nipkg'
-name = 'j1939-addon-{veristand_version}'
+name = 'ni-j1939-addon-{veristand_version}'
 dev_xml_path = 'Source\Addon\Custom Device J1939 Addon.xml'
 install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}'
 
