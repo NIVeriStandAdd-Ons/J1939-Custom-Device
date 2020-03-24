@@ -5,7 +5,7 @@
     <eng>J1939 Addon</eng>
     <loc>J1939 Addon</loc>
   </AddMenu>
-  <Version>4.2.3</Version>
+  <Version>4.2.4</Version>
   <Type>Inline HW Interface</Type>
   <MaxOccurrence>-1</MaxOccurrence>
   <MainPageGUID>5D441869-002F-93F2-B7E0-78053FA04717</MainPageGUID>
@@ -1485,6 +1485,23 @@
         </MenuItem>
       </RunTimeMenu>
 		</Page>
+    <Page>
+      <Name>
+        <eng>Protected Channel</eng>
+        <loc>Protected Channel</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>F82EDF65-1315-4943-9C5D-FF4C2375D45C</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\NI-XNET Signal.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Protected Channel.vi</Path>
+      </Item2Launch>
+    </Page>
   </Pages>
   <CustomXML>
     <Dummy></Dummy>
