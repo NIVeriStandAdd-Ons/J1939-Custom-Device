@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
-<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
+  <XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
   <AddMenu>
     <eng>J1939 Addon</eng>
     <loc>J1939 Addon</loc>
   </AddMenu>
-  <Version>4.2.5</Version>
+  <Version>4.2.6</Version>
   <Type>Inline HW Interface</Type>
   <MaxOccurrence>-1</MaxOccurrence>
   <MainPageGUID>5D441869-002F-93F2-B7E0-78053FA04717</MainPageGUID>
@@ -13,45 +13,45 @@
     <Type>Action</Type>
     <Item2Launch>
       <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Initialization VI.vi</Path>
+      <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Initialization VI.vi</Path>
     </Item2Launch>
   </InitializationVI>
   <CustomDeviceVI>
-		<SourceDistribution>
-			<Source>
-				<SupportedTarget>Windows</SupportedTarget>
-				<Source>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Engine Windows.llb\RT Driver VI.vi</Path>
-				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\J1939 Addon\J1939 Addon Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
-			</Source>
-			<Source>
-				<SupportedTarget>Pharlap</SupportedTarget>
-				<Source>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\J1939 Addon\Pharlap\J1939 Addon Engine Pharlap.llb\RT Driver VI.vi</Path>
-				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\J1939 Addon\J1939 Addon Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
-			</Source>
-			<Source>
-				<SupportedTarget>Linux_32_ARM</SupportedTarget>
-				<Source>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\J1939 Addon\Linux_32_ARM\J1939 Addon Engine LinuxARM.llb\RT Driver VI.vi</Path>
-				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\J1939 Addon\J1939 Addon Engine LinuxARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
-			</Source>
-			<Source>
-				<SupportedTarget>Linux_x64</SupportedTarget>
-				<Source>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\J1939 Addon\Linux_x64\J1939 Addon Engine Linux64.llb\RT Driver VI.vi</Path>
-				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\J1939 Addon\J1939 Addon Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
-			</Source>
-		</SourceDistribution>
-	</CustomDeviceVI>
+    <SourceDistribution>
+      <Source>
+        <SupportedTarget>Windows</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Engine Windows.llb\RT Driver VI.vi</Path>
+        </Source>
+        <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\J1939 Addon\J1939 Addon Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
+      </Source>
+      <Source>
+        <SupportedTarget>Pharlap</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>Custom Devices\J1939 Addon\Pharlap\J1939 Addon Engine Pharlap.llb\RT Driver VI.vi</Path>
+        </Source>
+        <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\J1939 Addon\J1939 Addon Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
+      </Source>
+      <Source>
+        <SupportedTarget>Linux_32_ARM</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>Custom Devices\J1939 Addon\Linux_32_ARM\J1939 Addon Engine LinuxARM.llb\RT Driver VI.vi</Path>
+        </Source>
+        <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\J1939 Addon\J1939 Addon Engine LinuxARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
+      </Source>
+      <Source>
+        <SupportedTarget>Linux_x64</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>Custom Devices\J1939 Addon\Linux_x64\J1939 Addon Engine Linux64.llb\RT Driver VI.vi</Path>
+        </Source>
+        <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\J1939 Addon\J1939 Addon Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
+      </Source>
+    </SourceDistribution>
+  </CustomDeviceVI>
   <Dependencies />
   <Pages>
     <Page>
@@ -62,8 +62,8 @@
       <ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
       <GUID>5D441869-002F-93F2-B7E0-78053FA04717</GUID>
       <Glyph>
-			<Type>To Common Doc Dir</Type>
-			<Path>Custom Devices\J1939 Addon\Windows\Glyphs\J1939.png</Path>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\J1939 Addon\Windows\Glyphs\J1939.png</Path>
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
@@ -153,8 +153,8 @@
       <ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
       <GUID>A9661AD5-DF74-BF37-4CA8-5E0EF738F6FD</GUID>
       <Glyph>
-			<Type>To Common Doc Dir</Type>
-			<Path>Custom Devices\J1939 Addon\Windows\Glyphs\J1939_Disabled.png</Path>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\J1939 Addon\Windows\Glyphs\J1939_Disabled.png</Path>
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
@@ -241,12 +241,12 @@
       <DeleteProtection>true</DeleteProtection>
       <GUID>AD3E1237-0B33-86CD-C074-2ECB9FA086C8</GUID>
       <Glyph>
-			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\NI-XNET Incoming.png</Path>
-		</Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\NI-XNET Incoming.png</Path>
+      </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Section Page.vi</Path>
+        <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Section Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -273,52 +273,52 @@
       <DeleteProtection>true</DeleteProtection>
       <GUID>F09FE425-7E71-8634-77FE-097EFBD4E192</GUID>
       <Glyph>
-			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\NI-XNET SinglePoint.png</Path>
-		</Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\NI-XNET SinglePoint.png</Path>
+      </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Section Page.vi</Path>
+        <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Section Page.vi</Path>
       </Item2Launch>
-	  <RunTimeMenu>
-	  		<MenuItem>
-				<GUID>5C837A33-BE2D-09F0-13B4-C66E88F88F3D</GUID>
-				<Type>Action</Type>
-				<Name>
-					<eng>Import Frames</eng>
-					<loc>Import Frames</loc>
-				</Name>
-				<Item2Launch>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Select XNET Signals.vi</Path>
-				</Item2Launch>
-			</MenuItem>
-      <MenuItem>
-        <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
-        <Type>Separator</Type>
-        <Name>
-          <eng>.</eng>
-          <loc>.</loc>
-        </Name>
-        <Item2Launch>
-          <Type>Absolute</Type>
-          <Path>.</Path>
-        </Item2Launch>
-      </MenuItem>
-      <MenuItem>
-        <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
-        <Type>VI</Type>
-        <MinNrOfChilds>1</MinNrOfChilds>
-        <Name>
-          <eng>Delete Multiple Frames</eng>
-          <loc>Delete Multiple Frames</loc>
-        </Name>
-        <Item2Launch>
-          <Type>Absolute</Type>
-          <Path>Dialogs\Delete Multiple Items.vi</Path>
-        </Item2Launch>
-      </MenuItem>
-		</RunTimeMenu>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>5C837A33-BE2D-09F0-13B4-C66E88F88F3D</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Import Frames</eng>
+            <loc>Import Frames</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Select XNET Signals.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+          <Type>Separator</Type>
+          <Name>
+            <eng>.</eng>
+            <loc>.</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>.</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple Frames</eng>
+            <loc>Delete Multiple Frames</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
       <ButtonList>
         <Button>
           <ID>Import_Frames</ID>
@@ -356,12 +356,12 @@
       <DeleteProtection>true</DeleteProtection>
       <GUID>AF90FC7A-ACD0-CE24-9513-B991C453EC9C</GUID>
       <Glyph>
-			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\NI-XNET Outgoing.png</Path>
-		</Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\NI-XNET Outgoing.png</Path>
+      </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Section Page.vi</Path>
+        <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Section Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -388,52 +388,52 @@
       <DeleteProtection>true</DeleteProtection>
       <GUID>66CA57DF-0030-7FEB-7718-A68954D700B8</GUID>
       <Glyph>
-			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\NI-XNET Event Based.png</Path>
-		</Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\NI-XNET Event Based.png</Path>
+      </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Section Page.vi</Path>
+        <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Section Page.vi</Path>
       </Item2Launch>
-	  <RunTimeMenu>
-	  		<MenuItem>
-				<GUID>5C837A33-BE2D-09F0-13B4-C66E88F88F3D</GUID>
-				<Type>Action</Type>
-				<Name>
-					<eng>Import Frames</eng>
-					<loc>Import Frames</loc>
-				</Name>
-				<Item2Launch>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Select XNET Signals.vi</Path>
-				</Item2Launch>
-			</MenuItem>
-      <MenuItem>
-        <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
-        <Type>Separator</Type>
-        <Name>
-          <eng>.</eng>
-          <loc>.</loc>
-        </Name>
-        <Item2Launch>
-          <Type>Absolute</Type>
-          <Path>.</Path>
-        </Item2Launch>
-      </MenuItem>
-      <MenuItem>
-        <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
-        <Type>VI</Type>
-        <MinNrOfChilds>1</MinNrOfChilds>
-        <Name>
-          <eng>Delete Multiple Frames</eng>
-          <loc>Delete Multiple Frames</loc>
-        </Name>
-        <Item2Launch>
-          <Type>Absolute</Type>
-          <Path>Dialogs\Delete Multiple Items.vi</Path>
-        </Item2Launch>
-      </MenuItem>
-		</RunTimeMenu>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>5C837A33-BE2D-09F0-13B4-C66E88F88F3D</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Import Frames</eng>
+            <loc>Import Frames</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Select XNET Signals.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+          <Type>Separator</Type>
+          <Name>
+            <eng>.</eng>
+            <loc>.</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>.</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple Frames</eng>
+            <loc>Delete Multiple Frames</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
       <ButtonList>
         <Button>
           <ID>Import_Frames</ID>
@@ -471,52 +471,52 @@
       <DeleteProtection>true</DeleteProtection>
       <GUID>88701071-4de5-4e42-926f-383c42931fd6</GUID>
       <Glyph>
-			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\NI-XNET EventBasedPeriodic.png</Path>
-		</Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\NI-XNET EventBasedPeriodic.png</Path>
+      </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Section Page.vi</Path>
+        <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Section Page.vi</Path>
       </Item2Launch>
-	  <RunTimeMenu>
-	  		<MenuItem>
-				<GUID>5C837A33-BE2D-09F0-13B4-C66E88F88F3D</GUID>
-				<Type>Action</Type>
-				<Name>
-					<eng>Import Frames</eng>
-					<loc>Import Frames</loc>
-				</Name>
-				<Item2Launch>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Select XNET Signals.vi</Path>
-				</Item2Launch>
-			</MenuItem>
-      <MenuItem>
-        <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
-        <Type>Separator</Type>
-        <Name>
-          <eng>.</eng>
-          <loc>.</loc>
-        </Name>
-        <Item2Launch>
-          <Type>Absolute</Type>
-          <Path>.</Path>
-        </Item2Launch>
-      </MenuItem>
-      <MenuItem>
-        <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
-        <Type>VI</Type>
-        <MinNrOfChilds>1</MinNrOfChilds>
-        <Name>
-          <eng>Delete Multiple Frames</eng>
-          <loc>Delete Multiple Frames</loc>
-        </Name>
-        <Item2Launch>
-          <Type>Absolute</Type>
-          <Path>Dialogs\Delete Multiple Items.vi</Path>
-        </Item2Launch>
-      </MenuItem>
-		</RunTimeMenu>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>5C837A33-BE2D-09F0-13B4-C66E88F88F3D</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Import Frames</eng>
+            <loc>Import Frames</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Select XNET Signals.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+          <Type>Separator</Type>
+          <Name>
+            <eng>.</eng>
+            <loc>.</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>.</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple Frames</eng>
+            <loc>Delete Multiple Frames</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
       <ButtonList>
         <Button>
           <ID>Import_Frames</ID>
@@ -553,12 +553,12 @@
       <DisallowRenaming>true</DisallowRenaming>
       <GUID>AA452EA6-A39D-713C-6D0F-1CFCE5C8BC25</GUID>
       <Glyph>
-			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\NI-XNET SignalFrame.png</Path>
-		</Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\NI-XNET SignalFrame.png</Path>
+      </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Frame Page.vi</Path>
+        <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Frame Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -569,8 +569,8 @@
             <loc>Add Information Channels</loc>
           </Name>
           <Item2Launch>
-  					<Type>To Common Doc Dir</Type>
-					  <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Create Information Channels.vi</Path>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Create Information Channels.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -584,7 +584,7 @@
             <Type>Absolute</Type>
             <Path>.</Path>
           </Item2Launch>
-        </MenuItem>  
+        </MenuItem>
         <MenuItem>
           <GUID>77550670-1485-13A6-568B9AB41979630D</GUID>
           <Type>Action</Type>
@@ -655,7 +655,7 @@
         </MenuItem>
       </RunTimeMenu>
     </Page>
-	<Page>
+    <Page>
       <Name>
         <eng>J1939 Outgoing Cyclic</eng>
         <loc>J1939 Outgoing Cyclic</loc>
@@ -747,12 +747,12 @@
       <DisallowRenaming>true</DisallowRenaming>
       <GUID>FC3154D4-9B07-90D1-2A8F-6657A6DF127D</GUID>
       <Glyph>
-			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\NI-XNET Signal.png</Path>
-		</Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\NI-XNET Signal.png</Path>
+      </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Signal Page.vi</Path>
+        <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Signal Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -855,45 +855,45 @@
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Section Page.vi</Path>
       </Item2Launch>
-    	  <RunTimeMenu>
-	  		<MenuItem>
-				<GUID>854d45ef-4901-4699-9643-90efb721c059</GUID>
-				<Type>Action</Type>
-				<Name>
-					<eng>Add Device</eng>
-					<loc>Add Device</loc>
-				</Name>
-				<Item2Launch>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Add Device.vi</Path>
-				</Item2Launch>
-			</MenuItem>
-      <MenuItem>
-        <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
-        <Type>Separator</Type>
-        <Name>
-          <eng>.</eng>
-          <loc>.</loc>
-        </Name>
-        <Item2Launch>
-          <Type>Absolute</Type>
-          <Path>.</Path>
-        </Item2Launch>
-      </MenuItem>    
-      <MenuItem>
-        <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
-        <Type>VI</Type>
-        <MinNrOfChilds>1</MinNrOfChilds>
-        <Name>
-          <eng>Delete Multiple</eng>
-          <loc>Delete Multiple</loc>
-        </Name>
-        <Item2Launch>
-          <Type>Absolute</Type>
-          <Path>Dialogs\Delete Multiple Items.vi</Path>
-        </Item2Launch>
-      </MenuItem>
-		</RunTimeMenu>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>854d45ef-4901-4699-9643-90efb721c059</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Add Device</eng>
+            <loc>Add Device</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Add Device.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+          <Type>Separator</Type>
+          <Name>
+            <eng>.</eng>
+            <loc>.</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>.</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple</eng>
+            <loc>Delete Multiple</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
       <ButtonList>
         <Button>
           <ID>Add_Address</ID>
@@ -982,7 +982,7 @@
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Section Page.vi</Path>
       </Item2Launch>
-    <RunTimeMenu>
+      <RunTimeMenu>
         <MenuItem>
           <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
           <Type>VI</Type>
@@ -996,7 +996,7 @@
             <Path>Dialogs\Delete Multiple Items.vi</Path>
           </Item2Launch>
         </MenuItem>
-    </RunTimeMenu>
+      </RunTimeMenu>
     </Page>
     <Page>
       <Name>
@@ -1016,7 +1016,7 @@
         <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Monitor Tool Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
-         <MenuItem>
+        <MenuItem>
           <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
           <Type>VI</Type>
           <MinNrOfChilds>1</MinNrOfChilds>
@@ -1049,44 +1049,44 @@
         <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Section Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
-	  		<MenuItem>
-				<GUID>e7678f98-49d9-4f20-a57c-7c451a15dd99</GUID>
-				<Type>Action</Type>
-				<Name>
-					<eng>Add DTC</eng>
-					<loc>Add DTC</loc>
-				</Name>
-				<Item2Launch>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Add DTC.vi</Path>
-				</Item2Launch>
-			</MenuItem>
-      <MenuItem>
-        <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
-        <Type>Separator</Type>
-        <Name>
-          <eng>.</eng>
-          <loc>.</loc>
-        </Name>
-        <Item2Launch>
-          <Type>Absolute</Type>
-          <Path>.</Path>
-        </Item2Launch>
-      </MenuItem>
-      <MenuItem>
-        <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
-        <Type>VI</Type>
-        <MinNrOfChilds>1</MinNrOfChilds>
-        <Name>
-          <eng>Delete Multiple DTCs</eng>
-          <loc>Delete Multiple DTCs</loc>
-        </Name>
-        <Item2Launch>
-          <Type>Absolute</Type>
-          <Path>Dialogs\Delete Multiple Items.vi</Path>
-        </Item2Launch>
-      </MenuItem>
-		</RunTimeMenu>
+        <MenuItem>
+          <GUID>e7678f98-49d9-4f20-a57c-7c451a15dd99</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Add DTC</eng>
+            <loc>Add DTC</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Add DTC.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+          <Type>Separator</Type>
+          <Name>
+            <eng>.</eng>
+            <loc>.</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>.</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple DTCs</eng>
+            <loc>Delete Multiple DTCs</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
       <ButtonList>
         <Button>
           <ID>Add_DTC</ID>
@@ -1229,7 +1229,7 @@
         </Button>
       </ButtonList>
     </Page>
-      <Page>
+    <Page>
       <Name>
         <eng>Frame Information</eng>
         <loc>Frame Information</loc>
@@ -1278,7 +1278,7 @@
         <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Signal Page.vi</Path>
       </Item2Launch>
     </Page>
-      <Page>
+    <Page>
       <Name>
         <eng>Time Difference</eng>
         <loc>Time Difference</loc>
@@ -1362,34 +1362,34 @@
         </MenuItem>
       </RunTimeMenu>
     </Page>
-  		<Page>
-			<Name>
-				<eng>Protection Channel</eng>
-				<loc>Protection Channel</loc>
-			</Name>
-			<DisallowRenaming>true</DisallowRenaming>
-			<GUID>fe15317e-b165-43a3-9d5b-faa422f66725</GUID>
-			<Glyph>
-				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\NI-XNET CRC.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Protection Channel.vi</Path>
-			</Item2Launch>
-			<RunTimeMenu>
-				<MenuItem>
-					<GUID>250fd420-a5d8-45c1-9e2f-37c5f5408603</GUID>
-					<Type>Action</Type>
-					<Name>
-						<eng>Select Channels</eng>
-						<loc>Select Channels</loc>
-					</Name>
-					<Item2Launch>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Select Channels.vi</Path>
-					</Item2Launch>
-				</MenuItem>
+    <Page>
+      <Name>
+        <eng>Protection Channel</eng>
+        <loc>Protection Channel</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <GUID>fe15317e-b165-43a3-9d5b-faa422f66725</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\NI-XNET CRC.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Protection Channel.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>250fd420-a5d8-45c1-9e2f-37c5f5408603</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Select Channels</eng>
+            <loc>Select Channels</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Select Channels.vi</Path>
+          </Item2Launch>
+        </MenuItem>
         <MenuItem>
           <GUID>e1098548-6a43-407f-91a9-80b527e74dd4</GUID>
           <Type>Action</Type>
@@ -1402,74 +1402,74 @@
             <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Make Protection Signal.vi</Path>
           </Item2Launch>
         </MenuItem>
-				<MenuItem>
-					<GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
-					<Type>Separator</Type>
-					<Name>
-						<eng>.</eng>
-						<loc>.</loc>
-					</Name>
-					<Item2Launch>
-						<Type>Absolute</Type>
-						<Path>.</Path>
-					</Item2Launch>
-				</MenuItem>
-				<MenuItem>
-					<GUID>77550670-1485-13A6-568B9AB41979630D</GUID>
-					<Type>Action</Type>
-					<Name>
-						<eng>Delete</eng>
-						<loc>Delete</loc>
-					</Name>
-					<Item2Launch>
-						<Type>Absolute</Type>
-						<Path>Actions\Delete.vi</Path>
-					</Item2Launch>
-				</MenuItem>
-			</RunTimeMenu>
-			<ButtonList>
-				<Button>
-					<ID>Select Channels</ID>
-					<Glyph>
-						<Type>To Application Data Dir</Type>
-						<Path>System Explorer\Glyphs\Add Multiple Alias.png</Path>
-					</Glyph>
-					<Type>Action</Type>
-					<ReferencedGUID>250fd420-a5d8-45c1-9e2f-37c5f5408603</ReferencedGUID>
-					<ButtonText>
-						<eng>Select Channels</eng>
-						<loc>Select Channels</loc>
-					</ButtonText>
-					<Caption>
-						<eng>Select Channels</eng>
-						<loc>Select Channels</loc>
-					</Caption>
-					<TipStrip>
-						<eng>Select Channels</eng>
-						<loc>Select Channels</loc>
-					</TipStrip>
-					<Documentation>
-						<eng />
-						<loc />
-					</Documentation>
-				</Button>
-			</ButtonList>
-		</Page>
-		<Page>
-			<Name>
-				<eng>Rolling Counter Channel</eng>
-				<loc>Rolling Counter Channel</loc>
-			</Name>
-			<DisallowRenaming>true</DisallowRenaming>
-			<GUID>4a3d9735-5760-4a43-a9a4-de30f92d91fe</GUID>
-			<Glyph>
-				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\NI-XNET Counter.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Rolling Counter Channel.vi</Path>
-			</Item2Launch>
+        <MenuItem>
+          <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+          <Type>Separator</Type>
+          <Name>
+            <eng>.</eng>
+            <loc>.</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>.</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>77550670-1485-13A6-568B9AB41979630D</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Delete</eng>
+            <loc>Delete</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Actions\Delete.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+      <ButtonList>
+        <Button>
+          <ID>Select Channels</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\Add Multiple Alias.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>250fd420-a5d8-45c1-9e2f-37c5f5408603</ReferencedGUID>
+          <ButtonText>
+            <eng>Select Channels</eng>
+            <loc>Select Channels</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Select Channels</eng>
+            <loc>Select Channels</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Select Channels</eng>
+            <loc>Select Channels</loc>
+          </TipStrip>
+          <Documentation>
+            <eng />
+            <loc />
+          </Documentation>
+        </Button>
+      </ButtonList>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Rolling Counter Channel</eng>
+        <loc>Rolling Counter Channel</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <GUID>4a3d9735-5760-4a43-a9a4-de30f92d91fe</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\NI-XNET Counter.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\J1939 Addon\Windows\J1939 Addon Configuration.llb\Rolling Counter Channel.vi</Path>
+      </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
           <GUID>7fe1a9a4-97a7-4087-b172-431271011b74</GUID>
@@ -1484,7 +1484,7 @@
           </Item2Launch>
         </MenuItem>
       </RunTimeMenu>
-		</Page>
+    </Page>
     <Page>
       <Name>
         <eng>Protected Channel</eng>
