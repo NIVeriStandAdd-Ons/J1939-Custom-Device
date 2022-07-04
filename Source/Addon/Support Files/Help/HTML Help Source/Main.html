@@ -28,6 +28,8 @@
 <p class="Body">Incoming decimation sets the decimation from the Primary Control Loop (PCL) at which data is read from the CAN port.  Set the <strong>Incoming Decimation</strong> field.</p>
 <h3>Set Outgoing Decimation</h3>
 <p class="Body">Outgoing decimation sets the decimation from the Primary Control Loop (PCL) at which data is written to the CAN port.  Set the <strong>Outgoing Decimation</strong> field.</p>
+<h3>Set XNET Async Read Rate (Hz)</h3>
+<p class="Body">XNET Async Read Rate controls how often XNET Read VI is called. Setting a higher value prevents buffer overflown error but consumes more CPU resource. The maximum value is 1000Hz. Set the rate to 0 will force XNET Read VI to run as fast as possible. Set the <strong>XNET Async Read Rate (Hz)</strong> field.</p>
 <h3>NI 986x Support for CompactRIO (Pharlap targets only)</h3>
 This add-on supports using the NI 986x devices with CompactRIO (Pharlap OS only).  To do so, you need to use one of the included bitfiles or build your own.   Set the <strong>Enable Bitfile</strong> field to True.  Set the <strong>RIO Device</strong> field number (typically 0) to match your CompactRIO configuration.   Navigate to the fpga bitfile through the <strong>Bitfile Path</strong> field.  Note: A pre-compiled bitfile for a cRIO 9082 with a NI 9862 module in slot 8 has been included in VeriStand Public Documents folder at Custom Devices\J1939 Custom Device\FPGA Bitfiles.  The source code used for creating this bitfile is included as a template for building other bitfiles.  Notice that all other slots (1 - 7) are filled with a scan engine cRIO module (the specific module number doesn't matter) for use with the Scan Engine add-on.</p>
 </body>
