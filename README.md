@@ -31,7 +31,7 @@ IP has been tested by developer. It meets VeriStand addon coding best practices.
 
 ### Source Version ###
 
-LabVIEW 2019
+LabVIEW 2019  
 
 ### Source Dependencies ###
 
